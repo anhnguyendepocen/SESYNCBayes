@@ -1,0 +1,9 @@
+**/*.lyx~
+**/*.lyx#
+**/.DS_Store
+**/.Rhistory
+**/.Rproj.user
+**/.Rapp.history
+**/.RData
+**/*.aux**/*.log**/*.out**/*.synctex.gz
+**/*.data.plist
