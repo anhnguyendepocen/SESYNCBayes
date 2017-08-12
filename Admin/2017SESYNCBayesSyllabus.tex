@@ -1,0 +1,181 @@
+% This syllabus template was created by:
+% Brian R. Hall
+% Assistant Professor, Champlain College
+% www.brianrhall.net
+
+% Document settings
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true
+    }
+\pagestyle{plain}
+\setlength\parindent{0pt}
+\setlength{\parskip}{1em}
+
+
+
+\begin{document}
+
+% Course information
+\begin{center} 
+\includegraphics[height=1in, keepaspectratio]{LogoNew.png}
+\end{center}
+%\vspace{2mm}
+
+% Professor information
+\begin{center} 
+\begin{tabular}{ c c }
+  \multirow{6}{*}%{\includegraphics[height=1.25in,width=1in]{pic_blank.png}} 
+        & \\\\
+&  \LARGE Bayesian Modeling for Socio-Environmental Data\\\\
+  & \LARGE August 15-25, 2017 \\\\
+& \large Instructors: Chris Che-Castaldo, Mary B. Collins, N. Thompson Hobbs \\\\
+  %& \large website \\
+%  & \large 113 Marshall Hall \\
+%  & \large Office Hours: Wednesday 1-3pm \\
+%  & \large (315) 470-6538 \\
+%  &\\
+%  & \large Teaching Assistant: Michael Dominic Persson\\\\
+%  & \large mdpersso@syr.edu \\
+%    & \large Office Hours: Monday Moon Library Open Table 1240-2pm 
+\vspace{2mm}
+\end{tabular}
+%\vspace{5mm}
+
+\emph{Course syllabus is subject to change}. \\
+\end{center}
+
+% Course details
+\textbf{\large Course Description:} 
+R is a crucial skill for success in this course. Considering reviewing Tom's R Primer, and head over to Quick R, \href{http://www.statmethods.net/index.html}{http://www.statmethods.net/index.html}, which gives a nice overview of basic R functionality. We ask that you are fluent with the following topics from Quick-R:
+\begin{enumerate}
+\item Data Types, Importing Data (from excel or a .csv file), Keyboard Input, and Missing Values under Data Input
+\item All topics under Data Management
+\item All topics under Graphs
+\end{enumerate}
+Specifically, you should be very comfortable with manipulating matrices and lists and writing and using custom functions.
+
+We strongly recommend purchasing Hobbs \& Hooten 2015 \href{https://www.amazon.com/Bayesian-Models-Statistical-Primer-Ecologists/dp/0691159289}{https://www.amazon.com/Bayesian-Models-Statistical-Primer-Ecologists/dp/0691159289}. The first three chapters provide foundational material that we will cover fairly quickly in the course, so if you have not had a course in mathematical statistics, reading those chapters before the course is crucial. The structure of the course closely follows the organization of the book.  It will be a useful reference after the course.
+
+We will be starting on the first day at 8am.  Every other day we will begin at 9am. We will usually end at 5 or 5:30.  
+
+Remember that lunch will be served at SESYNC each day during the course.
+
+Course materials will be distributed throughout the course via \href{https://github.com/CCheCastaldo/SESYNCBayes}{GitHub}.  Clone our repo and plan on pulling down new material often.
+
+\newpage
+\begin{center}
+\textbf{\large Course Schedule}
+\end{center}
+
+\begin{enumerate}
+%%%%%%Day 1
+\item[\textbf{Day 1:}] Probability
+
+\begin{itemize}
+\item Participant and Course Introduction %TOM LEAD (no lab)
+\item \emph{What Sets Bayes Apart?} %TOM LEAD justification why we need laws of prob
+\item \emph{Laws of Probability} \& Probability Lab Exercises: I-V %MARY LEAD conditioning/independence, tot prob, chain rule
+\item \emph{Probability Concepts and Notation} \& Probability Lab Exercise VI %CHRIS LEAD support, pmf/pdf, cdf, quantile function, cheat sheets
+\item \emph{Probability Distributions}  \& Probability Lab Exercise VII %TOM LEAD moment matching
+\end{itemize}
+
+%%%%%%Day 2
+\item[\textbf{Day 2:}] Likelihood \& Bayes' Theorem
+
+\begin{itemize}
+\item \emph{Likelihood} \& Likelihood Problem Set %CHRIS LEAD profile, total likelihood, max likelihood, ratios
+\item \emph{Bayes' Theorem Part A} \& Bayes' Theorem Exercises I-IV %TOM LEAD plotting data, prior on theta
+\item \emph{Bayes' Theorem Part B} \& Bayes' Theorem Exercises  V-VI %TOM LEAD Likelihood and joint
+\item \emph{Bayes' Theorem Part C} \& Bayes' Theorem Exercises VII-IX, XIV, XVI, XVII %TOM LEAD
+\item \emph{Introduction to Hierarchical Models} \& Hierarchical Modeling Board Work %TOM LEAD
+\end{itemize}
+
+
+%%%%%%Day 3
+\item[\textbf{Day 3:}] Priors \& Markov chain Monte Carlo
+
+\begin{itemize}
+\item \emph{Conjugate Priors Part A} \& Beta-Binomial Exercise %MARY LEAD Bayes lab problem 15?
+\item \emph{Conjugate Priors Part B} \& Poisson-Gamma Exercise %MARY LEAD 
+\item \emph{Normal-Normal and Normal-Inverse Gamma Usage} \& Normal-Normal and Normal-Inverse Gamma Exercise %TOM LEAD 
+\item \emph{MCMC Overview} \& MCMC Exercise III %TOM LEAD 
+\item \emph{MCMC Next Steps} \& MCMC Exercises IV-V %TOM LEAD 
+\item \emph{MCMC Accept Reject} \& MCMC Metropolis-Hastings Coding Exercise  %TOM LEAD 
+\item \emph{Happy Hour at SESYNC} 
+\end{itemize}
+
+%%%%%%Day 4
+\item[\textbf{Day 4:}] JAGS \& Modeling Practice
+
+\begin{itemize}
+\item JAGS Primer Work
+\item \emph{Inference From a Single Model} %TOM LEAD 
+\item \emph{Vague Priors in Non-Linear Models} \& Islands Problem Set %TOM LEAD 
+\item Non-Linear Priors Problem Set %TOM LEAD 
+\end{itemize}
+
+%%%%%%Day 5
+\item[\textbf{Day 5:}] Bayesian Regression, Analysis of Covariance, \& Multi-Level Modeling
+
+\begin{itemize}
+\item \emph{Bayesian Regression} \& Practice: Writing Models and Psuedo Coding %CHRIS/TOM LEAD 
+\item \emph{Multi-Level Modeling} \& Begin Multi-Level Modeling Lab  %TOM LEAD 
+\end{itemize}
+
+\newpage
+
+%%%%%%Day 6
+\item[\textbf{Day 6:}] Multi-Level Modeling Continued, Model Checking, \& Model Selection
+
+\begin{itemize}
+\item  Continue Multi-Level Modeling Lab  %CHRIS/TOM LEAD 
+\item \emph{Model Selection} %TOM LEAD 
+\item \emph{Model Checking} %TOM LEAD 
+\item \emph{Utility and Use of the Half-Couchy Prior} %TOM LEAD
+\end{itemize}
+
+%%%%%%Day 7
+\item[\textbf{Day 7:}] Flavors of Modeling
+
+\begin{itemize}
+\item \emph{Mixture Models, Zero Inflation, \& Occupancy} \& Swiss Birds Lab %TOM LEAD 
+\end{itemize}
+
+%%%%%%Day 8
+\item[\textbf{Day 8:}] Dynamic Models \& Applying Your Knowledge
+
+\begin{itemize}
+\item \emph{Dynamic Models} \& Lynx Exercises %TOM LEAD 
+\item Participant Project Work
+\end{itemize}
+
+%%%%%%Day 9
+\item[\textbf{Day 9:}] Spatial Modeling
+
+\begin{itemize}
+\item \emph{Continuous Spatial Process Modeling} \& Source Diversity Lab %TOM LEAD 
+\item \emph{Synthesis via Meta Analysis} \& Pediatric Deaths Lab %TOM LEAD 
+\end{itemize}
+
+%%%%%%Day 10
+\item[\textbf{Day 10:}] Using Your Bayes' Skills
+
+\begin{itemize}
+\item Participant Project Presentations and Feedback 
+\end{itemize}
+
+\end{enumerate}
+
+
+
+
+\end{document}
+
+
+
