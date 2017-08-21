@@ -1,0 +1,30 @@
+British English thesaurus for openoffice.org v2.
+
+This has been created using the wordnet thesaurus supplied with
+openoffce and is therefore sill covered by the wordnet license, a
+copy of which should be enclosed. I would appreciate it my work
+was acknowledged by a reference to brit-thesaurus.sourceforge.net.
+when distributing this or derived work.
+
+This is a fairly conservative modification. I am not a linguist,
+and have changed only the obvious words from the American to
+British spelling. I have been guided heavily by the openoffice
+spell checker, which allows some words with both -ise and -ize,
+so I have left them both in. Also the thesaurus contains many
+words that are not in the spell checker, so I have left them
+as is (e.g. where a word ending -ize was still not recognised
+when it ended -ise) 
+
+Since the original contained both British and American spellings,
+the entries for (say) color and colour have been merged. This may
+not have been done very well, though on most occasions they were
+very similar or the same.
+
+When the Meaning was the same as the original word, it was removed
+and the next word was used in the hope that it would give more of
+an idea as to what the rest of the synonyms would be.
+
+If you use this, I would appreciate comments in the foums at
+sourceforge, good or bad, so I can improve the work.
+
+PaulH

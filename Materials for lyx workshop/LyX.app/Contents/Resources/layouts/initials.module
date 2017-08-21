@@ -1,0 +1,46 @@
+#\DeclareLyXModule{Initials}
+#DescriptionBegin
+#Define a style for paragraphs with an initial.
+#See the EmbeddedObjects manual for a detailed description.
+#DescriptionEnd
+#Authors: Pavel Sanda and Uwe Stöhr
+
+Format 35
+
+AddToPreamble
+	\@ifundefined{lettrine}{\usepackage{lettrine}}{}
+EndPreamble
+
+InsetLayout Flex:Initial
+	LyxType			charstyle
+	LabelString		"Initial"
+	LatexType		command
+	LatexName		lettrine
+	Font
+	  Size			Large
+	EndFont
+	Requires		lettrine
+End
+
+Style Initial
+	Category		MainText
+	LatexType		command
+	LatexName		lettrine
+	Margin			First_Dynamic
+	LabelType		static
+	LabelString		Initial
+	OptionalArgs		1
+	RequiredArgs		1
+	LabelSep		x
+	ParIndent		MMM
+	ParSkip			0.4
+	TopSep			0.7
+	BottomSep		0.7
+	ParSep			0.3
+	Align			Left
+	AlignPossible		Left
+	LabelFont
+	  Series		Bold
+	EndFont
+End
+

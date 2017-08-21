@@ -1,0 +1,30 @@
+SET UTF-8
+TRY ־אבגדהווזחטיכלמםנןסעפףצץקרשתײ׳״
+
+REP 26
+REP װ וו
+REP ױ וי
+REP ײ יי
+REP ' ׳
+REP '' ״
+REP " ״
+REP א אַ
+REP א אָ
+REP בּ ב
+REP ב בֿ
+REP בֿ ב
+REP ו וּ
+REP וּ ו
+REP י יִ
+REP יִ י
+REP כ כּ
+REP כּ כ
+REP פ פּ
+REP פ פֿ
+REP שׂ ש
+REP ש שׂ
+REP ת תּ
+REP תּ ת
+REP אַ אָ
+REP אָ אַ
+REP אי ייִ

@@ -1,0 +1,113 @@
+#\DeclareLyXModule[sweave->latex,fancyvrb.sty]{Sweave}
+#DescriptionBegin
+#Allows to use the statistical language S/R as a literate programming tool via the Sweave() function.
+#For more info see the LyX example file sweave.lyx.
+#DescriptionEnd
+#Category: literate
+#Excludes: lilypond
+
+Format 35
+OutputType             literate
+OutputFormat           sweave
+
+ClassOptions
+	Other          "noae"
+End
+
+AddToPreamble
+	<<echo=F>>=
+	  if(exists(".orig.enc")) options(encoding = .orig.enc)
+	@
+EndPreamble
+
+Style Chunk
+	Category              Sweave
+	LatexType             Paragraph
+	LatexName             dummy
+	Margin                static
+	Align                 Left
+	AlignPossible         Block, Left, Right, Center
+	TopSep                0.7
+	BottomSep             0.7
+	NewLine               0
+	FreeSpacing           1
+	PassThru              1
+	ParbreakIsNewline     1
+	Spellcheck	      0
+	## What is LabelType used for?
+	LabelType             Static
+	TextFont
+	  Color               latex
+	  Family              Typewriter
+	EndFont
+End
+
+Style Scrap
+	ObsoletedBy           Chunk
+End
+
+InsetLayout "Flex:Sweave Options"
+	LabelString           "Sweave opts"
+	LatexType             Command
+	LaTexName             SweaveOpts
+	LyXType               Custom
+	Decoration            Classic
+	Font
+	  Color               latex
+	  Family              typewriter
+	EndFont
+	LabelFont
+	  Color               latex
+	  Size                Small
+	EndFont
+	MultiPar              false
+	PassThru              1
+	ParbreakIsNewline     1
+	Spellcheck	      0
+	FreeSpacing           true
+	ForceLTR              true
+End
+
+InsetLayout "Flex:S/R expression"
+	LabelString           "S/R expr"
+	LatexType             Command
+	LaTexName             Sexpr
+	LyXType               Custom
+	Decoration            Conglomerate
+	Font
+	  Color               latex
+	  Family              typewriter
+	EndFont
+	LabelFont
+	  Color               latex
+	  Size                Small
+	EndFont
+	MultiPar              false
+	PassThru              1
+	ParbreakIsNewline     1
+	Spellcheck	      0
+	FreeSpacing           true
+	ForceLTR              true
+End
+
+InsetLayout "Flex:Sweave Input File"
+	LabelString           "Sweave Input File"
+	LatexType             Command
+	LaTexName             SweaveInput
+	LyXType               Custom
+	Decoration            Classic
+	Font
+	  Color               latex
+	  Family              typewriter
+	EndFont
+	LabelFont
+	  Color               latex
+	  Size                Small
+	EndFont
+	MultiPar              false
+	PassThru              1
+	ParbreakIsNewline     1
+	Spellcheck	      0
+	FreeSpacing           true
+	ForceLTR              true
+End

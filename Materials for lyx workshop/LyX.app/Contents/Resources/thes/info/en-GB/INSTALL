@@ -1,0 +1,38 @@
+British English thesaurus for openoffice.org v2.
+
+To install:
+
+Open the openoffice writer, and choose tools-> options. Under
+openoffice.org on the left hand side, select paths. Make a note of
+the path for "Writing aids".  Close the openoffice program, and any
+quick launch program that is running.
+
+Switch to a user with permission to change the installed files and
+change to the directory noted above. Change to the subdirectory ooo.
+Copy the files th_en_GB_new.dat and th_en_GB_new.idx to this
+directory. Edit the file dictionary.lst and remove the line that
+starts:
+THES en GB 
+if it exists.
+
+Add the following line:
+THES en GB th_en_GB_new
+
+Restart openoffice writer. From tools->options select
+language settings->languages
+Select English (UK) for every option where it is allowed (User
+Interface may not be available). Now click Writig aids. Make sure
+that all the options in the first box are ticked, and click the Edit
+button nearest the top. Select English (UK) for the language, and
+click close, and OK to return to the document.
+
+To test the thesaurus, type colour in, and CTRL+F7 (or
+tools->Language->Thesaurus) for the thesaurus.
+It should come up with a list of words, none of which is color.
+If color is an option you still have the original thesaurus. Click
+the Language... button and select English (UK) as the language.
+It should work now.
+
+If you have problems try posting in the forums - Navigate from
+brit-thesaurus.sourceforge.net
+

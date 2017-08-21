@@ -1,0 +1,7058 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\makeatother
+\usepackage{lineno}
+\linenumbers
+%Put tables in front of figures and eliminate table list
+\usepackage[tablesfirst,notablist]{endfloat}
+%double space text
+\doublespace
+\usepackage[small,compact]{titlesec}
+%\usepackage[small,it]{caption}
+\geometry{verbose,letterpaper,tmargin=2.4cm,bmargin=2.4cm,lmargin=2.4cm,rmargin=2.4cm}
+\usepackage[font=doublespacing]{caption}
+% make captions in figure lists double spaces (part of endfloat package)
+\AtBeginDelayedFloats{\renewcommand{\baselinestretch}{1.4}}
+\usepackage{url}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding latin9
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author -1308405981 "Tom Hobbs" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size larger
+Native predators reduce harvest of reindeer by Sámi pastoralists
+\end_layout
+
+\begin_layout Author
+N.
+ Thompson Hobbs
+\begin_inset Formula $^{1}$
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Contact Information
+\series default
+: Natural Resource Ecology Laboratory, D227 Natural and Environmental Sciences
+ Building, Colorado State University, Fort Collins CO, 80523; Tom.Hobbs@colostate.
+edu; 01-970-491-5738
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+, Henrik Andrén
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Jens Persson
+\begin_inset Formula $^{2}$
+\end_inset
+
+, Malin Aronsson
+\begin_inset Formula $^{2}$
+\end_inset
+
+, and Guillaume Chapron
+\begin_inset Formula $^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\begin_inset Formula $^{1}$
+\end_inset
+
+Natural Resource Ecology Laboratory, Department of Ecosystem Science and
+ Sustainability, and Graduate Degree Program in Ecology, Colorado State
+ University, Fort Collins Colorado, USA, 80523
+\end_layout
+
+\begin_layout Address
+\begin_inset Formula $^{2}$
+\end_inset
+
+Grimso Wildlife Research Station, Department of Ecology, Swedish University
+ of Agricultural Sciences, SE-730 91 Riddarhyttan, Sweden
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linenumbers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{spacing}{1.9} %note that this causes probems with export to .rtf.
+  Comment out here and at end of document to fix.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% put 
+\backslash
+begin{flushleft} on first line of abstract  for ragged right margin and
+ uncomment 
+\backslash
+end{flushleft} immediately before figures 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Abstract 
+\end_layout
+
+\begin_layout Standard
+Contemporary efforts 
+\change_deleted -1308405981 1370937131
+to protect
+\change_inserted -1308405981 1370937144
+to ehance
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1308405981 1370937152
+This abstract is boring.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ biological diversity recognize the importance of sustaining traditional
+ human livelihoods, particularly uses of the land that are compatible with
+ intact landscapes and ecologically complete food webs.
+ However, these efforts often confront conflicting goals.
+ For example, conserving native predators may harm pastoralist economies
+ because predators consume domestic livestock that sustain people.
+ This potential conflict must be reconciled by policy, but such reconciliation
+ requires a firm understanding of the effects of predators on the prey used
+ by people.
+ We used a long-term, large-scale database and Bayesian models to estimate
+ the impacts of lynx (
+\emph on
+Lynx lynx
+\emph default
+), wolverine (
+\emph on
+Gulo gulo
+\emph default
+), and brown bear (
+\emph on
+Ursus arctos
+\emph default
+) on harvest of semi-domesticated reindeer (
+\emph on
+Rangifer tarandus
+\emph default
+) by Sámi pastoralists in Sweden.
+ The average annual harvest of reindeer averaged 25% of the population (95%
+ credible interval = 19, 31).
+ Annual harvest declined by 96.6 (31, 155) reindeer for each lynx family
+ group (the surveyed segment of the lynx population) in a management unit
+ and by 94.3 (20, 160) for each wolverine reproduction (the surveyed segment
+ of the wolverine population).
+ We failed to detect effects of predation by brown bear.
+ The mechanism for effects of predation on harvest was reduced population
+ growth rate.
+ The rate of increase of reindeer populations declined with increasing abundance
+ of lynx and wolverine.
+ The density of reindeer, latitude, and weather indexed by the North Atlantic
+ Oscillation also influenced reindeer population growth rate.
+ We conclude that there is a biological basis for compensating the Sámi
+ reindeer herders for predation on reindeer.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Key words: Predator-prey, population dynamics, pastoralism, Bayesian hierarchica
+l model, lynx, wolverine, brown bear, density dependence, North Atlantic
+ Oscillation 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+parindent}{.75cm} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction 
+\end_layout
+
+\begin_layout Standard
+In many areas of the world, efforts to conserve biological diversity have
+ shifted from a historic emphasis on protecting single species to approaches
+ that emphasize maintaining intact landscapes and fully functioning food
+ webs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Grumbine:1994jw,Liddicker:1995kn,Boyd:2008uq"
+
+\end_inset
+
+.
+ Because indigenous human consumers have been a part of these food webs
+ for millennia, sustaining the livelihoods of indigenous people alongside
+ the biota has emerged as an important conservation goal.
+ Often, traditional uses of land by people assure the landscape is maintained
+ in a state that is far more hospitable to biological diversity than would
+ be the case if these traditional economies were replaced by more intensive
+ uses of the land.
+ However, landscape-level conservation is demanding because it often creates
+ conflicting goals that must somehow be reconciled.
+ For example, restoration and conservation of large mammals, particularly
+ large predators, is a laudable conservation objective, but it has the potential
+ to harm human livelihoods that may be vital to sustaining semi-wild landscapes
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Thirgood:2005ij"
+
+\end_inset
+
+.
+ This problem is particularly acute for lands inhabited by people whose
+ well-being depends on harvesting prey species that are also consumed by
+ predators.
+ When conflicts between predators and people occur, they must be remedied
+ by management.
+ However, this management can be costly and must be justified on the basis
+ of understanding impacts of predators on prey shared with human users of
+ the land 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sillero-Zubiri:2001hc"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The Sámi people have lived on the landscapes of Fennoscandia for at least
+ 5000 years 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Jorner_et_al_1999"
+
+\end_inset
+
+.
+ Reindeer husbandry is central to their culture and livelihood.
+ During the last two millennia, domesticated reindeer have been used for
+ meat, hides, transportation, milking, and to lure wild reindeer to sites
+ for capture.
+ Today, Sámi pastoralists allow their reindeer herds to migrate across large
+ distances unimpeded by fences, gathering them only a few times a year 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Jorner_et_al_1999"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The area of land devoted to reindeer husbandry covers approximately half
+ of the area of Sweden and offers vital habitat for the Eurasian lynx (
+\emph on
+Lynx lynx
+\emph default
+), wolverine (
+\emph on
+Gulo gulo
+\emph default
+), and brown bear (
+\emph on
+Ursus arctos
+\emph default
+).
+ The main prey for lynx and wolverine is now the semi-domestic reindeer,
+ and reindeer husbandry is believed to suffer, at least locally, from the
+ effects of this predation.
+ As a consequence, policy makers in Fennoscandia face a problem of compromising
+ between competing management goals.
+ 
+\end_layout
+
+\begin_layout Standard
+Policy on management of large predators in Sweden and Norway is guided by
+ international agreements that simultaneously require sustaining the livelihood
+ of the Sámi people as well as assuring the viability of populations of
+ large carnivores 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nilsson-Dahlstrom:2003ai"
+
+\end_inset
+
+.
+ In Sweden, the national government compensates reindeer herders for assumed
+ damage caused by predators.
+ The yearly cost of compensation for all predators together was 60 MSEK
+ (about 6 M€ or about 8.6 M$) in 2008 (Swedish Environmental Protection Agency,
+ unpublished), 29 MSEK (about 2.9 M€ or about 4.1 M$) of which was paid to
+ offset effects of lynx predation and 20 MSEK (about 2.0 M€ or about 2.9 M$)
+ was compensation for predation by wolverine.
+ The Swedish scheme for compensation is based risk of economic loss by herders
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Schwerdtner:2007kx"
+
+\end_inset
+
+, and risk, in turn, is estimated from the number of predators present within
+ a reindeer-grazing district.
+ In 2008 the compensation was 200,000 SEK (about 20,000 € or about 29,000
+ $) for each lynx family group found within a reindeer-grazing district
+ (i.e., an adult female with her kittens of the year; the surveyed segment
+ of the population) and the same amount for each wolverine reproduction
+ (the surveyed segment of the population).
+ Under this compensation scheme, the reindeer owners accept some losses
+ to predators and, in return, the Swedish government attempts to give full
+ compensation for the financial losses due to reduced slaughter and other
+ costs caused by the predators, for example, increased herding costs caused
+ by disturbance.
+ 
+\end_layout
+
+\begin_layout Standard
+No assessment has been done whether this system is “fair”.
+ The system is based on assuming a one-to-one relationship between losses
+ to predators and number of predators; thus, doubling the number of predators
+ should double the losses of reindeer.
+ However, current rates of compensation of the number of reindeer that fall
+ prey to predators described above are based on rough estimates of consumption
+ rates and conservation values 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Naturva"
+
+\end_inset
+
+.
+ These estimates are not derived from any comprehensive, large scale analysis
+ of effects of predators on reindeer population dynamics or harvest.
+ Consequently, expenditures for compensation are difficult to justify politicall
+y.
+ Thus, there is a pressing need to understand effects of predators on reindeer
+ to support decisions on compensation for losses to predators.
+ 
+\end_layout
+
+\begin_layout Standard
+The reindeer husbandry system also provides an unusual opportunity to gain
+ basic insight into population dynamics of large herbivores.
+ Unlike domesticated livestock, reindeer are free ranging and as a result,
+ are fully exposed to effects of predators and weather.
+ Annual gathers of animals by herders assure that populations are censused
+ repeatedly under similar conditions.
+ As described in more detail below (
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Materials"
+
+\end_inset
+
+), records from the reindeer husbandry system offer a time series of population
+ observations replicated extensively along a latitudinal gradient.
+ This time series creates an opportunity to address a fundamental question
+ in population ecology: “How does the growth of populations of large herbivores
+ respond to the environmental context, to external forcing from predation
+ and weather, and to internal forcing from density dependence?” This question
+ has engaged researchers all over the world 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Skogland:1990ay,Aanes:2000oz,Coulson:2000ff,Hebblewhite:2005tw,Mysterud:2000cq,Jacobson:2004xw,Post:2005rq,Owen-Smith:2006pt,Wang:2006qc,Tyler:2008yo,Wang:2009jo"
+
+\end_inset
+
+.
+ However, most previous studies have gained insight by observing temporal
+ variation in populations at a single location; research in population ecology
+ that simultaneously analyzes variation in space and time is less common
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Post:2005rq,Wang:2006qc,Melis:2009mb,Wang:2009jo"
+
+\end_inset
+
+.
+ Moreover, work that has considered spatio-temporal variation has been done
+ at coarse spatial scales; fine scale variation has not been widely considered.
+ 
+\end_layout
+
+\begin_layout Standard
+Here, we report an analysis of the effects of predation by lynx, wolverine,
+ and brown bear on reindeer harvest and population growth rate in Sweden.
+ Our work focused on two objectives: to determine if predators have a measurable
+, long-term impact on reindeer harvest and to evaluate the magnitude of
+ the effects of predators on reindeer population growth relative to other
+ sources of variation including density dependence, latitudinal gradients
+ in climate and resources, and annual variation in weather.
+ The approach we offer provides a broadly applicable model for decision
+ support needed to achieve compromises between goals for conservation of
+ traditional livelihoods and goals for conservation of large, native predators.
+\end_layout
+
+\begin_layout Section
+Study Area 
+\end_layout
+
+\begin_layout Standard
+The reindeer husbandry area covers 230,000 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ of the land area of Sweden, spanning the three northernmost counties, Norrbotte
+n, Västerbotten, Jämtland, as well as parts of Dalarna and Västernorrland
+ counties (Figure 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "fig:map"
+
+\end_inset
+
+).
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Map.jpg
+	width 5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:map"
+
+\end_inset
+
+The reindeer husbandry area of Sweden (shaded area in the map), divided
+ into 51 management units.
+ Some management units are overlapping and are therefor partly hidden in
+ the map.
+ Some areas in northern Sweden are excluded from the reindeer husbandry
+ area (shown as white areas or black dots imbedded in the shaded area).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Semi-domestic reindeer are part of a pastoral production system where reindeer
+ are herded by indigenous Sámi people.
+ The reindeer husbandry area is divided into 51 reindeer management units,
+ most of which (n=33) are defined by river valleys extending northwest -
+ southeast.
+ In these areas, animals are herded along rivers between winter ranges in
+ the forest (southeast) and summer ranges in the mountains (northwest),
+ areas that are 100 to 300 km apart 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bjarvall:1990eu"
+
+\end_inset
+
+.
+ The remaining management units (n=18) are primarily forested.
+ In these areas, herds do not migrate.
+ The total number of reindeer after harvest in December has been between
+ 220,000-260,000 and yearly harvest between 47,000-74,000 during the last
+ 10 years (official data from Swedish Board of Agriculture and Sámi Parliament).
+ 
+\end_layout
+
+\begin_layout Standard
+Several large predators prey upon semi-domesticated reindeer.
+ Eurasian lynx and wolverine are believed to have the greatest impacts on
+ reindeer production.
+ During 2008, lynx accounted for 48% of the compensation paid to pastoralists,
+ while wolverine accounted for 33% (Swedish Environmental Protection Agency
+ and Sámi Parliament).
+ Based on surveys of lynx family groups and wolverine reproductions (see
+ 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Materials"
+
+\end_inset
+
+, below), the estimated population size of these predators within the Swedish
+ reindeer husbandry area during the last 10 years was 500-900 lynx 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andren:2010fk"
+
+\end_inset
+
+ and 310-650 wolverine 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Persson:2011dp"
+
+\end_inset
+
+.
+ Brown bear and golden eagle (
+\emph on
+Aquila chrysaeto
+\emph default
+s) are also common.
+ The estimated population sizes within the Swedish Reindeer husbandry area
+ are about 2000 bear individuals 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kindberg:2009oq"
+
+\end_inset
+
+ and around 550 pairs of breeding eagles 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tjernberg:2007th"
+
+\end_inset
+
+.
+ Current Swedish policy does not allow resident wolf packs in the reindeer
+ husbandry area.
+ Successful enforcement of this policy means that there are only a few individua
+l wolves and no wolf packs present there 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wabakken:2009bs"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Materials"
+
+\end_inset
+
+Materials
+\end_layout
+
+\begin_layout Standard
+We analyzed observations of reindeer population size, reindeer harvest,
+ and results of predator surveys from 51 reindeer management units in Sweden
+ during 1996 – 2008 (Swedish Board of Agriculture and Sámi Parliament, unpublish
+ed).
+ The number of reindeer harvested in each management unit and the post-harvest
+ population size are recorded during September – December each year when
+ reindeer populations are gathered by herders for slaughter.
+ The reindeer data in our analysis are based on these annual records of
+ herd numbers, composition, and harvest as reported by reindeer owners.
+ We used official survey data on lynx and wolverine from the Swedish Environment
+al Protection Agency and County Administration Boards from 1996 to 2009.
+ 
+\end_layout
+
+\begin_layout Standard
+County administration boards have monitored lynx and wolverines within the
+ reindeer husbandry area since 1996.
+ The aim of the survey is to find all lynx family groups and wolverine reproduct
+ions within the reindeer husbandry area each year.
+ Therefore, the county administration boards organize the surveys mainly
+ through field personnel, but a network of reindeer herders within the 51
+ management units also contribute.
+ As the compensation system is based on these surveys, there is a very strong
+ incentive for reindeer herders to report tracks of lynx family groups and
+ wolverine den sites to the county administration boards.
+ These reports are verified by field personnel from the county administration
+ boards.
+\end_layout
+
+\begin_layout Standard
+The lynx survey is performed during January and February by snow-tracking
+ and identifying family groups consisting of adult females with kittens
+ approximately nine months old.
+ Tracks in the snow from two or more lynx traveling together during January
+ and February almost always indicate presence of a family group.
+ Criteria based on observed home range sizes and movement rates (Linnell
+ et al., 2007) are used to assure that counts of family groups are distinct.
+ These surveys provide an index of all lynx in the district.
+ On average, one lynx family group represents 6.1 (±0.44) lynx in an area
+ (Andrén et al., 2002).
+ 
+\end_layout
+
+\begin_layout Standard
+The wolverine survey is performed from March to May and is based on documentatio
+n of den sites or tracks of females with cubs of the year after den abandonment
+ (Swedish Environmental Protection Agency, unpublished).
+ The number of wolverine reproductions in a reindeer-grazing district is
+ assumed to be proportionate to the total population size; on average, there
+ are 6.4 (±0.8) wolverines in the population for each reproduction 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Landa_et_al_2001"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Abundance of brown bears is based on an observation index averaged over
+ nine years (1998-2006; 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Kindberg:2009oq"
+
+\end_inset
+
+).
+ During the first week of the moose hunt in September and October, moose
+ hunters record all observation of brown bear, generating an index (observations
+ per 1000 h) covering almost all of Sweden.
+ The bear observation index is based on about 2.5 million observation hours
+ and around 1000 bear observations annually.
+ 
+\end_layout
+
+\begin_layout Section
+Analysis
+\end_layout
+
+\begin_layout Subsection
+Harvest model 
+\end_layout
+
+\begin_layout Standard
+We conducted two analyses to meet two distinct objectives.
+ Our first objective was to estimate long-term effects of predators on the
+ average harvest of reindeer in Sweden.
+ To meet this objective, we analyzed the 13-year averages of the number
+ of reindeer harvested in relation to 13 year averages in predator abundance
+ across 51 reindeer management units.
+ We used the simple Bayesian model,
+\change_inserted -1308405981 1370939602
+ 
+\change_unchanged
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\mu_{i} & = & b_{0}+b_{1}R_{i}+b_{2}L_{i}+b_{3}W_{i}+b_{4}B_{i}+b_{5}G_{i}\\
+\Pr\left({{\bf {b}},\sigma|{\bf {h}}}\right) & \propto & \prod\limits _{i=1}^{51}{{\rm {lognormal}}\left[{\bar{h}_{i}\mid\log\left({\mu_{i}}\right),\sigma}\right]}\times\\
+ &  & \prod\limits _{j=0}^{5}{\mathop{\rm normal}\nolimits}\left({b_{j}\mid0,10^{-8}}\right){\mathop{\rm gamma}\nolimits}\left({\sigma^{-2}\mid.0001,.0001}\right),
+\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathbf{b}$
+\end_inset
+
+ is the vector of regression coefficients, 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ is the standard deviation of the estimate on the log scale, and 
+\begin_inset Formula $\mathbf{h}$
+\end_inset
+
+ is a 51 element vector of mean harvest, averaged over 13 years.
+ The subscript 
+\emph on
+
+\begin_inset Formula $i$
+\end_inset
+
+
+\emph default
+ indexes reindeer management units (
+\emph on
+i
+\emph default
+=1...51).
+ Thus, the 
+\begin_inset Formula $\bar{h_{i}}$
+\end_inset
+
+ is the 13 year mean harvest for management unit 
+\begin_inset Formula $i$
+\end_inset
+
+, excluding rare missing values, and 
+\begin_inset Formula $\mu_{i}$
+\end_inset
+
+ is the model prediction of the median of the distribution of the average
+ harvest.
+ Independent variables are 13 year means for the total number of reindeer
+ (
+\begin_inset Formula $R_{i}$
+\end_inset
+
+), the number of lynx family groups (
+\begin_inset Formula $L_{i}$
+\end_inset
+
+), the number of wolverine reproductions (
+\begin_inset Formula $W_{i}$
+\end_inset
+
+), and the bear index (
+\begin_inset Formula $B_{i}$
+\end_inset
+
+).
+ The predictor 
+\begin_inset Formula $G_{i}$
+\end_inset
+
+ is the latitude at the centroid of the management unit (converted to a
+ continuous number of kilometers from Swedish National Grid; RT90).
+ We included a north - south gradient as an explanatory variable to account
+ for latitudinal differences in climate and primary production 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "LundqvistHetal"
+
+\end_inset
+
+.
+ This gradient was centered on 0 by subtracting the mean latitude from all
+ observations.
+ We used a lognormal likelihood function for the probability of the data
+ conditional on the model parameters because the observations of harvest
+ were lognormally distributed (Fig.
+  
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histograms"
+
+\end_inset
+
+).
+ Priors were chosen to be uninformative.
+\end_layout
+
+\begin_layout Standard
+We analyzed the model (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:rharvest model"
+
+\end_inset
+
+) in three ways: 1) with untransformed data, 2) with predator abundance
+ indices converted to density indices by dividing the abundance indices
+ by the area of year-round pasture in each management unit, and 3) with
+ standardized independent variables.
+ We chose the area of year-round pastures as a basis for estimating density
+ indices because winter pastures are not used every year.
+ The year-round pastures were on average 45 % (± 4 % S.E.) of the total area
+ of the reindeer management units, and the two measurements were also correlated
+ (n = 51, r = 0.32, p = 0.02).
+ Independent variables were standardized by subtracting their means and
+ dividing by their standard deviations to allow comparison of the magnitude
+ of the effects of regression coefficients 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2009fu"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The regression coefficients in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:regression_determin"
+
+\end_inset
+
+ are interpreted as follows.
+ Because the north-south gradient was centered on 0, the intercept is the
+ offset in production that occurs at the average latitude of the management
+ areas.
+ The coefficient 
+\begin_inset Formula $b_{1}$
+\end_inset
+
+ is the number of reindeer harvested per reindeer.
+ The predation coefficients (
+\begin_inset Formula $b_{2},b_{3},b_{4}$
+\end_inset
+
+) give the change in average reindeer harvest per unit change in predator
+ abundance, and 
+\begin_inset Formula $b_{4}$
+\end_inset
+
+ gives the change in reindeer harvest per km of latitude along the north-south
+ gradient.
+ When coefficients were standardized, they represent the change in harvest
+ per one standard deviation change in an independent variable.
+ 
+\end_layout
+
+\begin_layout Subsection
+Population model 
+\end_layout
+
+\begin_layout Standard
+Our second objective was to evaluate the effects of predation on reindeer
+ population growth relative to effects of density, weather, and latitude.
+ To meet this objective, we portrayed reindeer population growth for each
+ management area using a Bayesian, state-space model: 
+\begin_inset Formula 
+\begin{eqnarray}
+\textnormal{log}\left(\lambda_{i,t}\right) & = & \left({B_{0}+B_{1}D_{i,t-1}+B_{2}L_{i,t}+B_{3}W_{i,t}+B_{4}G_{i}+B_{5}O_{t}}\right)\Delta t\label{eq:state_space_lambda}\\
+\eta_{i,t} & = & \lambda_{i,t}N_{i,t-1}-h_{i,t}\label{eq:state_space_mu}\\
+{\rm {\Pr}}\left({{\bf {N}},{\bf {B}},\sigma\mid{\bf {y}},{\bf {h}},{\bf {X}}}\right) & \propto & \prod\limits _{i=1}^{41}{\prod\limits _{t=1}^{13}{{\rm {Poisson}}\left({y_{i,t}\mid N_{i,t}}\right)}\times}\label{eq:stoch state space}\\
+ &  & N_{i,1}\prod\limits _{i=1}^{41}{\prod\limits _{t=2}^{13}{{\rm {lognormal}}\left[{N_{i,t}\mid\log\left({\eta_{i,t}}\right),\sigma}\right]}}\times\nonumber \\
+ &  & \textnormal{gamma\left(\mbox{\ensuremath{N_{i,1}\mid.001,.001}}\right)}\prod_{j=0}^{5}\textnormal{normal\ensuremath{\left(B_{j}\mid0,10^{-6}\right)}}\times\nonumber \\
+ &  & \textnormal{gamma}\left(\sigma^{-2}|.001,.001\right).\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+ Forty one management units had complete data for covariates for at least
+ 14 years.
+ For each management unit (indexed by 
+\begin_inset Formula $i$
+\end_inset
+
+) and each year (indexed by 
+\begin_inset Formula $t$
+\end_inset
+
+), 
+\begin_inset Formula $y_{i,t}$
+\end_inset
+
+ is the observed number of reindeer unit post-harvest, 
+\begin_inset Formula $h_{i,t}$
+\end_inset
+
+ is the observed number of animals harvested, 
+\begin_inset Formula $N_{i,t}$
+\end_inset
+
+ is the unobserved, true number of reindeer; 
+\begin_inset Formula $\eta_{i,t}$
+\end_inset
+
+ is the deterministic estimate of the median of the distribution of 
+\begin_inset Formula $N_{i,t}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ is the process standard deviation on the log scale, representing all of
+ the influences on the true population size that are not represented in
+ the deterministic model (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:state_space_lambda"
+
+\end_inset
+
+).
+ The coefficient 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ estimates the intrinsic rate of increase (
+\begin_inset Formula $r_{max}$
+\end_inset
+
+, time
+\begin_inset Formula $^{-1})$
+\end_inset
+
+ and the other coefficients give the change in the rate of population growth
+ per unit change in a covariate.
+ Covariates used to model 
+\begin_inset Formula $\lambda_{i,t}$
+\end_inset
+
+ (represented collectively as the matrix 
+\begin_inset Formula $\mathbf{X}$
+\end_inset
+
+) were 
+\begin_inset Formula $D_{i,t}$
+\end_inset
+
+, the observed density of reindeer on year-round pasture (100 km
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-2
+\end_layout
+
+\end_inset
+
+); 
+\begin_inset Formula $L_{i,t}$
+\end_inset
+
+, the number of lynx family groups influencing reindeer population growth
+ during 
+\begin_inset Formula $t-1\rightarrow t$
+\end_inset
+
+; 
+\begin_inset Formula $W_{i,t}$
+\end_inset
+
+, the number of wolverine reproductions influencing reindeer population
+ growth during 
+\begin_inset Formula $t-1\rightarrow t$
+\end_inset
+
+; 
+\begin_inset Formula $G_{i,t}$
+\end_inset
+
+, the latitude of the centroid of the management unit (in km) and 
+\begin_inset Formula $O_{i,t}$
+\end_inset
+
+, the index of North Atlantic Oscillation.
+ Normal priors on the model coefficients (
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+) and gamma priors on initial conditions (
+\begin_inset Formula $N_{i,1}$
+\end_inset
+
+) and 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ were uninformative (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:stoch state space"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Subsection
+Estimation 
+\end_layout
+
+\begin_layout Standard
+Posterior distributions of parameters and states (Equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:rharvest model"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:stoch state space"
+
+\end_inset
+
+) were estimated using Markov chain Monte Carlo (MCMC) methods implemented
+ in JAGS 3.1.0 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Plummer:2003kh,Plummer_mannual"
+
+\end_inset
+
+ using the rjags package 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "rjags.ref"
+
+\end_inset
+
+ of the R computing environment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "R_mannual"
+
+\end_inset
+
+.
+ To promote convergence, non-standardized observations were centered by
+ subtracting their means and estimates of the intercepts were recovered
+ to their non-centered values 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McCarthy_Bayes_book"
+
+\end_inset
+
+.
+ Four chains were computed for each parameter with initial values chosen
+ to be diffuse relative to posterior distributions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman_diag"
+
+\end_inset
+
+.
+ After discarding the first 10,000 iterations, we accumulated 25,000 samples
+ from each chain.
+ Convergence was assured by visual inspection of trace plots to assure stationar
+ity and homogeneous mixing, and by the diagnostics of Gelman 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Brooks:1988pi,Gelman_diag"
+
+\end_inset
+
+ and Heidelberger 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Heidelberger_and_Welch"
+
+\end_inset
+
+ implemented in the coda package 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Plummer:2010hq"
+
+\end_inset
+
+ in R.
+ Autocorrelation function plots were observed to assure autocorrelation
+ in chains was 0 by lag 10.
+ 
+\end_layout
+
+\begin_layout Subsection
+Model evaluation 
+\end_layout
+
+\begin_layout Subsubsection
+Posterior predictive checks
+\end_layout
+
+\begin_layout Standard
+The most basic approach to checking the fit of a model is to compare replicated
+ datasets simulated from the model to the data that were used to estimate
+ the model’s parameters 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2004wm,Gelman:2009fu"
+
+\end_inset
+
+.
+ The failure of the distribution of simulated data to mimic the distribution
+ of the real data is diagnostic of structural deficiencies in the deterministic
+ core of the model and/or problems in the choices of probability distributions
+ used to represent stochasticity.
+ To evaluate model fit, we used posterior predictive checks 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2004wm,Gelman:2009fu"
+
+\end_inset
+
+.
+ Posterior predictive checks use a test statistic calculated from the observed
+ data 
+\begin_inset Formula $(T^{obs}$
+\end_inset
+
+) and from replicated datasets simulated from the posterior predictive distribut
+ion 
+\begin_inset Formula $(T^{rep})$
+\end_inset
+
+.
+ To test for lack of fit, we calculate 
+\begin_inset Formula $P_{B}$
+\end_inset
+
+, defined as the probability that the simulated data are more extreme than
+ the observed data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2004wm"
+
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+P_{B}=\Pr\left[T^{rep}(y^{rep},\theta)\ge T^{obs}(y,\theta)|y\right],\label{eq: Bayesian P}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\theta$
+\end_inset
+
+ is the vector of the parameters in the model.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Bayesian P"
+
+\end_inset
+
+ is a two tailed probability, which means a model shows lack of fit if 
+\begin_inset Formula $P_{B}$
+\end_inset
+
+ is close to 0 or 1 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2004wm"
+
+\end_inset
+
+.
+ For the harvest model, we used the test statistics:
+\begin_inset Formula 
+\begin{equation}
+T^{obs}=\sum_{i=1}^{51}\frac{\left(\bar{h}_{i}-\mu_{i}\right)^{2}}{\mu_{i}},\; T^{rep}=\sum_{i=1}^{51}\frac{\left(\bar{h}_{i}^{rep}-\mu_{i}\right)^{2}}{\mu_{i}},
+\end{equation}
+
+\end_inset
+
+where the 51 element vector 
+\begin_inset Formula $\mathbf{h}^{rep}$
+\end_inset
+
+ is drawn from the posterior predictive distribution and other parameters
+ are as defined above (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:rharvest model"
+
+\end_inset
+
+).
+ For the population model, we used 
+\begin_inset Formula 
+\[
+T^{obs}=\sum_{i=1}^{41}\sum_{t=1}^{13}\frac{\left(y_{i,t}-N_{i,t}\right)^{2}}{N_{i,t}},\; T^{rep}=\sum_{i=1}^{41}\sum_{t=1}^{13}\frac{\left(y_{i,t}^{rep}-N_{i,t}\right)^{2}}{N_{i,t}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Consequences of observation uncertainty in predator indices
+\end_layout
+
+\begin_layout Standard
+Data were not available to asses sampling error or bias in estimates of
+ indices of predator abundance.
+ However, we can be sure that there is some uncertainty in the predator
+ predictor variables.
+ To assess the consequences of this uncertainty, we conducted simulations
+ for all predator coefficients for which the upper 95% credible interval
+ was < 0.
+ We assumed observation standard deviations 
+\begin_inset Formula $(\sigma_{obs})$
+\end_inset
+
+ equaled the index value 
+\begin_inset Formula $(x_{obs})$
+\end_inset
+
+ multiplied by coefficients of variation ranging from 0.1 to 1.0 and that
+ the true value of the predictor 
+\begin_inset Formula $(x_{true})$
+\end_inset
+
+ was distributed as
+\begin_inset Formula 
+\begin{equation}
+x_{true}\sim\textnormal{gamma}\mbox{\ensuremath{\left(\frac{x_{obs}^{2}}{\sigma_{obs}^{2}},\frac{x_{obs}}{\sigma_{obs}^{2}}\right).}}
+\end{equation}
+
+\end_inset
+
+For each coefficient of variation and corresponding value of 
+\begin_inset Formula $\sigma_{obs}$
+\end_inset
+
+, we estimated the probability that the the predation coefficient value
+ was less than zero using the empirical cumulative distribution of the converged
+ MCMC chains.
+ This allowed us to examine if conclusions on predator effects were robust
+ to assumptions on observation uncertainty.
+\end_layout
+
+\begin_layout Subsection
+Why we avoided model selection 
+\end_layout
+
+\begin_layout Standard
+We chose to avoid model selection in our analysis for philosophical and
+ operational reasons.
+ Our choice was motivated philosophically by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Gelman:1995kb"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Clark:2007bd"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Knape:2011jl"
+
+\end_inset
+
+ who argued that under many circumstances, objectives for insight from the
+ model, rather than the use of model selection statistics, should guide
+ the choice of model structure.
+ We can reasonably decide 
+\emph on
+a priori
+\emph default
+ to include a parameter in a model if there is a firmly established biological
+ mechanism that stands behind the operation of the parameter and if the
+ objective of the modeling is to estimate the parameter’s value and to evaluate
+ its importance relative to other mechanistic parameters.
+ 
+\end_layout
+
+\begin_layout Standard
+Our choice was motivated operationally by the subjectivity that is required
+ by current methods for estimating model weights.
+ There is substantial ambiguity in the statistical literature on how to
+ select best models from a set of candidates 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "reviewed by"
+key "Kadane_and_Lazar_20004"
+
+\end_inset
+
+.
+ Different approaches to multi-model inference can lead to dramatically
+ different conclusions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Link:2006gb,Link:2010qq"
+
+\end_inset
+
+.
+ Moreover, all current methods are sensitive to the choice of the assumed
+ prior distribution of model weights and to the choice of shape parameters
+ in vague priors 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Link:2010qq,Royle:2008ud"
+
+\end_inset
+
+, a problem that is not avoided in the likelihood framework 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Link:2006gb"
+
+\end_inset
+
+.
+ Widely used information-theoretic methods do not solve the problem of model
+ over-fitting when many covariates are considered 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Knape:2011jl"
+
+\end_inset
+
+.
+ Rather than choosing subjectively among model selection methods and priors
+ on model weights, we chose to use full but relatively simple models with
+ well established, biological foundations.
+
+\series bold
+ 
+\series default
+We chose to examine main effects alone, without considering interactions.
+ Adding interactions among predictors would dramatically expand the number
+ of parameters to be estimated.
+ Our choice to use a single model for inference means that the inferences
+ we offer are conditional on the model we analyzed.
+ 
+\end_layout
+
+\begin_layout Standard
+To assess the relative importance of model coefficients, we compared standardize
+d coefficients 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2009fu"
+
+\end_inset
+
+ and examined overlap of their posterior distributions with 0.
+ Coefficients that broadly overlapped 0 were considered unimportant to the
+ process being modeled 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., "
+key "Mysterud:2008xq"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Standard
+Frequency distributions of observations of average annual harvest and predator
+ abundance were strongly skewed (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histograms"
+
+\end_inset
+
+) such that most observations were smaller than the mean, justifying the
+ use of lognormal distributions for likelihoods.
+\end_layout
+
+\begin_layout Standard
+Posterior predictive checks showed that the harvest model (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:rharvest model"
+
+\end_inset
+
+) and the population model (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:stoch state space"
+
+\end_inset
+
+) were able to simulate data that were consistent with the observations
+ (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-predictive-checks"
+
+\end_inset
+
+).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Histogram.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Histograms"
+
+\end_inset
+
+Frequency distributions of observations of average annual harvest and indices
+ of predator abundance for 51 reindeer management areas in Sweden.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Post_pred_checks III.jpg
+	width 6.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posterior-predictive-checks"
+
+\end_inset
+
+Posterior predictive checks of the harvest regression model (upper panels)
+ and the population model (lower panels) using predator abundance (left
+ column) and density (right column) for covariates.
+ Test statistics calculated from the observed data plotted against test
+ statistics calculated from simulated data bracket a line with intercept
+ 0 and slope = 1, indicating adequate model fit.
+ The proportion of points above the line give Bayesian P values 
+\begin_inset Formula $(P_{B})$
+\end_inset
+
+.
+ Values of 
+\begin_inset Formula $P_{b}$
+\end_inset
+
+ near 1 or 0 indicate lack of fit.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Harvest model 
+\end_layout
+
+\begin_layout Standard
+Regressions based on predator abundance (Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Param_est_harvest_model"
+
+\end_inset
+
+, Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriors_regression"
+
+\end_inset
+
+) revealed that the average number of reindeer harvested annually from a
+ management unit was 25% of the average population size (
+\begin_inset Formula $b_{1}$
+\end_inset
+
+ = .25, 95% CI = .19, .31).
+ Estimates of regression coefficients representing the change in harvest
+ resulting from predation showed that annual, average harvest in a management
+ unit was reduced by almost 100 reindeer per lynx family group (
+\begin_inset Formula $b_{2}$
+\end_inset
+
+ = -96.6, 95% CI = -155, -31) and by almost 100 reindeer per wolverine reproducti
+on (
+\begin_inset Formula $b_{4}$
+\end_inset
+
+ = -94.3, 95% CI = -160, -20.3).
+ This corresponds to an annual reduction in harvest by about 15 reindeer
+ per lynx and 15 per wolverine because, on average, a lynx family group
+ represents 6.1 lynx, and a wolverine reproduction represents 6.4 wolverines.
+ 
+\series bold
+ 
+\series default
+Effects of brown bear on reindeer harvest were not evident; credible intervals
+ broadly spanned 0.
+ 
+\end_layout
+
+\begin_layout Standard
+Reindeer harvest was reduced at northern latitudes relative to southern
+ ones by about two reindeer per km along the north-south gradient.
+ Estimates of effects of predation based on predator density (indices /
+ area of year-round pasture) were consistent with those based on abundance
+ (Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Param_est_harvest_model"
+
+\end_inset
+
+).
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Tom/Documents/Grimso visit 2010/Manuscript/Figures/Harvest regression densities.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriors_regression"
+
+\end_inset
+
+Posterior (solid line) and prior (dashed line) distributions of parameters
+ in the harvest regression model using indices of predator abundance as
+ independent variables.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Param_est_harvest_model"
+
+\end_inset
+
+Estimates of parameters in harvest models (Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:rharvest model"
+
+\end_inset
+
+).
+ The independent variables for predators in the abundance model are unadjusted
+ indices of numbers of predators in a reindeer management unit; the density
+ model uses abundance indices per 100 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ of year-round pastures, and the standardized models uses standardized predictor
+s [i.e., 
+\begin_inset Formula $\left(x_{i}-\mu\right)/\sigma$
+\end_inset
+
+].
+ Reindeer number is the annual count of reindeer in a management unit.
+ Interpretations of coefficients in each model are given in the text.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="22" columns="5">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row topspace="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Mean
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+SD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+2.5% CL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+97.5% CL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Abundance model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+198
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+89
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+21.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+373
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Reindeer number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0303
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.191
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.311
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Lynx index
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-96.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+31.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-155
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-30.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Wolverine index
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-94.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+35.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-160
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-20.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Bear index
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+47.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+86.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-96.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+240
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-2.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.362
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-3.03
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-1.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Density model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+401
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+113
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+180
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+628
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Reindeer number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.178
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0224
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.136
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.224
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Lynx index/area
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-732
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+241
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-1190
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-232
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Wolverine index/area
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-1450
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+662
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-2680
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-28.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Bear index/area
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+647
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-1220
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1320
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-2.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.401
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-3.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-1.89
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar under
+\noun off
+\color none
+Standardized model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1030
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+69.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+900
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1170
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Reindeer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+753
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+92.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+577
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+939
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Lynx
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-232
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+74.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-368
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-77
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Wolverine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-132
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+49.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-226
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-31
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Bear
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+16.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+29.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-33.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+84
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-443
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+69.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-574
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-300
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Comparisons of standardized regression coefficients (Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Param_est_harvest_model"
+
+\end_inset
+
+) showed that variation in reindeer population size had the greatest impact
+ on reindeer harvest among the variables studied and that variation in latitude
+ had roughly half the effect of variation in reindeer numbers.
+ Increases in lynx abundance exerted effects on growth rate that were about
+ 1/3 of the effect of reindeer population size, and the effect of variation
+ in wolverine abundance was about half as large as the effect of lynx.
+ Effects of brown bear were minor relative to the other predators.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Pop model densities.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriors_state_space"
+
+\end_inset
+
+ Posterior (solid line) and prior (dashed line) distributions of parameters
+ in the population model using estimates of indices of predator abundance
+ as independent variables.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\paragraph_spacing double
+Population model 
+\end_layout
+
+\begin_layout Standard
+We estimated the intrinsic rate of increase of reindeer populations was
+ .35 yr
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ (95% CI = .32, .38, Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Est_param_state_space"
+
+\end_inset
+
+, Fig.
+ 5).
+ On average, an increase of one lynx family group in a management area reduced
+ the rate of population growth by .0079 yr
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ (95% CI = -.014, -.0017 ) and an increase of one wolverine reproduction in
+ a management unit reduced the rate of growth by .015 yr
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ (95% CI = -.023, -068).
+ We observed similar effects of predators on reindeer population growth
+ when predator abundance was expressed as density rather than number per
+ management unit (Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Est_param_state_space"
+
+\end_inset
+
+).
+ Comparisons of regression coefficients for standardized data showed that
+ the effect of latitude was roughly four to five times stronger than individual
+ effects of predation, density, or NAO and that individual effects of predators,
+ density dependence, and the NAO were similar.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Est_param_state_space"
+
+\end_inset
+
+Estimates of parameters in population models (equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:stoch state space"
+
+\end_inset
+
+).
+ The independent variables for predators in the abundance model are unadjusted
+ indices of numbers of predators in a reindeer management unit; the density
+ model uses abundance indices per 100 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ of year-round pastures, and the standardized models uses standardized indices
+ of numbers of predators in a reindeer management unit [i.e., 
+\begin_inset Formula $\left(x_{i}-\mu\right)/\sigma$
+\end_inset
+
+].
+ Reindeer number is the annual count of reindeer in a management unit.
+ Interpretations of coefficients in each model are given in the text.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="22" columns="5">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Mean
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+SD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+2.5% CL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+97.5% CL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Abundance model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.35
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0173
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.316
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.385
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Lynx index
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00786
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00309
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0138
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00175
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Wolverine index
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0149
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00419
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0232
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00676
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000592
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+4.45E-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00068
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000505
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Reindeer density
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.023
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00737
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0377
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00855
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+NAO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0114
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00482
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0208
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.002
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Density model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.349
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0169
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.316
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.382
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Lynx index/area
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.109
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.029
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.165
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0527
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Wolverine index/area
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.361
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0826
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.523
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000661
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+4.40E-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000749
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000575
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Reindeer density
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000224
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.95E-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.000361
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-8.67E-05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+NAO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0111
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00476
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0201
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00169
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Standardized model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.253
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00697
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.239
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.266
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Lynx 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0208
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0083
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.037
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00425
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Wolverine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0267
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00739
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.041
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0123
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00811
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.126
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0939
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+Reindeer 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0263
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00848
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0428
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00955
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+NAO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0207
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.00869
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0379
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.00343
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Simulations of observation uncertainty
+\end_layout
+
+\begin_layout Standard
+A central finding was that predation by lynx and wolverine reduced reindeer
+ harvest and population growth rate.
+ However, this conclusion depends on the unrealistic assumption that indices
+ of predator abundance reflect the true abundance without uncertainty.
+ Simulations revealed that our overall conclusion on predator effects was
+ robust to unbiased observation uncertainty that might arise, for example,
+ from sampling error (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Observation_error"
+
+\end_inset
+
+).
+ Even when assumed coefficients of variation for predator indices approached
+ 1, there was substantial weight of evidence in the posterior distribution
+ of coefficients supporting the conclusion that predators reduce harvest
+ and retard population growth (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Observation_error"
+
+\end_inset
+
+).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename CV_exp_plot.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Simulations of effects of observation error on the conclusion that lynx
+ and wolverine reduce harvest (A) and retard 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Observation_error"
+
+\end_inset
+
+population growth (B).
+ The x-axis is the assumed coefficient of variation in predator indices
+ resulting from observation uncertainty.
+ The y-axis is the proportion of estimates in the MCMC chain for which the
+ estimate of the the predation coefficient (
+\begin_inset Formula $\beta$
+\end_inset
+
+) is less than zero, indicating a depressing effect of predators on harvest
+ or population growth.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Subsection
+Predation effects on long-term harvest 
+\end_layout
+
+\begin_layout Standard
+Using a large-scale database and Bayesian regression, we demonstrated a
+ depressing effect of predators on reindeer harvest and population growth
+ rate in Sweden.
+ Analysis revealed that average annual harvest per management unit was reduced
+ by 97 reindeer per surveyed lynx family group.
+ This reduction in harvest is somewhat lower than what would be expected
+ based on kill rate by lynx based on radio telemetry studies, assuming that
+ predation is largely additive 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mattisson:2011fk"
+
+\end_inset
+
+.
+ In our analysis, we used lynx family groups as an index of the total number
+ of lynx in a management area.
+ On average a lynx family group during the winter survey also represents
+ the presence of males and single females (Andrén et al., 2002).
+ Furthermore, lynx kill rate on reindeer varies due to seasonal variation
+ in reindeer density and density of alternative prey 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sunde:2000uq,Mattisson:2011fk"
+
+\end_inset
+
+.
+ Thus, there were factors influencing kill rate that were not possible to
+ take into account in our large-scale study.
+ 
+\end_layout
+
+\begin_layout Standard
+Given a mean abundance of lynx family groups per management area (= 2.53)
+ and mean population size of reindeer (= 4701), we estimate that herders
+ at the average latitude could harvest 247 fewer reindeer as a consequence
+ of lynx predation alone or 82% of what could be harvested if there were
+ no lynx.
+ However, estimates based on averages may offer an overly optimistic view
+ of effects of predation on reindeer production because distributions of
+ the number of reindeer in a management unit and the number of lynx family
+ groups are highly skewed (Fig.
+ 1).
+ The data and model imply the greatest impacts of lynx predation on reindeer
+ harvest when lynx abundance is high and when the population size of reindeer
+ is low.
+ In these cases, our analyses show that the reduction in harvest resulting
+ from lynx predation can be disproportionately greater than would be predicted
+ from average lynx and reindeer abundance (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "figHarvest_change_from_predation"
+
+\end_inset
+
+).
+ Assuming average lynx numbers and below-average reindeer numbers, harvest
+ in the presence of lynx could reasonably be expected to range between 50-80%
+ of harvest from predator free herds (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "figHarvest_change_from_predation"
+
+\end_inset
+
+).
+ However, if lynx abundance is above average (i.e., at the 75% quantile of
+ the data = 3.87
+\series bold
+ 
+\series default
+surveyed
+\series bold
+ 
+\series default
+lynx family groups per management unit), then harvest from reindeer management
+ units with less than the average herd size are expected to fall between
+ 20-70% of the predator-free harvest (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "figHarvest_change_from_predation"
+
+\end_inset
+
+).
+ These results show that levels of lynx abundance well within the range
+ of the observed data could cause dramatic reductions in harvest from reindeer
+ populations and that the magnitude of these reductions is amplified when
+ reindeer populations are small.
+ We caution, however, that the credible intervals on all of these estimates
+ are broad (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "figHarvest_change_from_predation"
+
+\end_inset
+
+).
+ Hence, we cannot rule out effects of predation on harvest that could be
+ substantially smaller or substantially greater than the mean estimates.
+ 
+\end_layout
+
+\begin_layout Standard
+Kill rates of reindeer by wolverine have not been estimated directly from
+ field data.
+ However, using radio telemetry observations, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mattisson:kl"
+
+\end_inset
+
+ estimated that kill rates of reindeer by lynx were much higher than kill
+ rates of reindeer by wolverine, a finding at odds with our result that
+ the average number of reindeer killed per surveyed lynx family group is
+ approximately the same as the number killed per surveyed wolverine reproduction.
+ The wolverine kill rate was from an area where lynx and wolverine coexist.
+ Wolverines frequently scavenge reindeer killed by lynx 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mattisson:kl"
+
+\end_inset
+
+, so the expected kill rate of reindeer by wolverines is higher in areas
+ without lynx 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Andren_2011"
+
+\end_inset
+
+.
+ Moreover, the 97.5% quantile of the posterior distribution of the ratio
+ of lynx / wolverine kill rates was 4.42, which is more in line with the
+ field estimate.
+ We observed the same non-linearities in effects of wolverine on reductions
+ in reindeer harvest as we observed for lynx (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "figHarvest_change_from_predation"
+
+\end_inset
+
+).
+ Again, effects of predation were disproportionately great when wolverine
+ abundance was above average and reindeer population size was below average.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Harvest proportion.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "figHarvest_change_from_predation"
+
+\end_inset
+
+Model predictions of the proportional change in harvest attributable to
+ lynx and wolverine predation as a function of reindeer population size.
+ Two levels of predator abundance were used in predictions, the mean level
+ and the upper 75% quantile.
+ Dashed lines give 95% credible intervals on model predictions.
+ The vertical dotted line indicates the mean reindeer population size.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Comparisons of standardized coefficients suggested that variation in reindeer
+ numbers and variation along a latitudinal gradient exerted much stronger
+ effects on average annual harvest than variation in predator abundance.
+ 
+\end_layout
+
+\begin_layout Subsection
+Role of predation in limiting population growth 
+\end_layout
+
+\begin_layout Standard
+Our estimates of the intrinsic rate of increase of reindeer (
+\begin_inset Formula $r_{max}$
+\end_inset
+
+ = 0.35, 95% CI = 0.31, 0.38) agreed closely with estimates based on allometric
+ scaling for ungulates.
+ Assuming an average approximate reindeer body mass (
+\begin_inset Formula $M$
+\end_inset
+
+) of 80 kg (averaged across all age and sex classes), predicted 
+\begin_inset Formula $r_{max}$
+\end_inset
+
+ for reindeer is 
+\begin_inset Formula $1.37M^{-.31}=.35$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sinclair:2003fc"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Results from the state-space model reinforced the conclusions of the regression
+ model and provided a mechanistic explanation for diminished harvest in
+ management units where lynx and wolverine were abundant.
+ Parameter estimates from the state space model suggest that predators caused
+ meaningful reductions in the annual increment in reindeer population size,
+ which in turn, reduced the harvestable surplus.
+ It is possible that our findings of effects of predators on population
+ growth and harvest depend on our implicit assumption that predation does
+ not compensate for other sources of mortality that might result, for example,
+ from density dependent feedbacks.
+ If predation partially substitutes for density-dependent mortality, then
+ effects predation may be overestimated.
+ However, we reduced this possibility by including a separate term for density
+ dependence in the population model.
+\end_layout
+
+\begin_layout Standard
+Realized rates of increase in reindeer populations were shaped by a composite
+ of forces, including density dependence, predation, weather, and latitude.
+ Standardized regression coefficients revealed roughly equivalent effects
+ of predation, density, and winter weather (indexed by the NAO).
+ Changes in latitude exerted effects that were four to five times as great
+ as predation, density or weather.
+ We suggest that the particularly strong effects of latitude resulted in
+ part from increasing weather severity and diminished primary productivity
+ at northern latitudes.
+ However, there also may be an effect of differences in husbandry.
+ Management units at the southern end of the gradient tended to have larger
+ proportions of adult females in the population (linear regression, P=.0001,
+ 
+\begin_inset Formula $r^{2}$
+\end_inset
+
+ = .25).
+ This is likely a reflection of differences in harvesting practices that
+ favor maintaining more adult males in the northern populations, which would
+ reduce rates of increase.
+ 
+\end_layout
+
+\begin_layout Standard
+Findings on responses of ungulate populations to effects of winter weather
+ indexed by the NAO have been inconsistent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ISI:000081368500022,Grotan:2005qf,Weladji:2006mw,Grotan:2008qo"
+
+\end_inset
+
+.
+ Body condition, fecundity, and reproductive rate have shown both positive
+ and negative relationships to NAO, suggesting that under some circumstances
+ warm, wet winters are favorable to animals, producing a positive correlation
+ with NAO, while in others cold dry winters are favorable, producing a negative
+ relationship similar to the one we observed.
+ Although these conflicting observations have been explained by differences
+ between maritime and mainland climates, inconsistencies remain 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., compare"
+key "Grotan:2005qf,Weladji:2006mw"
+
+\end_inset
+
+ that may result from the inability of time series data to resolve causal
+ effects of weather on population dynamics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Knape:2011jl"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Our work adds to a growing body of evidence 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "Skogland:1990ay,Aanes:2000oz,Coulson:2000ff,Owen-Smith:2006pt,Wang:2006qc,Wang:2009jo,Melis:2009mb"
+
+\end_inset
+
+ that population dynamics of large herbivores respond to multiple forces,
+ including intrinsic effects of density dependent competition for resources
+ and extrinsic effects of weather and predation.
+ We show that density dependence, predation, and weather were implicated
+ as controls on population growth rate of reindeer and that these influences
+ were roughly equal in strength.
+ In particular, our findings resemble 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jacobson:2004xw"
+
+\end_inset
+
+ who found evidence for density dependence in populations of mountain sheep
+ that were harvested and preyed upon.
+ It is sometimes said that populations that are routinely harvested should
+ not show effects of density on population growth rate because they are
+ maintained well below the carrying capacity of the environment.
+ However, if feedbacks from population density to per capita population
+ growth rate are approximately linear (as is the assumption in logistic
+ population growth) then we would expect that effects on per capita growth
+ rate would be observable at all densities.
+ 
+\end_layout
+
+\begin_layout Standard
+In contrast to our observations, others have failed to see effects of density
+ dependence in ungulates in the far north, particularly in populations exposed
+ to predation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Aanes:2000oz"
+
+\end_inset
+
+.
+ It is becoming clear that the spatial context can modify the effects of
+ predation and density dependence on ungulate population dynamics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Post:2005rq"
+
+\end_inset
+
+.
+ Our results reinforce the findings of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LundqvistHetal"
+
+\end_inset
+
+ who showed that relatively fine-scale differences in latitude can exert
+ strong effects on the productivity of reindeer.
+ These effects of spatial context appear to result from multiple influences
+ including spatial variation in primary production, weather, and differences
+ in husbandry.
+ 
+\end_layout
+
+\begin_layout Subsection
+Implications for future work
+\end_layout
+
+\begin_layout Standard
+A weakness of our work is the assumption that abundance of predators is
+ estimated without error
+\series bold
+,
+\series default
+ although our fundamental conclusion about effects of predators appeared
+ to be robust to this assumption (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Observation_error"
+
+\end_inset
+
+).
+ Nonetheless, substantial improvements could be made in our ability to estimate
+ and forecast effects of predators on reindeer by including uncertainty
+ in these estimates.
+ We strongly urge the development of statistically rigorous methods for
+ estimating predator abundance, methods that would allow a proper observation
+ model for the predator data.
+ Similarly, estimates of reindeer numbers could be enhanced by methods that
+ would allow assessment of variance in observations and potential bias in
+ census.
+ 
+\end_layout
+
+\begin_layout Standard
+For example, given that animals are handled a few times per year, it would
+ be relatively easy to implement a mark-recapture design to estimate total
+ numbers and vital rates.
+ These data would enable development of age and sex structured models, which
+ we believe are particularly needed given our observation that variation
+ in husbandry practices, mediated through demography, may be at least partially
+ responsible for variation in harvest along the north-south gradient.
+ Age-structured models are needed to better explain the operation of density
+ dependence 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bonenfant:2009uq"
+
+\end_inset
+
+.
+ In earlier work we attempted to develop these models, but the absence of
+ data on the sex composition of the calf harvest proved to be an impediment
+ that could not be overcome because the proportion of calves in the harvest
+ could trade-off with the unobserved parameter of calf survival, making
+ these parameters inestimable.
+ Adding observations of the sex ratio of the calf harvest to the reindeer
+ database could markedly enhance future models of predator impacts with
+ virtually no added expense for sampling.
+ 
+\end_layout
+
+\begin_layout Subsection
+Implications for policy 
+\end_layout
+
+\begin_layout Standard
+Throughout Scandinavia, there are conflicting goals for sustaining the pastoral
+ livelihoods of indigenous people while restoring and conserving native
+ predators that prey on reindeer.
+ This conflict is reconciled by environmental policy in Sweden 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SOU_1999"
+
+\end_inset
+
+ that provides monetary compensation to Sámi pastoralists to offset losses
+ of productivity of reindeer resulting from effects of native predators.
+ Owners of predator-killed livestock are usually compensated based on documented
+ losses 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "ex post fact compensation;"
+key "Schwerdtner:2007kx"
+
+\end_inset
+
+, whereas the Swedish system is risk-based.
+ In a risk-based compensation the reindeer herders can focus on reindeer
+ husbandry, instead of searching for predator-killed reindeer.
+ There is also an incentive for reindeer owners to invest in mitigation
+ measures to reduce losses, e.g.
+ keeping reindeer females in enclosures during calving and a few weeks thereafte
+r.
+ A risk-based compensation scheme excludes the need to directly observe
+ predator kills, but nonetheless requires defensible estimates of damage.
+ 
+\end_layout
+
+\begin_layout Standard
+Heretofore, the Swedish risk-based system was not based on quantified effects
+ of predators on reindeer, and as a result, could be criticized as an unjustifie
+d subsidy.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mattisson:kl"
+
+\end_inset
+
+ used individual lynx kill-rate on reindeer as an estimate of losses that
+ could be used for setting compensation levels.
+ We offer evidence that native predators meaningfully reduce the number
+ of reindeer that could be harvested relative to harvests that would occur
+ in the absence of predators.
+ However, we also show that although the absolute impacts of predation on
+ reindeer harvest are proportionate to predator abundance in a management
+ unit, the relative impacts are disproportionate.
+ Proportional reductions in potential harvests within management units were
+ relatively small where reindeer populations were large (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "figHarvest_change_from_predation"
+
+\end_inset
+
+), while these reductions were large when reindeer populations within a
+ management unit were small.
+ 
+\end_layout
+
+\begin_layout Standard
+In conclusion, we provide evidence that native predators reduce harvest
+ of reindeer by S
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'a
+\end_layout
+
+\end_inset
+
+mi pastoralists by reducing population growth rate.
+ This evidence provides a biological justification for Sweden's risk-based
+ compensation policy.
+\end_layout
+
+\begin_layout Section
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+The study was funded by the Swedish Environmental Protection Agency and
+ the Swedish Research Council for Environment, Agricultural Sciences and
+ Spatial Planning (Formas).
+ Comments and suggestions from Norman Owen-Smith and an anonymous reviewer
+ improved the manuscript.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+end {flushleft}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+refname{Literature Cited} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "master"
+options "ecology"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{spacing}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

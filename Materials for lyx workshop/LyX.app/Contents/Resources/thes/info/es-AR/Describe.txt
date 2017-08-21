@@ -1,0 +1,7 @@
+﻿Diccionario en español para Argentina - v 1.1.1
+Guillermo G. García
+
+Basado en
+* Extensión del diccionario para México de J. Eduardo Moreno (http://www.tokonhu.com)
+* Diccionario para Argentina de Santiago Bosio (sbosio<en>openoffice<punto>org)
+* Diccionario de sinónimos de OpenThesaurus (http://openthes-es.berlios.de/)

@@ -1,0 +1,708 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass seminar
+\begin_preamble
+\renewcommand{\printlandscape}{\special{landscape}}
+
+% if slides come out in the viewer upside down, try:
+%\sliderotation{right}
+
+%\AtBeginDocument{%
+%  \pdfpageheight = \paperheight
+%  \pdfpagewidth = \paperwidth
+%}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans lmss
+\font_typewriter lmtt
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Flex LandscapeSlide
+status open
+
+\begin_layout Title
+Slides and Notes with the 
+\family sans
+\noun on
+Seminar
+\family default
+\noun default
+ class
+\end_layout
+
+\begin_layout Author
+Günter Milde
+\end_layout
+
+\begin_layout Date
+10/10/2010
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Basics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex LandscapeSlide
+status open
+
+\begin_layout SlideHeading
+Seminar
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "seminar"
+target "http://www.ctan.org/pkg/seminar"
+
+\end_inset
+
+ class is designed to produce overhead slides (transparencies).
+ For powerpoint-like presentations, use a 
+\emph on
+presentation
+\emph default
+ document class like
+\family sans
+ beamer
+\family default
+ or
+\family sans
+ powerdot
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+Insert a slide with a 
+\series bold
+LandscapeSlide
+\series default
+ or 
+\series bold
+PortraitSlide
+\series default
+ inset (Insert\SpecialChar \menuseparator
+Custom
+\begin_inset space ~
+\end_inset
+
+Insets).
+ 
+\end_layout
+
+\begin_layout Itemize
+It is really helpful to read the seminar handbook: 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+name "sem-user.pdf"
+target "http://mirror.ctan.org/macros/latex/contrib/seminar/doc/sem-user.pdf"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+Seminar
+\family default
+ puts everything that is not nested inside a 
+\family sans
+Slide
+\family default
+ environment on extra pages as 
+\emph on
+notes.
+
+\emph default
+ (See Configuration below on how to print only slides, only notes, or both.)
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex LandscapeSlide
+status open
+
+\begin_layout SlideHeading
+Configuration
+\end_layout
+
+\begin_layout SlideSubHeading
+Output options
+\begin_inset CommandInset label
+LatexCommand label
+name "sli:output-options"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The following options can be added to the 
+\family sans
+Options
+\family default
+ field in 
+\family sans
+Document\SpecialChar \menuseparator
+Settings\SpecialChar \menuseparator
+Document
+\begin_inset space ~
+\end_inset
+
+Class
+\family default
+:
+\end_layout
+
+\begin_layout Description
+slidesonly Only the slides are printed.
+\end_layout
+
+\begin_layout Description
+notesonly Only the notes are printed
+\end_layout
+
+\begin_layout Description
+notes Both notes and slides are printed.
+\end_layout
+
+\begin_layout Description
+notesonly* Produces a slide marker for each slide environment
+\end_layout
+
+\begin_layout Description
+article Print as article (two-up).
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout SlideSubHeading
+Preamble commands 
+\end_layout
+
+\begin_layout Plain Layout
+The following options can be added to the 
+\family sans
+LaTeX preambel
+\family default
+ in 
+\family sans
+Document\SpecialChar \menuseparator
+Settings\SpecialChar \menuseparator
+Document
+\begin_inset space ~
+\end_inset
+
+Class
+\family default
+:
+\end_layout
+
+\begin_layout Description
+
+\backslash
+onlyslides{8,9,11} print only slides number 8, 9 and 11 (e.
+\begin_inset space \thinspace{}
+\end_inset
+
+g.
+\begin_inset space \space{}
+\end_inset
+
+color plots),
+\end_layout
+
+\begin_layout Description
+
+\backslash
+notslides{4,8,9,11} don't print these slides.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex PortraitSlide
+status open
+
+\begin_layout SlideHeading
+Slide contents
+\end_layout
+
+\begin_layout Plain Layout
+Virtually everything that can appear in normal LaTeX (except floats) can
+ also be on a slide.
+\end_layout
+
+\begin_layout Plain Layout
+Additional styles:
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+SlideHeading
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+SlideSubheading
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex LandscapeSlide
+status open
+
+\begin_layout SlideHeading
+Warnings
+\end_layout
+
+\begin_layout Plain Layout
+Size and orientation of the slides show problems depending on the output
+ format and viewing application:
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+seminar
+\family default
+ uses Postscript specials and does not work with 
+\family sans
+PDF (pdflatex)
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+Landscape slides do not work with 
+\family sans
+DVI.
+\end_layout
+
+\begin_layout Plain Layout
+With the current configuration in Document\SpecialChar \menuseparator
+Settings,
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+PDF (dvips)
+\family default
+ adapts the pager orientation → online viewing and presentation.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+Postscript
+\family default
+ and 
+\family sans
+PDF (dvipdfm)
+\family default
+ rotate landscape slides → hardcopies.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Seminar uses non-standard ways to deal with paper layout and orientation.
+ Therefore, also Document\SpecialChar \menuseparator
+Settings\SpecialChar \menuseparator
+Page Layout\SpecialChar \menuseparator
+Orientation has no effect on
+ the output.
+\end_layout
+
+\begin_layout Section
+Outline
+\end_layout
+
+\begin_layout Standard
+Seminar defines additional content-listing commands, as the Table of Contents
+ only lists 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ headings and subheadings.
+ (To get a slide with the listings, nest themt in a 
+\family sans
+slide 
+\family default
+inset.)
+\end_layout
+
+\begin_layout Subsection
+Slide contents
+\end_layout
+
+\begin_layout Standard
+The 
+\family sans
+SlideContents
+\family default
+ inset is an analogue to the table of contents but lists only 
+\family sans
+SlideHeading
+\family default
+s (no 
+\family sans
+SlideSubheading
+\family default
+s): 
+\begin_inset Flex SlideContents
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+List of slides
+\end_layout
+
+\begin_layout Standard
+Analogue to a list of tables, the 
+\family sans
+ListOfSlides
+\family default
+ style lists all slides in your document: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex ListOfSlides
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Progress Contents
+\end_layout
+
+\begin_layout Standard
+If you want to assure the audience, that the presentation is almost over,
+ insert a slide with 
+\family sans
+ProgressContents
+\family default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex LandscapeSlide
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Flex ProgressContents
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout SlideSubHeading
+Fancier formatting
+\end_layout
+
+\begin_layout Standard
+The LaTeX preamble is the right place for many options to get fancier formatting
+, e.
+\begin_inset space \thinspace{}
+\end_inset
+
+g.:
+\end_layout
+
+\begin_layout Itemize
+different font sets, e.
+\begin_inset space \thinspace{}
+\end_inset
+
+g.
+\begin_inset space \space{}
+\end_inset
+
+the Iwona fonts: 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+usepackage{iwona}
+\end_layout
+
+\begin_layout Itemize
+fancy frames:
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+usepackage{fancybox}
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+setlength{
+\backslash
+slideframewidth}{1pt}
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+slideframe[
+\backslash
+setlength{
+\backslash
+shadowsize}{1pt}]{shadow} 
+\end_layout
+
+\begin_layout Standard
+See 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+name "sem-user.pdf"
+target "http://mirror.ctan.org/macros/latex/contrib/seminar/doc/sem-user.pdf"
+
+\end_inset
+
+ for details.
+\end_layout
+
+\begin_layout SlideHeading
+Troubleshooting
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+seminar.cls
+\family default
+ versions before 1.5 (2008-10-15) contained a bug regarding the a4paper option.
+ If you use A4 paper with such a version, set in the menu 
+\family sans
+Document\SpecialChar \menuseparator
+Settings\SpecialChar \menuseparator
+Page
+\begin_inset space ~
+\end_inset
+
+Layout
+\family default
+ the 
+\family sans
+Paper
+\begin_inset space ~
+\end_inset
+
+Size
+\family default
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family sans
+A4
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+ (unless it is the default layout of your LaTeX distribution), and delete
+ the option 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family sans
+a4paper
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+ if necessary in the 
+\family sans
+Options
+\family default
+ field in the menu 
+\family sans
+Document\SpecialChar \menuseparator
+Settings\SpecialChar \menuseparator
+Document
+\begin_inset space ~
+\end_inset
+
+Class
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+If you have problems with the orientation of the slides/page, try the recommenda
+tions in Apppendix
+\begin_inset space ~
+\end_inset
+
+E of the seminar handbook 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+name "sem-user.pdf"
+target "http://mirror.ctan.org/macros/latex/contrib/seminar/doc/sem-user.pdf"
+
+\end_inset
+
+
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+Assure that the document page margins are set to default.
+\end_layout
+
+\end_body
+\end_document

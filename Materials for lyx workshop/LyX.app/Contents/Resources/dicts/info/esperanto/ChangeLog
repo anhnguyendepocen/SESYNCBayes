@@ -1,0 +1,12 @@
+0.4.0992 - 2010-11
+ - Enhavas vortaron por silabado de Ari Caldeira trovita en diskutejo libera programado
+ - Enhavas konvertilon por provizoraj skribmanieroj cx kaj ch
+0.3.0992 - 2010-11
+ - Plibonigo de gramatika korektilo.
+ - Enhavas tezauxron fariten de revo vortaro
+0.2.0986 - 2008-10-06
+ - Windows Support
+ - Some memory leaks by Tcl object handling were fixed
+ - Logging into file
+0.1.0986
+ - Initial release

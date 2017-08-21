@@ -1,0 +1,1915 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\makeatother
+\usepackage{lineno,setspace}
+%\linenumbers
+%\doublespace
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+\addtolength{\belowcaptionskip}{-3mm}
+\addtolength{\abovecaptionskip}{-3mm}
+\usepackage{hanging}
+%automatically number equations
+%\renewcommand\[{\begin{equation}}
+%\renewcommand\]{\end{equation}} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_numerical
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author -1308405981 "Tom Hobbs" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin {center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+Curriculum Vitae (condensed)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+N.
+ Thompson Hobbs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end {center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="4in">
+<column alignment="left" valignment="top" width="2in">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Natural Resource Ecology Laboratory
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nthobbs@nrel.colostate.edu
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colorado State University
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+phone: 970-491-5738
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fort Collins, CO, 80523
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fax: 970-491-1965
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Academic training
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="2.5in">
+<column alignment="left" valignment="top" width="1.5in">
+<column alignment="left" valignment="top" width="2in">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grinnell College 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Biology
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B.A.
+ with honors 1974
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colorado State University
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wildlife Biology
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M.S.
+ 1977
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colorado State University
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wildlife Biology
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ph.D.
+ 1979
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Professional experience
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="4.5in">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2007-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor, Natural Resource Ecology Laboratory, Department of Ecosystem
+ Science and Sustainability, and Graduate Degree Program in Ecology, Colorado
+ State University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2005-2007
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor and Head, Department of Forest, Rangeland, and Watershed Stewardship,
+ Colorado State University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1999-2007
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Senior Research Scientist, Natural Resource Ecology Laboratory, Colorado
+ State University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1987-1999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Research Scientist, Natural Resource Ecology Laboratory, Colorado State
+ University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1980-2002
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wildlife Researcher, Colorado Division of Wildlife
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Selected awards
+\end_layout
+
+\begin_layout Standard
+Natural Resource Ecology Laboratory Outstanding Graduate Advisor, 2011
+\end_layout
+
+\begin_layout Standard
+Colorado State University Resident Distinguished Ecologist, 2011
+\end_layout
+
+\begin_layout Standard
+Natural Resource Ecology Laboratory Outstanding Graduate Advisor, 2005
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Aldo Leopold Leadership Fellow, 2004
+\end_layout
+
+\begin_layout Standard
+Society of Conservation Biology Distinguished Service Award, 1998
+\end_layout
+
+\begin_layout Standard
+The Wildlife Society Publication Award for the Outstanding Article in Wildlife
+ Biology and Management, 1992 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Service (2000-present)
+\end_layout
+
+\begin_layout Standard
+Panelist, National Oceanic and Atmospheric Administration Science Review
+ Panel, Impacts of salmon abundance on northwest killer whale populations,
+ 2011-2012
+\end_layout
+
+\begin_layout Standard
+Panelist, National Science Foundation Advisory Panel, National Ecological
+ Observatory Network Operations and Maintenance Site Review, 2012
+\end_layout
+
+\begin_layout Standard
+Tenure and promotion review, Columbia University, 2011
+\end_layout
+
+\begin_layout Standard
+Panelist, National Science Foundation Advisory Panel, Ecosystem Science
+ Program, 2009
+\end_layout
+
+\begin_layout Standard
+Program Director, Population and Community Ecology Cluster, National Science
+ Foundation, 2008-2009
+\end_layout
+
+\begin_layout Standard
+Member, Greater Yellowstone Science Agenda Working Group, 2009
+\end_layout
+
+\begin_layout Standard
+International Opponent, Department of Ecology, Swedish University of Agricultura
+l Sciences, 2007
+\end_layout
+
+\begin_layout Standard
+Member, Yellowstone National Park Wildlife Health Planning Group, 2007
+\end_layout
+
+\begin_layout Standard
+Member, National Science Foundation Site Review Team, Hubbard Brook Long
+ Term Ecological Research Project, 2007
+\end_layout
+
+\begin_layout Standard
+Leader, Tiger Team, National Ecological Observatory Network Data Products
+ for Fundamental Sentinel Units, 2007
+\end_layout
+
+\begin_layout Standard
+Panelist, National Science Foundation Advisory Panel, Ecology Program, 2000,
+ 2001, 2002, 2005, 2006
+\end_layout
+
+\begin_layout Standard
+Panelist, U.
+ S.
+ Department of Agriculture National Wildlife Research Center Promotion Evaluatio
+n Panel, 2005 
+\end_layout
+
+\begin_layout Standard
+Reviewer, National Ecological Observatory Network Integrated Science and
+ Education Plan, 2005
+\end_layout
+
+\begin_layout Standard
+Member, American Institute of Biological Sciences Workshop, Ecology of Infectiou
+s Diseases, National Ecological Observatory Network, 2004
+\end_layout
+
+\begin_layout Standard
+Member, National Park Service Rocky Mountain Monitoring Network Science
+ Panel, 2004
+\end_layout
+
+\begin_layout Standard
+Member, National Science Foundation National Ecological Observatory Network
+ Consortium Site Review Team, 2004
+\end_layout
+
+\begin_layout Standard
+Panelist, National Science Foundation National Ecological Observatory Network
+ Consortium Advisory Panel, 2004
+\end_layout
+
+\begin_layout Standard
+Panelist, David Smith Fellowship Advisory Panel, The Nature Conservancy,
+ 2004
+\end_layout
+
+\begin_layout Standard
+International Opponent, Department of Animal Ecology, Swedish University
+ of Agricultural Sciences, 2003
+\end_layout
+
+\begin_layout Standard
+Academic Mentor, David Smith Fellowship, The Nature Conservancy, 2000-2002
+\end_layout
+
+\begin_layout Standard
+Panelist, National Science Foundation Advisory Panel, Professional Opportunities
+ for Women in Research, 2000
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Editorial boards
+\end_layout
+
+\begin_layout Standard
+Ecological Applications, 2002-present
+\end_layout
+
+\begin_layout Standard
+Journal of Wildlife Management, 1995-1997
+\end_layout
+
+\begin_layout Standard
+Journal of Range Management, 1985-1989
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Reviewer
+\end_layout
+
+\begin_layout Standard
+American Naturalist, American Midland Naturalist, Animal Ecology, Behavioral
+ Ecology, Canadian Journal of Zoology, Conservation Ecology, Ecology, Ecology
+ Letters, Ecological Applications, Ecological Monographs, Ecosystems, Israel
+ Academy of Sciences, Landscape Ecology, Journal of Applied Ecology, Journal
+ of Animal Ecology, Journal of Mammalogy, Journal of Range Management, Journal
+ of Wildlife Diseases, Journal of Wildlife Management, National Science
+ Foundation, New Zealand Journal of Botany, Oecologia, Oikos, Plant Ecology,
+ PLoS One, Proceedings of the National Academy of Science, Science, Southwestern
+ Naturalist, The Royal Society of London Proceedings B, Trends in Ecology
+ and Evolution, Wildlife Society Bulletin 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Grants (2000-present)
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., J.
+ S.
+ Clark, M.
+ B.
+ Hooten, K.
+ Ogle, and M.
+ Uriarte.
+ Building capacity in Bayesian modeling for practicing ecologists.
+ National Science Foundation, $385,000.
+ 2012-2016.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., D.
+ J.
+ Cooper, J.
+ A.
+ Hoeting, M.
+ J.
+ Kauffman, F.
+ Watson, G.
+ Spong, and D.
+ Smith.
+ Long-term research in environmental biology: Understanding controls on
+ state-transition on Yellowstone's northern range.
+ National Science Foundation $450,000.
+ 2012-2017.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., R.
+ Boone, M.
+ W.
+ Miller, J.
+ A.
+ Hoeting, S.
+ Tavener, and M.
+ Antolin.
+ Bayesian hierarchical modeling of disease dynamics: a case example using
+ chronic wasting disease.
+ National Science Foundation.
+ $2,499,881.
+ 2009-2014.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T.
+ and M.
+ W.
+ Miller.
+ WildSense: Instrumenting wildlife to gather contact rate information using
+ delay tolerant wireless sensor networks.
+ National Science Foundation $260,8879.
+ 2009-2013.
+\end_layout
+
+\begin_layout Standard
+Cooper, D.
+ J., N.
+ T.
+ Hobbs, J.
+ A.
+ Hoeting, and D.
+ M.
+ Theobald.
+ Landscape configuration in Yellowstone National Park: an alternative state
+ stabilized by herbivory? National Science Foundation $400,000.
+ 2007-2010.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., J.
+ K.
+ Detling, S.
+ Tavener, and A.
+ Joern.
+ Effects of habitat fragmentation on consumer-resource dynamics in environments
+ varying in space and time.
+ National Science Foundation $250,000.
+ 2005-2008.
+ 
+\end_layout
+
+\begin_layout Standard
+Reid, R., N.
+ T.
+ Hobbs, and P.
+ Chapman.
+ Sources of heterogeneity in grasslands: responses of wildlife to people
+ on savanna landscapes.
+ National Science Foundation.
+ $463,544.
+ 2004-2007.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T, M.
+ W.
+ Miller and B.
+ A.
+ Wunder.
+ Development of technology for remote monitoring of contact processes in
+ animal populations and communities.
+ Small Grants in Exploratory Research.
+ National Science Foundation.
+ $49,964.
+ 2003-2004.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., R.
+ A.
+ Davis, J.
+ A.
+ Hoeting, and D.
+ S.
+ Schimel.
+ Workshop proposal: New approaches to the statistical analysis of ecological
+ data.
+ National Science Foundation.
+ $65,000.
+ 2003-2004.
+\end_layout
+
+\begin_layout Standard
+Davis, R., J.
+ Hebers, N.
+ T.
+ Hobbs, and R.
+ Miranda.
+ PRIMES: Program for interdisciplinary mathematics, ecology, and statistics.
+ National Science Foundation.
+ $2,167,776.
+ 2002-2007.
+\end_layout
+
+\begin_layout Standard
+Ellis, J.
+ E., N.
+ T.
+ Hobbs, P.
+ K.
+ Thornton, R.
+ Boone, and R.
+ Behnke.
+ Scale and complexity in arid land ecosystems.
+ National Science Foundation $962,920.
+ 2001-2006.
+ 
+\end_layout
+
+\begin_layout Standard
+Owen-Smith, N., N.
+ T.
+ Hobbs, and A.
+ W.
+ Illius.
+ Dynamics of large mammalian herbivores in changing environments: alternative
+ modeling approaches.
+ National Center for Ecological Analysis and Synthesis, National Science
+ Foundation
+\change_inserted -1308405981 1323197664
+ 
+\change_unchanged
+2001-2004.
+\end_layout
+
+\begin_layout Standard
+Singer, F.
+ J., N.
+ T.
+ Hobbs.
+ Field trials with immunocontraceptives to reduce fertility in wild horses
+ on lands administered by the Bureau of Land Management.
+ U.S.
+ Geological Survey and Bureau of Land Management.
+ $250,636.
+ 2001-2007
+\end_layout
+
+\begin_layout Standard
+Singer, F.
+ J., N.
+ T.
+ Hobbs, and D.
+ Cooper.
+ Willow persistence in Yellowstone National Park.
+ U.S.
+ Geological Survey and U.
+ S.
+ National Park Service.
+ $283,192.
+ 2001-2004.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Journal articles (2000-present, 
+\series default
+out of 104 total
+\series bold
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{hangparas}{.25in}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reynolds, L.
+ V.
+ , D.
+ J.
+ Cooper, and N.
+ T.
+ Hobbs.
+ Drivers of riparian tree invasion on a desert stream.
+ River Research and Applications: In press.
+\end_layout
+
+\begin_layout Standard
+Ransom, J., J.
+ Powers, N.
+ T.
+ Hobbs, and D.
+ L.
+ Baker.
+ Ecological feedbacks can reduce population-level efficacy of wildlife fertility
+ control.
+ Journal of Applied Ecology: In press.
+\end_layout
+
+\begin_layout Standard
+Marshall, K.
+ N., N.
+ T.
+ Hobbs, and D.
+ J.
+ Cooper.
+ 2013.
+ Stream hydrology limits recovery of riparian ecosystems after wolf reintroducti
+on.
+ Proceedings of the Royal Society B-Biological Sciences 280.
+ 
+\end_layout
+
+\begin_layout Standard
+Ransom, J.
+ I., N.
+ T.
+ Hobbs, and J.
+ Bruemmer.
+ 2013.
+ Contraception can lead to trophic asynchrony between birth pulse and resources.
+ PLoS ONE 8.
+ 
+\end_layout
+
+\begin_layout Standard
+Monello, R.
+ J., J.
+ G.
+ Powers, N.
+ T.
+ Elobbs, T.
+ R.
+ Spraker, K.
+ I.
+ O'Rourke, and M.
+ A.
+ Wildl.
+ 2013.
+ Efficacy of antemortem rectal biopsies to diagnose and estimate prevalence
+ of chronic wasting disease in free-ranging cow elk (
+\emph on
+Cervus elaphus nelsoni
+\emph default
+).
+ Journal of Wildlife Diseases 49:270-278.
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M.
+ M., N.
+ T.
+ Hobbs, N.
+ A.
+ Slade, J.
+ F.
+ Merritt, L.
+ L.
+ Getz, M.
+ Hunter, S.
+ H.
+ Vessey, J.
+ Witham, and A.
+ Guillaumet.
+ 2013.
+ Comparative population dynamics of large and small mammals in the Northern
+ Hemisphere: deterministic and stochastic forces.
+ Ecography 36:439-446.
+ 
+\end_layout
+
+\begin_layout Standard
+Herbener, K.
+ W., S.
+ J.
+ Tavener, and N.
+ T.
+ Hobbs.
+ 2012.
+ The distinct effects of habitat fragmentation on population size.
+ Theoretical Ecology 5:73-82.
+ 
+\end_layout
+
+\begin_layout Standard
+Bhola, N., J.
+ O.
+ Ogutu, H.
+ P.
+ Piepho, M.
+ Y.
+ Said, R.
+ S.
+ Reid, N.
+ T.
+ Hobbs, and H.
+ Olff.
+ 2012.
+ Comparative changes in density and demography of large herbivores in the
+ Masai Mara Reserve and its surrounding human-dominated pastoral ranches
+ in Kenya.
+ Biodiversity and Conservation 21:1509-1530.
+ 
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., H.
+ Andren, J.
+ Persson, M.
+ Aronsson, and G.
+ Chapron.
+ 2012.
+ Native predators reduce harvest of reindeer by Sámi pastoralists.
+ Ecological Applications 22:1640-1654.
+ 
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M., N.
+ T.
+ Hobbs, N.
+ A.
+ Slade, J.
+ F.
+ Merritt, L.
+ L.
+ Getz, M.
+ Hunter, S.
+ H.
+ Vessey, J.
+ Witham, and A.
+ Guillaumet.
+ 2011.
+ Comparative population dynamics of large and small mammals in the Northern
+ Hemisphere: deterministic and stochastic forces.
+ Ecography doi:10.1111/j.1600-0587.2011.07156.x.
+\end_layout
+
+\begin_layout Standard
+Liberg, O., G.
+ Chapron, P.
+ Wabakken, H.
+ C.
+ Pedersen, N.
+ T.
+ Hobbs, and H.
+ Sand.
+ 2012.
+ Shoot, shovel and shut up: cryptic poaching slows restoration of a large
+ carnivore in Europe.
+ Proceedings of the Royal Society B-Biological Sciences 279:910-915.
+ 
+\end_layout
+
+\begin_layout Standard
+Johnston, D.
+ B., D.
+ J.
+ Cooper, and N.
+ T.
+ Hobbs.
+ 2011.
+ Relationships between groundwater use, water table, and recovery of willow
+ on Yellowstone's northern range.
+ Ecosphere 2:art20.
+\end_layout
+
+\begin_layout Standard
+LaDeau, S.
+ L., G.
+ E.
+ Glass, N.
+ T.
+ Hobbs, A.
+ Latimer, and R.
+ S.
+ Ostfeld.
+ 2011.
+ Data-model fusion to better understand emerging pathogens and improve infectiou
+s disease forecasting.
+ Ecological Applications 21:1443-1460.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., and K.
+ Ogle.
+ 2011.
+ Introducing data-model assimilation to students of ecology.
+ Ecological Applications 21:1537-1545.
+\end_layout
+
+\begin_layout Standard
+Blackburn, H.
+ B., N.
+ T.
+ Hobbs, and J.
+ K.
+ Detling.
+ 2011.
+ Nonlinear responses to food availability shape effects of habitat fragmentation
+ on consumers.
+ Ecology 92:98-107.
+\end_layout
+
+\begin_layout Standard
+Wild, M.
+ A., N.
+ T.
+ Hobbs, M.
+ S.
+ Graham, and M.
+ W.
+ Miller.
+ 2011.
+ The role of predation in disease control: a comparison of selective and
+ nonselective removal on prion disease dynamics in deer.
+ Journal of Wildlife Diseases 47:78-93.
+\end_layout
+
+\begin_layout Standard
+Searle, K.
+ R., N.
+ T.
+ Hobbs, and S.
+ T.
+ Jaronski.
+ 2010.
+ Asynchrony, fragmentation, and scale determine benefits of landscape heterogene
+ity to mobile herbivores.
+ Oecologia 163:815-824.
+\end_layout
+
+\begin_layout Standard
+Ransom, J.
+ I., B.
+ S.
+ Cade, and N.
+ T.
+ Hobbs.
+ 2010.
+ Influences of immunocontraception on time budgets, social behavior, and
+ body condition in feral horses.
+ Applied Animal Behaviour Science 124:51-60.
+\end_layout
+
+\begin_layout Standard
+Ogutu, J.
+ O., H.
+ P.
+ Piepho, R.
+ S.
+ Reid, M.
+ E.
+ Rainy, R.
+ L.
+ Kruska, J.
+ S.
+ Worden, M.
+ Nyabenge, and N.
+ T.
+ Hobbs.
+ 2010.
+ Large herbivore responses to water and settlements in savannas.
+ Ecological Monographs 80:241-266.
+\end_layout
+
+\begin_layout Standard
+Krumm, C.
+ E., M.
+ M.
+ Conner, N.
+ T.
+ Hobbs, D.
+ O.
+ Hunter, and M.
+ W.
+ Miller.
+ 2010.
+ Mountain lions prey selectively on prion-infected mule deer.
+ Biology Letters 6:209-211.
+\end_layout
+
+\begin_layout Standard
+Dulberger, J., N.
+ T.
+ Hobbs, H.
+ M.
+ Swanson, C.
+ J.
+ Bishop, and M.
+ W.
+ Miller.
+ 2010.
+ Estimating chronic wasting disease effects on mule deer recruitment and
+ population growth.
+ Journal of Wildlife Diseases 46:1086-1095.
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M., N.
+ T.
+ Hobbs, S.
+ Twombly, R.
+ Boone, A.
+ Illius, I.
+ Gordon, and J.
+ Gross.
+ 2009.
+ Density dependence in northern ungulates: interactions with predation and
+ resources.
+ Population Ecology 51:123-132.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., K.
+ A.
+ Galvin, C.
+ J.
+ Stokes, J.
+ M.
+ Lackett, A.
+ J.
+ Ash, R.
+ B.
+ Boone, R.
+ S.
+ Reid, and P.
+ K.
+ Thornton.
+ 2008.
+ Fragmentation of rangelands: Implications for humans, animals, and landscapes.
+ Global Environmental Change-Human and Policy Dimensions 18:776-785.
+\end_layout
+
+\begin_layout Standard
+Bilyeu, D.
+ M., D.
+ J.
+ Cooper, and N.
+ T.
+ Hobbs.
+ 2008.
+ Water tables constrain height recovery of willow on Yellowstone's northern
+ range.
+ Ecological Applications 18:80-92.
+\end_layout
+
+\begin_layout Standard
+Bradford, J.
+ B.
+ and N.
+ T.
+ Hobbs.
+ 2008.
+ Regulating overabundant ungulate populations: An example for elk in Rocky
+ Mountain National Park, Colorado.
+ Journal of Environmental Management 86:520-528.
+\end_layout
+
+\begin_layout Standard
+Wolf, E.
+ C., D.
+ J.
+ Cooper, and N.
+ T.
+ Hobbs.
+ 2007.
+ Hydrologic regime and herbivory stabilize an alternative state in Yellowstone
+ National Park.
+ Ecological Applications 17:1572-1587.
+\end_layout
+
+\begin_layout Standard
+Twombly, S., G.
+ M.
+ Wang, and N.
+ T.
+ Hobbs.
+ 2007.
+ Composite forces shape population dynamics of copepod crustaceans.
+ Ecology 88:658-670.
+\end_layout
+
+\begin_layout Standard
+Searle, K.
+ R., N.
+ T.
+ Hobbs, and I.
+ J.
+ Gordon.
+ 2007.
+ It's the "foodscape", not the landscape: Using foraging behavior to make
+ functional assessments of landscape condition.
+ Israel Journal of Ecology & Evolution 53:297-316.
+\end_layout
+
+\begin_layout Standard
+Manier, D.
+ J.
+ and N.
+ T.
+ Hobbs.
+ 2007.
+ Large herbivores in sagebrush steppe ecosystems: livestock and wild ungulates
+ influence structure and function.
+ Oecologia 152:739-750.
+\end_layout
+
+\begin_layout Standard
+Johnston, D.
+ B., D.
+ J.
+ Cooper, and N.
+ T.
+ Hobbs.
+ 2007.
+ Elk browsing increases aboveground growth of water-stressed willows by
+ modifying plant architecture.
+ Oecologia 154:467-478.
+\end_layout
+
+\begin_layout Standard
+Bilyeu, D.
+ M., D.
+ J.
+ Cooper, and N.
+ T.
+ Hobbs.
+ 2007.
+ Assessing impacts of large herbivores on shrubs: tests of scaling factors
+ for utilization rates from shoot-level measurements.
+ Journal of Applied Ecology 44:168-175.
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M., N.
+ T.
+ Hobbs, R.
+ B.
+ Boone, A.
+ W.
+ Illius, I.
+ J.
+ Gordon, J.
+ E.
+ Gross, and K.
+ L.
+ Hamlin.
+ 2006.
+ Spatial and temporal variability modify density dependence in populations
+ of large herbivores.
+ Ecology 87:95-102.
+\end_layout
+
+\begin_layout Standard
+Searle, K.
+ R., T.
+ Vandervelde, N.
+ T.
+ Hobbs, L.
+ A.
+ Shipley, and B.
+ A.
+ Wunder.
+ 2006.
+ Spatial context influences patch residence time in foraging hierarchies.
+ Oecologia 148:710-719.
+\end_layout
+
+\begin_layout Standard
+Searle, K.
+ R., N.
+ T.
+ Hobbs, B.
+ A.
+ Wunder, and L.
+ A.
+ Shipley.
+ 2006.
+ Preference in patchy landscapes: the influence of scale-specific intake
+ rates and variance in reward.
+ Behavioral Ecology 17:315-323.
+\end_layout
+
+\begin_layout Standard
+Miller, M.
+ W., N.
+ T.
+ Hobbs, and S.
+ J.
+ Tavener.
+ 2006.
+ Dynamics of prion disease transmission in mule deer.
+ Ecological Applications 16:2208-2214.
+\end_layout
+
+\begin_layout Standard
+Manier, D.
+ J.
+ and N.
+ T.
+ Hobbs.
+ 2006.
+ Large herbivores influence the composition and diversity of shrub-steppe
+ communities in the Rocky Mountains, USA.
+ Oecologia 146:641-651.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T.
+ and R.
+ Hilborn.
+ 2006.
+ Alternatives to statistical hypothesis testing in ecology: A guide to self
+ teaching.
+ Ecological Applications 16:5-19.
+\end_layout
+
+\begin_layout Standard
+Hall, S.
+ A., I.
+ C.
+ Burke, and N.
+ T.
+ Hobbs.
+ 2006.
+ Litter and dead wood dynamics in ponderosa pine forests along a 160-year
+ chronosequence.
+ Ecological Applications 16:2344-2355.
+\end_layout
+
+\begin_layout Standard
+Farnsworth, M.
+ L., J.
+ A.
+ Hoeting, N.
+ T.
+ Hobbs, and M.
+ W.
+ Miller.
+ 2006.
+ Linking chronic wasting disease to mule deer movement scales: A hierarchical
+ Bayesian approach.
+ Ecological Applications 16:1026-1036.
+\end_layout
+
+\begin_layout Standard
+Cooper, D.
+ J., J.
+ Dickens, N.
+ T.
+ Hobbs, L.
+ Christensen, and L.
+ Landrum.
+ 2006.
+ Hydrologic, geomorphic and climatic processes controlling willow establishment
+ in a montane ecosystem.
+ Hydrological Processes 20:1845-1864.
+\end_layout
+
+\begin_layout Standard
+Theobald, D.
+ M., T.
+ Spies, J.
+ Kline, B.
+ Maxwell, N.
+ T.
+ Hobbs, and V.
+ H.
+ Dale.
+ 2005.
+ Ecological support for rural land-use planning.
+ Ecological Applications 15:1906-1914.
+\end_layout
+
+\begin_layout Standard
+Searle, K.
+ R., T.
+ Vandervelde, N.
+ T.
+ Hobbs, and L.
+ A.
+ Shipley.
+ 2005.
+ Gain functions for large herbivores: tests of alternative models.
+ Journal of Animal Ecology 74:181-189.
+\end_layout
+
+\begin_layout Standard
+Searle, K.
+ R., N.
+ T.
+ Hobbs, and L.
+ A.
+ Shipley.
+ 2005.
+ Should I stay or should I go? Patch departure decisions by herbivores at
+ multiple scales.
+ Oikos 111:417-424.
+\end_layout
+
+\begin_layout Standard
+Manier, D.
+ J., N.
+ T.
+ Hobbs, D.
+ M.
+ Theobald, R.
+ M.
+ Reich, M.
+ A.
+ Kalkhan, and M.
+ R.
+ Campbell.
+ 2005.
+ Canopy dynamics and human caused disturbance on a semi-arid landscape in
+ the Rocky Mountains, USA.
+ Landscape Ecology 20:1-17.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T.
+ and K.
+ R.
+ Searle.
+ 2005.
+ A reanalysis of the body mass scaling of trampling by large herbivores.
+ Oecologia 145:462-464.
+\end_layout
+
+\begin_layout Standard
+Farnsworth, M.
+ L., L.
+ L.
+ Wolfe, N.
+ T.
+ Hobbs, K.
+ P.
+ Burnham, E.
+ S.
+ Williams, D.
+ M.
+ Theobald, M.
+ M.
+ Conner, and M.
+ W.
+ Miller.
+ 2005.
+ Human land use influences chronic wasting disease prevalence in mule deer.
+ Ecological Applications 15:119-126.
+\end_layout
+
+\begin_layout Standard
+Miller, M.
+ W., E.
+ S.
+ Williams, N.
+ T.
+ Hobbs, and L.
+ L.
+ Wolfe.
+ 2004.
+ Environmental sources of prion transmission in mule deer.
+ Emerging Infectious Diseases 10:1003-1006.
+\end_layout
+
+\begin_layout Standard
+Miller, J.
+ R., J.
+ A.
+ Wiens, N.
+ T.
+ Hobbs, and D.
+ M.
+ Theobald.
+ 2003.
+ Effects of human settlement on bird communities in lowland riparian areas
+ of Colorado (USA).
+ Ecological Applications 13:1041-1059.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., J.
+ E.
+ Gross, L.
+ A.
+ Shipley, D.
+ E.
+ Spalinger, and B.
+ A.
+ Wunder.
+ 2003.
+ Herbivore functional response in heterogeneous environments: A contest
+ among models.
+ Ecology 84:666-681.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T.
+ 2003.
+ Challenges and opportunities in integrating ecological knowledge across
+ scales.
+ Forest Ecology and Management 181:223-238.
+\end_layout
+
+\begin_layout Standard
+Wolfe, L.
+ L., M.
+ M.
+ Conner, T.
+ H.
+ Baker, V.
+ J.
+ Dreitz, K.
+ P.
+ Burnham, E.
+ S.
+ Williams, N.
+ T.
+ Hobbs, and M.
+ W.
+ Miller.
+ 2002.
+ Evaluation of antemortem sampling to estimate chronic wasting disease prevalenc
+e in free-ranging mule deer.
+ Journal of Wildlife Management 66:564-573.
+\end_layout
+
+\begin_layout Standard
+Weisberg, P.
+ J., N.
+ T.
+ Hobbs, J.
+ E.
+ Ellis, and M.
+ B.
+ Coughenour.
+ 2002.
+ An ecosystem approach to population management of ungulates.
+ Journal of Environmental Management 65:181-197.
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M., N.
+ T.
+ Hobbs, F.
+ J.
+ Singer, D.
+ S.
+ Ojima, and B.
+ C.
+ Lubow.
+ 2002.
+ Impacts of climate changes on elk population dynamics in Rocky Mountain
+ National Park, Colorado, USA.
+ Climatic Change 54:205-223.
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M., N.
+ T.
+ Hobbs, K.
+ M.
+ Giesen, H.
+ Galbraith, D.
+ S.
+ Ojima, and C.
+ E.
+ Braun.
+ 2002.
+ Relationships between climate and population dynamics of white-tailed ptarmigan
+ 
+\emph on
+Lagopus leucurus
+\emph default
+ in Rocky Mountain National Park, Colorado, USA.
+ Climate Research 23:81-87.
+\end_layout
+
+\begin_layout Standard
+Wang, G.
+ M., N.
+ T.
+ Hobbs, H.
+ Galbraith, and K.
+ M.
+ Giesen.
+ 2002.
+ Signatures of large-scale and local climates on the demography of white-tailed
+ ptarmigan in Rocky Mountain National Park, Colorado, USA.
+ International Journal of Biometeorology 46:197-201.
+\end_layout
+
+\begin_layout Standard
+Theobald, D.
+ M., and N.
+ T.
+ Hobbs.
+ 2002.
+ A framework for evaluating land use planning alternatives: Protecting biodivers
+ity on private land.
+ Conservation Ecology 6.
+\end_layout
+
+\begin_layout Standard
+Theobald, D.
+ M., N.
+ T.
+ Hobbs, T.
+ Bearly, J.
+ A.
+ Zack, T.
+ Shenk, and W.
+ E.
+ Riebsame.
+ 2000.
+ Incorporating biological information in local land-use decision making:
+ designing a system for conservation planning.
+ Landscape Ecology 15:35-45.
+\end_layout
+
+\begin_layout Standard
+Miller, J.
+ R., and N.
+ T.
+ Hobbs.
+ 2000.
+ Recreational trails, human activity, and nest predation in lowland riparian
+ areas.
+ Landscape and Urban Planning 50:227-236.
+\end_layout
+
+\begin_layout Standard
+Hobbs, N.
+ T., D.
+ C.
+ Bowden, and D.
+ L.
+ Baker.
+ 2000.
+ Effects of fertility control on populations of ungulates: General, stage-struct
+ured models.
+ Journal of Wildlife Management 64:473-491.
+\end_layout
+
+\begin_layout Standard
+Dale, V.
+ H., S.
+ Brown, R.
+ A.
+ Haeuber, N.
+ T.
+ Hobbs, N.
+ Huntly, R.
+ J.
+ Naiman, W.
+ E.
+ Riebsame, M.
+ G.
+ Turner, and T.
+ J.
+ Valone.
+ 2000.
+ Ecological principles and guidelines for managing the use of land.
+ Ecological Applications 10:639-670.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{hangparas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Impact
+\end_layout
+
+\begin_layout Standard
+Career citations: 4032 as of December 2013
+\end_layout
+
+\begin_layout Standard
+Ten papers with > 100 citations
+\end_layout
+
+\begin_layout Standard
+h-index: 36
+\end_layout
+
+\end_body
+\end_document

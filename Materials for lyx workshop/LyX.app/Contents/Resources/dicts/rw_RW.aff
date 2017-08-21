@@ -1,0 +1,21 @@
+# For help, email rwanda@kasahorow.org
+# This is in the public domain--do good with it.
+SET UTF-8 
+TRY aiuenorbkmygwthszd'cIAjKUvfNMplBGYRPTHSDWCOZELV-JF
+LANG rw
+
+KEY qwertyuiop|asdfghjkl|zxcvbnm        #QWERTY keyboard assumption
+
+IGNORE -                                #Ignore hyphens in hyphenated words
+
+PFX 81 N 10                             #Noun Class affixes (preprefix+prefix)
+PFX 81   0       umu    . 
+PFX 81   0       aba    .
+PFX 81   0       imi    .
+PFX 81   0       in     .
+PFX 81   0       igi    .
+PFX 81   0       ibi    .
+PFX 81   0       uku    .
+PFX 81   0       ama    .
+PFX 81   0       aka    .
+PFX 81   0       utu    .

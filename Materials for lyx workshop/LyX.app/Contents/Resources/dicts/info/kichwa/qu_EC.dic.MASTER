@@ -1,0 +1,788 @@
+# ----------------------------------------------------------------------------------
+#
+#    Shukllachiska Kichwa del Ecuador, hunspell format dictionary source file
+#    Copyright (C) 2009 Arno Teigseth, Henry David Lara
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program. See LICENSE.txt. If not, see <http://www.gnu.org/licenses/>.
+#
+#    The author(s) can be contacted at arno at teigseth dot no
+#
+# ----------------------------------------------------------------------------------
+# 
+# This is *NOT* the .dic file, but a master file to generate such a file.
+# Run the generateQUdicfile.sh script to create qu_EC.dic by the following rules:
+# 
+# 1) ingore all hashes and what follows them, and all blank lines
+# 2) Copy verbatim all lines not ending with v
+# 3) For lines ending with v, create entries by the following flag rules:
+#
+#  r = ri, reflexive
+#  > = kri, going to ~
+#  + = ra, repeatedly ~
+#  - = ku, gerund 
+#  , = mu, after that ~
+#  w = wa, ~ for me
+#  h = chi, make ~
+#
+# 4) sort alphabetically
+# 5) count the lines and insert the count on the top of the file
+#
+#
+
+
+# -----File starts here-----
+abogado// # lawyer
+achka// # a lot
+Adán/
+Adan//x
+adorak//
+adorana//r>+-,whv  #test
+adoray//
+agradicina//r>+-,whv  #thank
+aklla//
+akllana//r>+-,whv
+alhaja//
+alli//
+allina//hv   #	 allichina
+alliku//
+allpa//
+alma//
+ama//
+amigo//
+Amós/
+Amos//x
+anaku//
+anchuchina//r>,wv # remove, 
+anciano//
+angel//
+animal//
+antawan//
+apana//r>+-,whv
+apéndice/
+apendice//x
+Apocalipsis//
+apóstol/
+apostol//x
+apu//   # boss
+Apunchik// # God
+apushka//
+árabe/
+arabe//x # arab
+ari//
+Armagedón/
+Armagedon//x
+armana//r>+-,whv   # wash [a baby]
+asha//
+ashaku//
+ashtawan//   # more
+#ashtawankarin// # even more, in addition
+Asia//
+asina//r>+-,whv   # laugh
+asterisco//   # asterisk *
+auka// # enemy
+aya//
+aychata//
+ayllu//
+ayudana//r>+-,whv
+ayuda//  # help
+azua// # chicha, juice
+Babilonia//  # Babylon
+babilonio// # babylonian
+bautizarina//r>+-,whv
+bayeta//     # chalina
+bendicion//
+biblia//
+bomba//
+brujería//
+bruju//
+brujuna//r>+-,whv
+caballo//
+cachu//
+cada// # every
+caja//
+cambiana//r>+-,whv # change
+capítulo/
+capitulo//x
+carpa// # tent
+carro//
+carta//   # letter
+cerveza//
+chaki//      # foot
+chakina//r>+-,whv # walk (?) bh 23 §13
+chakruna//r>+-,whv
+chamuy//    # tasteless
+chapana//r>+-,whv # tent, acampar, beleire
+chapuna//r>+-,whv
+chari/->            # maybe suffix. shamunichari = I'm maybe coming
+charina//r>+-,whv
+chashna//
+chaski//       #dry
+chaskina//r>+-,whv
+chawpi//
+chay//
+chayana//r>+-,whv # 
+chayachina//r>+-,whv
+chaylla//
+chayrak//
+chayshuk//
+chichi//     # goblin, de man aguero
+chik/->
+chikan//
+Chimborazo//
+chimpana//r>+-,whv       # pass, transmit(, front, counter)?
+chimpapuna//r>+-,whv       # ( front, counter)?
+chinkachina//r>+-,whv
+chinkana//r>+-,whv
+chiri//            # cold
+chiru//
+chivo//           # goat
+chu/->            # not
+chucha/!          # cunt, slut
+chuchaki//        # drunk
+chukana//         # choke
+chuki//
+chukrina//r>+-,whv
+chulunlla//
+chunchi//
+chunka//
+churana//r>+-,whv
+churi//
+chusku//   # four
+Ciro// # Cyrus
+cocha//       # lake, spanish spelling. See kucha
+colosenses//
+congregación/
+congregacion//x
+consejo//
+contribución/
+contribucion//x
+convidana//r>+-,whv  # invitar
+contestana//r>+-,whv  # respond
+corintios//
+corral// # herd
+cosa//
+costumbre//
+Cristo//
+Crónicas/
+Cronicas//x
+crónicas/
+cronicas//x
+cruz//
+cuadro//
+cuerpo//
+cuidana////r>+-,whv  # protect
+culebra//
+cumpleaño//
+cura//
+Daniel//
+demonio//
+Deuteronomio//
+diablo//
+diciembre//
+dios//
+Dios//
+direccion//
+discurso// # talk
+divorciana//r>+-,whv
+doctor// # doctor
+droga//
+eclesiastés//
+Edén/
+Eden//x
+ejemplo//  # example
+enero// #january
+escuela//
+estrella// # star
+efesios//
+escribina//r>+-,whv
+espada//
+español// # spanish
+espíritu//
+espiritu//x
+estados//
+Eva//
+Éxodo/
+Exodo//x
+Ezequiel//
+familia//
+fe//
+fichana//
+fiesta// # party
+Filipenses//
+filo// # sharp
+folleto//
+fruta//
+Gálatas/
+Galatas//x
+Génesis/
+Genesis//x
+gente//  # people
+gobernacion//
+gobierno//
+grano//
+griego//
+guerra//
+Habacuc//
+Hebreos//
+Hechos//
+historia// # story
+hoja//
+Holocausto//
+hora//
+illana//r>+-,whv  # miss
+ima//
+imamanta//
+imashina//
+imashinashi//
+imashna//
+incienso//
+informacion//
+inti//       # sol
+intindina//r>+-,whv
+Isaías/
+Isaias//x
+ishkanti// # both
+ishkay//
+irki//     # thin
+ishpana//r>+-,whv
+israelita// # israelite
+jampina//r>+-,whv
+jampi//
+japina//r>+-,whv
+jarkak//
+jarkana//r>+-,whv
+jatun//
+jatunyana//hv # 
+jawa//
+jawalla//
+jayka// 
+Jehová/
+Jehova//x
+Jesucristo//
+Jesús/
+Jesus//x
+jichuna//r>+-,whv
+Job//
+joven// # young 
+Juan//
+jucha//
+juchana//r>+-,whv  # sinning
+juez//
+junta// 
+juntana//r>+-,whv  #
+justo//
+kachana//r>+-,whv #
+ka/->
+kacha//  # ?
+kachi//     # salt
+kak//
+kallarina//r>+-,whv # begin
+kallari//
+kallpaykunata
+kalpana//r>+-,whv
+kama/->           # until, up to
+kamana//r>+-,whv  #
+kamari//
+kana//r>+-,whv
+kancha//
+kanchis//
+kari//
+karikuri//
+karin/->   # in addition, also, even ~
+kariyana//r>+-,whv # engrandecer
+karu//
+karuyana//r>+-,whv
+karuyay//
+kasana//r>+-,whv
+kasarak//
+kasaray//
+kasha//
+kashna//
+kashnapacha//  # here on earth
+kasilla//    # take it easy
+kasiyana//r>+-,whv
+kaspi//
+kasuna//r>+-,whv
+kati/->      # continuation suffix: tapuykati = the following question
+katik//
+katina//r>+-,whv
+kauchuna//r>+-,whv   # twist (a cord)
+kaupuna//r>+-,whv
+kawsana//r>+-,whv
+kay//
+kayana//r>+-,whv
+kichki//           #pocos?
+killa//   # lazy[ness], month
+killanaya//r>+-,whv  # [que da pereza]
+killka//     # document
+killkana//r>+-,whv  #write
+kilómetro/
+kilometro//x # kilometer
+kimina//r>+-,whv # approach
+kimsa//
+kincha//
+kipa//
+kishpichina//r>+-,whv  # forgive
+kishpirina//r>+-,whv   # save
+kiwa//
+koya//
+krina//r>+-,whv
+kucha//       # lake [my 110]
+kuchi//   # dirty, pig
+kuchu//
+kuchuna//r>+-,whv
+kukuyu// 
+kullki//
+kumurina//r>+-,whv
+kuna//r>+-,whv        # give verb
+kuna/->               # plural suffix
+kunkana//r>+-,whv  # forget
+kunana//r>+-,whv  # give
+kunanka//    #now
+kunchishka//        # inflated
+kunka//
+kunkuna//r>+-,whv   # inflate 
+kuno//
+kunuk//
+kunuy//
+kupa//
+kuro//
+kusa//
+kusana//r>+-,whv
+kushi//
+kushina//r>+-,whv # alegrar
+kusi//  # agile
+kushichina//r>+-,wv
+kushikuy//
+kushillu//
+kutin//
+kutina//r>+-,wv
+kuyana//r>+-,whv
+kuyaylla//
+kuychik  #  rainbow
+kuytsa//      # young woman
+lado//
+lanza//
+laya// # kind
+Levítico/
+Levitico//x
+ley//
+libro//
+límpio/
+limpio//x  # clean
+liyina//r>+-,whv
+lla//->
+llaki//
+llakina//r>+-,whv
+llakik//
+llakinayta//
+llakta//
+llankana//r>+-,whv   # work
+lluchu//
+llukchi//
+lluki//
+llukchina//r>+-,whv
+llukshi//
+llukshina//r>+-,whv
+llullana//r>+-,whv  # lie (liar)
+lotería/
+lotería//x
+Lucas//
+machana//r>+-,whv
+makana//r>+-,whv
+maki//
+Malaquías/
+Malaquias//x
+mama//
+mana//
+manachu//
+mañana//r>+-,whv
+man/->
+manchana//r>+-,whv # to fear
+manchanay//        # ?
+mandana//r>+-,whv
+manta/->
+mapa//
+mapayana//r>+-,whv
+Marcos//
+María/
+Maria//x
+markataita//   # godfather
+Marzo//
+mashi//
+mashna//
+maskana//r>+-,whv
+Mateo//
+may//
+maykan//  # where
+mayllana//r>+-,whv 
+maypi//
+menos//  #less
+Mesías/
+Mesias//x
+mi/->
+michik//
+mikuna//         # food
+mikuna//r>+-,whv # eat
+milagro//
+millana//r>+-,whv #hate
+mincha//
+ministerial//
+ministerio//
+ministina//r>+-,whv
+minkana//r>+-,whv
+minuto// #minute
+Miqueas//
+mirana//r>+-,whv # increment
+misa//
+mishu//    # mestizo/mulatto [indian+european]
+mitsa// # tacaño
+Moisés/
+Moises//x
+morado// # the color morado
+muchana//r>+-,whv   # kiss
+muku// # knuckle
+munana//r>+-,whv  # want
+mushuk//
+mushukyana//r>+-,whv  # renew, transform bh 26 §19
+muskuna//r>+-,whv  # dream
+muyuna//r>+-,whv  # to limit [muyurina=protect? bh 23 §15]
+muyuntin// # perimeter 
+na//
+ña//
+nalli//
+ñaña//
+nanarina//r>+-,whv  # suffer
+nanana//r>+-,whv    # hurt
+ñan//
+napacha// #never?
+ñapash//  #immediately
+navidad//
+ñawi//  # face, eye
+ñawpa// # in front, adelante
+ñawsa// # blind
+nina//r>+-,whv    # say
+ninan// # ? something in revelation 4:11
+#nina//            # fire
+nta/->   # from ~ to ~: wasinta wasinta
+nti/->   # from ~ to ~: punchanti punchanti
+nueva//
+ñuka//
+ñukanchik//
+número/
+numero//x
+Números/ # Numbers bible book
+Numeros//x 
+octubre//
+oratoria// # art of speaking
+oveja//
+pa/->
+pacha//->   # land, time, and also intensifier: allipacha
+padrenuestro//
+pagana//r>+-,whv
+página/
+pagina//x     # page
+pájaro/
+pajaro//x
+pak/->
+pakalla//   # approx. "when hidden"
+pakana//r>+-,whv
+paktana//r>+-,whv
+pallana//r>+-,whv  #
+pampa//
+pampana//r>+-,whv
+pani//
+pantana//r>+-,whv   # err, fail
+panteón/
+panteon//x
+paraíso/
+paraiso//x
+parlana//r>+-,whv
+página/
+pagina//x
+pagui// # thanks
+párrafo/
+parrafo//x
+parte// 
+pash/->
+pashi//  # pagi? thank you
+paskana//r>+-,whv
+pasta//   # 
+pastor//
+pata//
+patsak// # a hundred
+pawana//r>+-,whv   # climb, fly
+pay//
+Pedro//
+película/
+pelicula//x
+perdonana//r>+-,whv   # forgive
+Persia// #  
+pescado//
+pescador// # fisherman
+pi/->
+pi// # who
+pichana//r>+-,whv  # dry (tears)
+pichka//       #five
+pikichaki//   # lame, patojo, cojo
+pinkana//r>+-,whv # ashame
+piñana//r>+-,whv  # getting angry
+piñanakuy//
+pirka// # wall
+pish/->
+pobre// # poor
+poder//
+política/
+politica//x
+político/
+politico//x
+preparana//r>+-,whv  # prepare
+presidente//
+primer//  # first
+primero// # first
+procesíon/
+procesion//x
+profecía/
+profecia//x
+profeta// # prophet
+programa//
+Proverbios//
+publicación/
+publicacion//x
+pudina//r>+-,whv
+pueblo//
+puka//
+pukllana//r>+-,whv
+pukuna//r>+-,whv # produce
+puncha//   # day
+punku// # door
+punta//   # first
+punto//   # point
+puñuna//r>+-,whv # sleep
+pura/->     # among suffix. wawkikunapura = among brothers
+purina//r>+-,whv
+puro//
+pushana//r>+-,whv
+pushtu//  # part, piece
+puyana//r>+-,whv #
+Quichua//
+radio//
+rak/->    # First ~   ñukarak = me first
+raku//  # thick
+rantina//r>+-,whv
+ranti// # instead of
+razo//  # ice, snow
+regalo// # gift
+reino//
+reja//  # [plow]share
+religión/
+religion//x
+respetana//r>+-,whv
+respeto//
+Revelación/
+Revelacion//x
+revista//
+rey//    #king
+richana//r>+-,whv # resemble
+rikchana//r>+-,whv # despertar
+rikchakana//r>+-,whv # imagine
+riksina//r>+-,whv # to know
+riksi// # known (adj ?)
+rikuna//r>+-,whv  # to see
+rikunayana//r>+-,whv  # ?
+rimana//r>+-,whv  # to talk
+rina//r>+-,whv    # to go
+Romanos//
+ropa//
+ruku//
+rukuyana//r>+-,whv  # age (verb) 
+runa//
+rupa//           # heat
+rupana//r>+-,whv # to heat
+rurana//r>+-,whv # to do
+sacerdote//
+safra//
+sakina//r>+-,whv  # leave
+sala// # room, living room
+Salmo//
+Salmos//
+samana//r>+-,whv   #
+Samuel//
+santa//
+Santiago//
+santo//
+sapa//
+Satanás/
+Satanas//x
+secretaria// # secretary
+segunda// # second (2nd, female, from spanish)
+segundo// # second (time measurement)
+semana//r>+-,whv
+semana//
+shamuna//r>+-,whv  # come
+shayana//r>+-,whv  # leave, stop, 
+shaykushka//       # tired
+shillu//
+shimi//
+shina//r>+-,whv
+shna/->   # = shina, like
+shina//
+shitana//r>+-,whv  # throw away
+shuk// 
+shunku//
+shuti//
+shutichina//r>+-,wv  # to name
+shuwana//r>+-,whv   # steal
+shuyana//r>+-,whv   # wait, hope
+siervo//
+sikana//r>+-,whv     # ascend
+sinchi// # fuerza, strong
+sinchiyarina//r>+-,whv   # make stronger
+sipi//       # a strangling
+sirina//r>+-,whv   # lie down, go to bed
+sirvina//r>+-,whv # serve
+sisa//        # garden
+soberano//
+sociedad//
+Sofonías/
+Sofonias//x
+soldado//
+suchu//     # cojo
+sucursal//
+sukta//
+sumak//
+supi//    #fart, flautulence
+ta/->  # acusative particle
+tak/->
+takana//r>+-,whv #
+takllana//r>+-,whv #
+tabaco//
+taki// # song, singing
+takina//r>+-,whv   # sing
+tamiya// # the rain
+tamiyana//r>+-,whv   # to rain
+tantanakuna//r>+-,whv   # meet
+tapuna//r>+-,whv   # to ask
+tarina//r>+-,whv   # to find
+tari//  # an encounter
+tarpuna//r>+-,whv # cultivate
+taru//  # ciervo
+tawka//
+tayta//
+taytamamakuna// # parents
+televisión/
+television//x
+tema//
+teocrático/    # theocratic
+teocratico//x  
+territorio// # territory
+terrorista// # terrorist
+Tesalonicenses//
+Testamento// # Testament
+tiana//    # bosted, bopæl
+tiempo// # time
+tikrana//r>+-,whv   # to return
+Timoteo//
+Tito//
+tiyana//r>+-,whv  # to exist
+trabajana//r>+-,whv
+trabajo// # work
+trampa//
+tratana//r>+-,whv # treat
+trinidad//
+tukuchi// # finish, finished
+tukuna//r>+-,whv # to become
+tukyana//r>+-,whv # reventar, explotar
+tuta// #evening
+tzala//
+ucha//  # utka fast
+uchilla// # little, small
+uchu//
+uki//
+ukllana//r>+-,whv  #
+uku// # inside
+uma// # head
+umachikun # engañando
+unay// #duration
+unkuna//r>+-,whv # fall sick
+upiyana//r>+-,whv # drink
+urachaki//        # in the bottom
+uray//            # below, low[er]
+uraychaki//       # below, low[er]
+uriyana//r>+-,whv #
+urka//            # rock
+urku//            # mountain
+urmana//r>+-,whv  # fall
+ushana//r>+-,whv  # know, be able 
+utka//            # fast
+uyana//r>+-,whv   # hear
+valina//r>+-,whv  # to value
+verso//
+vino//
+violana//r>+-,whv # violate
+viru//
+visitana//r>+-,whv # visit
+wachana//r>+-,whv # being born
+wakana//r>+-,whv  # cry
+wakin//       # some
+#wakinpikarin// # sometimes
+waklli//      # damage
+wakllina//    # to damage
+wakra//       # cow
+waktana//r>+-,whv  # hit
+wampra//      # young man 
+wan/->        # with
+wanlla//
+wano//      # manure
+wañuna//r>+-,whv
+waranka// # 1000
+warkuna//r>+-,whv   # hang
+warmi//   # woman
+washa// # down(?)
+wasi//  # house
+wata//  # year
+wawa//  # kid
+wawayashka//
+wawki// # brother of brother
+waynayana//r>+-,whv  # fornicate
+wayra// # wind
+wichana//r>+-,whv  # ascend
+wiki//  # tear
+wiksa// # stomach
+willana//r>+-,whv  # ascend
+wira//  #fat
+wiñana//r>+-,whv  # grow
+yachana//r>+-,whv # know
+#yakpi/-> # inside, in (?) Tuta|yakpika inti= stars?
+yak/->  # being in - 
+yaka//     #almost
+yaku//            # water
+yalli//           # more
+yallina//r>+-,whv  # exceed, exceder, overgå
+yana//            # black
+yanka//        #
+yankana//r>+-,whv # avoid, leave
+yapata//          # too much, demás
+yanuna//r>+-,whv  # to cook
+yapuna//r>+-,whv  # to plow [arar]
+yarina//r>+-,whv # to feel
+yarikay//        # famine
+yawar//          # blood
+yaykuna//r>+-,whv  # enter
+yuk/->   # owner of: wasiyuk = landlord, house owner
+yupaichani//     # thanks
+yurak//   # white
+yura//    # tree, plant
+yuyana//r>+-,whv   #think
+
