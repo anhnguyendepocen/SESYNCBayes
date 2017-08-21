@@ -1,3 +1,6 @@
+**/*.lock
+**/*.tmp
+**/*.log
 **/*.lyx~
 **/*.lyx#
 **/.DS_Store
