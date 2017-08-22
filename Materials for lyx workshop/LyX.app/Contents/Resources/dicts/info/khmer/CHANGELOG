@@ -1,0 +1,4 @@
+Decided to ignore the character ៗ so that it will no longer cause words to be misspelled, also added more dates and proper Khmer names - 1.3
+Corrected the spelling of the dictionary - 1.2
+Added support for Khmer numbers as well as the allowance for adding ទី as an allowed prefix before all numbers - 1.1
+No changes - 1.0 is the first version

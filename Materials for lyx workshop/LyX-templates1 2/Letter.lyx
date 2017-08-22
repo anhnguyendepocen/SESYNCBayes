@@ -1,0 +1,413 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass letter
+\begin_preamble
+\usepackage{fancyheadings}
+%\pagestyle{fancy}
+%\lfoot{\footnotesize{\emph{tel} 907-491-5738}}
+%\cfoot{\footnotesize {\emph{email} Tom.Hobbs@Colostate.edu}}
+%\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 0
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout My Address
+\begin_inset Graphics
+	filename CSU letterhead.pdf
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Send To Address
+Robert Garrott
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline 
+\end_layout
+
+\end_inset
+
+Fish and Wildlife Management Program
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+ Department of Ecology
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+ Montana State University 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline 
+\end_layout
+
+\end_inset
+
+Bozeman, Montana
+\end_layout
+
+\begin_layout Signature
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-.05in}
+\end_layout
+
+\end_inset
+
+N.
+ Thompson Hobbs
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+
+\emph on
+Professor
+\end_layout
+
+\begin_layout Opening
+Dear Bob,
+\end_layout
+
+\begin_layout Standard
+I like writing letters to old friends on behalf of good students.
+ This is because I feel I am doing good service for both.
+ I also like writing these letters because there are some students who I
+ am only willing to send to people I trust and respect.
+ Ann is one of those students and you are one of those advisors.
+\end_layout
+
+\begin_layout Standard
+I have known Ann since since 2010 when David Cooper and I hired her for
+ a summer of field work in Yellowstone National Park.
+ She was supported by an NSF Research Experience for Undergraduates supplemental
+ award.
+ In January of 2012, I recruited her for a masters project in my lab, where
+ she now works.
+ Ann took my graduate class, 
+\begin_inset Quotes eld
+\end_inset
+
+Systems ecology: An introduction to ecological modeling.
+\begin_inset Quotes erd
+\end_inset
+
+ She was a teaching assistant in the class during 2013.
+ She also served as a teaching assistant in a two-week workshop on Bayesian
+ modeling for ecology faculty and practicing researchers sponsored by NSF.
+ I have done some backpacking with her.
+ I have had ample opportunity to evaluate her potential to succeed in graduate
+ school and to become a productive scientist.
+\end_layout
+
+\begin_layout Standard
+Ann helped design and conduct a study of the effects of willow height on
+ seed rain during her work with us in Yellowstone, an important piece of
+ the story of effects of the restoration of wolves on ecosystem processes.
+ I am pretty sure she is going to send you a draft of the manuscript we
+ are woking on as one of her writing samples, so you will be able to judge
+ the scientific value of the work from that.
+ Instead of talking about the research, I will tell you about my experience
+ with her.
+ Ann worked closely a graduate student (Kristin Marshall), and another undergrad
+uate.
+ Conditions were not easy.
+ She worked long hours for ten days at a stretch.
+ She shared a tiny house with one bathroom.
+ Ann was a tireless source of harmony.
+ She demonstrated clearly that she can work effectively in a team.
+ I am sure she will fit in well in your lab.
+ Your students will like her.
+\end_layout
+
+\begin_layout Standard
+Ann is now doing population modeling with me for her masters degree.
+ The challenge is to formulate an age-structured, discrete time model of
+ births and deaths in populations of white-tailed deer.
+ This is a fairly standard task.
+ What is not standard is assimilating that model with multiple sources of
+ data in a way that allows true forecasts -- predictions accompanied by
+ credible intervals.
+ She will use the model to evaluate a range of alternatives for controlling
+ growth of overabundant deer populations in national parks in the east.
+ Ann has worked exceedingly hard to learn the math, statistics, and programming
+ necessary to pull this off.
+ She is boundlessly enthusiastic about the work, which has motivated her
+ to take advanced classes in mathematical and statistical modeling, including
+ a graduate level statistics class (i.e., graduate level for 
+\emph on
+statistics
+\emph default
+ students) from Mevin Hooten.
+ She is now confidently writing her own Markov chain Monte Carlo samplers
+ (in bare knuckles R, not JAGS or WinBUGS), a task that I avoid because
+ it is tough and tricky.
+ I am confident that her research will enhance management of deer in national
+ parks, will be published in a good journal, and will be communicated to
+ citizens in the popular press.
+ 
+\end_layout
+
+\begin_layout Standard
+I want to talk for a moment about her classwork.
+ She has excelled in the three most difficult classes in the Graduate Degree
+ Program in Ecology, receiving the highest marks in all of them.
+ I understand that Ann's undergraduate transcript may not appear as impressive
+ as what you are seeing in other applications, solid perhaps, but not exemplary.
+ It is wise to remember that she was a math major, which in my view, is
+ usually the among the most challenging programs of study for an undergraduate.
+ In addition, St.
+ Olaf is a highly selective, rigorous college.
+ Getting a 
+\begin_inset Quotes eld
+\end_inset
+
+B
+\begin_inset Quotes erd
+\end_inset
+
+ at St.
+ Olaf is no doubt the same as getting an 
+\begin_inset Quotes eld
+\end_inset
+
+A+
+\begin_inset Quotes erd
+\end_inset
+
+ at many other schools.
+\end_layout
+
+\begin_layout Standard
+Ann is a gifted teacher with a genuine gift for communicating new skills
+ to others.
+ She received the very best evaluations when she served as a teaching assistant
+ in my class.
+ 
+\end_layout
+
+\begin_layout Standard
+You can be entirely confident that Ann can take care of herself in wild,
+ remote places.
+ She has guided month long trips in the Brooks Range and in the Wind Rivers.
+ She and her paddling partner were the first women to complete a classic
+ canoe route from southern Minnesota to Hudson Bay -- 2000+ miles I think,
+ 300 miles of which were 
+\emph on
+upstream
+\emph default
+.
+ Her shoulders show it.
+ She is tough, tenacious, steady, and backcountry smart -- not gear-catalog
+ smart, but deep-experience smart.
+\end_layout
+
+\begin_layout Standard
+Ok -- no letter is believable without some downsides.
+ Here they are.
+ When Ann joined me, I would say her writing skills were weak.
+ I remember a time when I was pretty critical of something she turned in
+ for class, bringing tears to her eyes, to my dismay.
+ However, Ann is not deterred by criticism.
+ She dug in, took my advice and worked hard to learn how to write clearly
+ and efficiently.
+ She has improved more rapidly than any student I have worked with save
+ one.
+ So, I am confident she will be a polished and smooth technical writer by
+ the time she finishes her Ph.D.
+ Embedded in this weakness is evidence of a great strength.
+ She will 
+\emph on
+listen
+\emph default
+ to you and do her damnedest to meet your expectations.
+ 
+\end_layout
+
+\begin_layout Standard
+The only other weakness I see is that she is very young and may lack the
+ experience of older applicants.
+ However, you have probably had the frustrating experience, as I have, of
+ working with older students who think they know it all.
+ They have the attitude that a PhD program is a hoop to jump through rather
+ than a unusual chance to learn and grow.
+ This will 
+\emph on
+not
+\emph default
+ be a problem with Ann.
+ She has made the most of her time at Colorado State.
+ She has shown the utmost respect for me throughout our interactions.
+ She is always eager to learn whatever I try to teach.
+ I am sure she would treat you the same way.
+ 
+\end_layout
+
+\begin_layout Standard
+Ann has the best of all motivations for a career in science--a deep, abiding
+ love for the natural world and a restless curiosity about how it works.
+ She has accomplished unusual feats in the wilderness, attesting to her
+ ability to set challenging goals and carry through.
+ I think she learned a lot about herself during those endeavors, the most
+ important lesson being what she wants to accomplish in life -- to discover
+ how ecological systems operate, communicate her discoveries to others,
+ and use those discoveries to make a difference in the future of the earth
+ and its wild places.
+ I predict that Ann Raiho would be one of your all-time, most outstanding
+ graduate students.
+ 
+\end_layout
+
+\begin_layout Standard
+Please feel free to give me a call if you would like chat about Ann.
+\end_layout
+
+\begin_layout Closing
+Esteem,
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-1.2 in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{2 in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Tom/Documents/Logos/hobbs-signature.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

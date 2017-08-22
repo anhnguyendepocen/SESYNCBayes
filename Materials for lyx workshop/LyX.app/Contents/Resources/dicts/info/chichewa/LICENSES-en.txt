@@ -1,0 +1,21 @@
+Hunspell dictionary for Chichewa
+================================
+
+Copyright 2010  Edmond C. Kachale <kachaleedmond@gmail.com>
+                
+The original word list used for this package was generated
+using Kevin Scannell's web crawling software "An Crúbadán" and 
+then hand-checked by Edmond C. Kachale and Soyapi Mumba.  
+See http://borel.slu.edu/crubadan/apps.html for more information.
+
+Contributors:
+=============
+
+* Soyapi Mumba      <soyapim@gmail.com>
+* Kevin P. Scannell <scannell@slu.edu>
+
+LICENSES:
+Spell checker: GPLv3+
+
+The full text of the GPL is available from the following addresses:
+http://www.gnu.org/copyleft/gpl.html

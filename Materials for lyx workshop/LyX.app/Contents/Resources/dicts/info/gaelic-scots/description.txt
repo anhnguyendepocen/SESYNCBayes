@@ -1,0 +1,13 @@
+New Myspell dictionary for Scottish Gaelic (gd)
+Produced by The European Language Initiative (TELI)
+on behalf of Bòrd na Gàidhlig.
+
+Packaged by Donald I Macdonald <donald_i@sealgar.co.uk>
+
+Portions of the package based on the earlier dictionary:
+
+Myspell dictionary for Scottish Gaelic (gd).
+
+Copyright 2000 Alastair McKinstry <mckinstry@computer.org>
+Copyright 2004 Kevin P. Scannell <scannell@slu.edu>
+

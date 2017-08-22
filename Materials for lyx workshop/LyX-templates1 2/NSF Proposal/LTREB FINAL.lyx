@@ -1,0 +1,3153 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%\makeatother
+%\usepackage{lineno,setspace}
+%\linenumbers
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+%\addtolength{\textfloatsep}{-20mm}
+%\doublespace
+\addtolength{\belowcaptionskip}{-3mm}
+\addtolength{\abovecaptionskip}{-3mm}
+
+
+
+
+\addtolength{\intextsep}{-3mm}
+
+
+%%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
+%\setlength{\textwidth}{6.5in}     %%                                   %%
+%\setlength{\oddsidemargin}{0in}   %% (It is recommended that you       %%
+%\setlength{\evensidemargin}{0in}  %%  not change these parameters,     %%
+%\setlength{\textheight}{9in}    %%  at the risk of having your       %%
+%\setlength{\topmargin}{0in}       %%  proposal dismissed on the basis  %%
+%\setlength{\headheight}{0in}      %%  of incorrect formatting!!!)      %%
+%\setlength{\headsep}{0in}         %%                                   %%
+%\setlength{\footskip}{.5in}       %%                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding latin9
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1 in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{0}
+\end_layout
+
+\end_inset
+
+LTREB: Understanding controls on state-transition on Yellowstone's northern
+ range 
+\end_layout
+
+\begin_layout Author
+N.
+ Thompson Hobbs
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Co-investigators are listed in alphabetical order.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Natural Resource Ecology Laboratory and Department of Ecosystem Science
+ and Sustainability, Colorado State University
+\end_layout
+
+\end_inset
+
+, David J.
+ Cooper
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Department of Forest Rangeland and Watershed Stewardship, Colorado State
+ University
+\end_layout
+
+\end_inset
+
+, Jennifer Hoeting
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Department of Statistics, Colorado State University
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Matthew J.
+ Kauffman
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+U.S.
+ Geological Survey, Wyoming Cooperative Fish and Wildlife Research Unit,
+ and the Dept of Zoology and Physiology, University of Wyoming
+\end_layout
+
+\end_inset
+
+, Roy Renkin
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Yellowstone National Park
+\end_layout
+
+\end_inset
+
+, Douglas Smith
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Yellowstone National Park
+\end_layout
+
+\end_inset
+
+, Goran
+\begin_inset space ~
+\end_inset
+
+Spöng
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Department of Ecology, Swedish Agricultural University
+\end_layout
+
+\end_inset
+
+ , 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ and Fred Watson
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Department of Science & Environmental.
+ Policy, California State University, Monterey Bay
+\end_layout
+
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series medium
+Draft of a proposal to be submitted for the July 2011 deadline, Long-Term
+ Research in Environmental Biology, National Science Foundation
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Intellectual Merit
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Understanding the feedbacks that create resilience in alternative states
+ of ecosystems forms a central challenge in contemporary ecology, providing
+ the conceptual basis for the practice of ecosystem restoration.
+ The reintroduction of the gray wolf (
+\emph on
+Canis lupus
+\series default
+)
+\series medium
+\emph default
+ to the landscapes of the northern range of Yellowstone National Park offers
+ an unusual opportunity to understand how restructuring a food web acts
+ to change the state of an ecosystem.
+ Wolves were extirpated from Yellowstone during the early twentieth century,
+ and the simplified food web that resulted is believed to have caused a
+ state change in riparian ecosystems.
+ Extensive observational evidence suggests that release of the population
+ of elk (
+\emph on
+Cervus elaphus)
+\emph default
+ from control by wolves and consequent elevated herbivory caused a shift
+ in riparian plant communities from willows to grasslands.
+ Coincident with these changes, a major source of disturbance--dam building
+ by beaver--ceased to influence the hydrology of the small stream network.
+ The loss of engineering by beaver degraded habitat for willows.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Wolves were reintroduced to Yellowstone in 1995.
+ It has been hypothesized that behavioral and numerical effects of wolves
+ on elk initiated a trophic cascade, causing a rapid and dramatic reversal
+ of ecosystem state from grassland to willow.
+ We have been working for a decade to test the trophic cascade hypothesis
+ and to understand the role of top-down and bottom-up forces in controlling
+ the state of riparian ecosystems on the northern range.
+ A 10-year factorial experiment manipulating herbivory and water availability
+ found little support for the operation of a linear, trophic cascade.
+ Instead, we observed a composite of top-down and bottom-up controls and
+ counter-intuitive feedbacks resulting from removing herbivory.
+ Browsing intensity on willows remained static in the face of large reductions
+ in the number of elk.
+\end_layout
+
+\begin_layout Standard
+It is vital to the discipline of ecology and the practice of restoration
+ that the feedbacks created by the reintroduction of wolves to Yellowstone
+ be accurately understood over the fullness of time.
+ The abundance of elk has only recently declined to levels that prevailed
+ during the first half of the twentieth century, the period when state change
+ is believed to have occurred.
+ Thus, it is plausible that there has not been sufficient time for top-down
+ effects of wolves on elk to release willows from effects of herbivory.
+ Here, we propose long-term research to understand how climate, hydrology,
+ and trophic dynamics act to control the state of riparian ecosystems on
+ Yellowstone's northern range.
+ We will continue our manipulative experiment, supplementing it with landscape-s
+cale observations.
+ We will assimilate our measurements in a fully Bayesian, state-space model
+ to evaluate how ungulate numbers and patterns of predation risk explain
+ spatiotemporal variation in browsing intensity and willow growth.
+ We will use the model to determine how trophic effects are modified by
+ climate and hydrology.
+ Using our ongoing experiment, we will examine legacy effects of water stress
+ on willows growing on historic floodplains as a potential, mechanistic
+ explanation for time lags in trophic effects.
+ We will determine if shifts in the composition of the community of large
+ herbivores can explain temporally static patterns of browsing intensity
+ or if those patterns are better explained by an absolute shortage of food
+ created by snow accumulation during winter.
+\end_layout
+
+\begin_layout Subsubsection*
+Broader impacts
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+The demonstrated interest of citizens in the unfolding story of wolves,
+ elk, and willows in Yellowstone assures that our results will have the
+ opportunity to be communicated in the popular media.
+ By extending understanding of community-level effects to the ecosystem,
+ our proposed work will add value to an ongoing LTREB, 
+\begin_inset Quotes eld
+\end_inset
+
+Yellowstone wolves: their ecology and community consequences
+\begin_inset Quotes erd
+\end_inset
+
+ (DEB-0613730).
+ We will collaborate closely with park staff in Yellowstone to offer citizen
+ education to three million visitors to the park through interpretive programs.
+ We will communicate our results to park staff to support interpretation
+ and management.
+ Graduate and and undergraduate students will be trained.
+ Our data will be made easily available to the scientific community.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Results from prior funding
+\end_layout
+
+\begin_layout Standard
+Our previous work has been supported by an NSF predoctoral fellowship and
+ by 
+\begin_inset Quotes eld
+\end_inset
+
+Landscape Configurations in Yellowstone National Park: An Alternative State
+ Stabilized by Herbivory?
+\begin_inset Quotes erd
+\end_inset
+
+ (DEB 0717367, $399,960, 09/01/2007- 08/31/2011).
+ Four publications in core ecological journals acknowledge support from
+ these awards 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bilyeu:2007qf,Bilyeu:2008pd,Johnston:2007ye,Johnston_Hobb_Cooper_2011"
+
+\end_inset
+
+ and five others are being prepared.
+ The findings from our studies are summarized in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Motivation-for-proposed"
+
+\end_inset
+
+, 
+\emph on
+Motivation for proposed work
+\emph default
+.
+ Two Ph.D.
+ students were supported by these awards and ten undergraduates were trained,
+ including two REU students, one of whom will begin graduate school with
+ Hobbs in 2012.
+ The most recent graduate student, Kristin Marshall, has received specialized
+ training in communicating science to the public at the Santa Fe Science
+ Writing Workshop.
+ Marshall gave guest lectures at the Wild Rockies Field Institute, Missoula,
+ MT, taught a fifth grade class on tropic cascades at T.
+\begin_inset space ~
+\end_inset
+
+R.
+ Paul Academy of Arts and Knowledge in Fort Collins, and participated in
+ a curriculum-based Park Service program for 4th-8th graders visiting Yellowston
+e.
+ Cooper and Hobbs routinely briefed staff of Yellowstone National Park on
+ our findings to support park management.
+ 
+\end_layout
+
+\begin_layout Section
+Conceptual framework
+\end_layout
+
+\begin_layout Standard
+One of the most important challenges in contemporary ecology is to understand
+ how biotic processes interact with climate and the physical environment
+ to determine the resilience of natural and human-dominated systems 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "reviewed by"
+key "Scheffer_2009_book"
+
+\end_inset
+
+.
+ Resilience is a property of communities and ecosystems that determines
+ their propensity to reorganize to their original condition after disturbance.
+ Although we most often think of resilience in the context of sustaining
+ desirable states, the concept applies equally to restoring degraded ones---in
+ both cases resilient states resist change 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Suding:2004fc"
+
+\end_inset
+
+.
+ In this proposal, we seek long-term support to understand how hydrology,
+ climate, and the structure of food webs act to determine resilience of
+ alternative states in a riparian ecosystem.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtolength{
+\backslash
+belowcaptionskip}{- 12 mm}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+addtolength{
+\backslash
+intextsep}{-2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "2.75in"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Evan willows and elk no year.pdf
+	width 2.75in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+A
+\series default
+.
+ Elk census on the northern range during 1930-2010 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Yellowstone National Park, unpublished"
+key "Houston:1982if,Taper:2002fk"
+
+\end_inset
+
+.
+ The horizontal line shows the mean population size during 1930-1970, the
+ approximate time interval when state change occurred.
+ The vertical line indicates when wolves were reintroduced.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+
+\series bold
+B,C
+\series default
+.
+ Dendrochronological studies (Wolf et.
+ al.
+ 2007) show that after 1950, willows established primarily on alluvium (closed
+ circles) adjacent to streams.
+ Before that period, plants established on beaver pond margins (open circles)
+ that extended up to 40 m from the current stream center.
+ Regressions through points for alluvial establishment reveal (
+\series bold
+B
+\series default
+) temporal trends in area of establishment habitat and (
+\series bold
+C
+\series default
+) stream downcutting.
+ Exposed, fine-grained sediment following the fires of 1988 stimulated seedling
+ establishment (dashed vertical lines).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lewontin:1969jw"
+
+\end_inset
+
+, and later 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Holling:1973kb"
+
+\end_inset
+
+, recognized that communities and ecosystems can exist in alternative states
+ of biotic and physical organization, states that can shift abruptly, one
+ to another.
+ State change can be triggered by biotic or abiotic stress, leading to temporary
+ or enduring re-organization of system structure and function.
+ Of particular interest are alternative states that are resilient, that
+ resist return to the original state even when the triggering stressor is
+ removed.
+ For example, in coastal marine ecosystems, over-harvest of top predators
+ has caused a potentially irreversible change in fisheries because juvenile
+ predators are outcompeted by their prey species.
+ Although excessive harvest may have caused the state change, reducing the
+ number of fish taken is not sufficient to recover the fishery 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ISI:000166270400005"
+
+\end_inset
+
+.
+ In grasslands throughout the world, heavy grazing has reduced plant standing
+ crops and caused shifts in the composition of plant communities, producing
+ feedbacks that reduced soil fertility and water infiltration.
+ Although excessive grazing may have caused the state change, moderating
+ grazing does not allow the original grassland to reorganize on dry, infertile
+ soils 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Scheffer:2001pt,vandeKoppel:1997ly"
+
+\end_inset
+
+.
+ Because anthropogenic activity is often responsible for moving ecosystems
+ to degraded states 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ISI:000226244100005,ISI:000250582400002,ISI:000265771400002"
+
+\end_inset
+
+, a central challenge for restoring ecosystems is to understand the feedbacks
+ that create and maintain these states 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Suding:2004fc"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Alteration of the food web of the northern range of Yellowstone National
+ Park during the last century has created a natural experiment with exceptional
+ potential to understand the interplay of biotic, physical,  and climatic
+ controls on alternative ecosystem states.
+ The landscapes of the northern range experienced dramatic changes in structure
+ and function over the last century 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "reviewed by"
+key "Council:2002qc"
+
+\end_inset
+
+.
+ During the early 1900s, communities of willows predominated the riparian
+ zones of the northern range, extending up to 40 m laterally from stream
+ margins.
+ Beaver dams punctuated the stream network, flooded large areas of the landscape
+, and created hydrologic and soil conditions particularly well-suited to
+ the life-history requirements of willows.
+ During the latter half of the 1900s, willows declined in abundance and
+ stature to the extent that they effectively disappeared from the landscape
+ and were replaced by grasslands in riparian zones 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Houston:1982if,Snger_et_al_1994,Singer:1998mw"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The change in riparian state from willow to grassland coincided with changes
+ in the terrestrial food web and the disturbance regime.
+ Throughout the 20th century, the northern range provided winter habitat
+ for one of the largest migratory elk herds (
+\emph on
+Cervus elaphus) 
+\emph default
+in North America 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Houston:1982if"
+
+\end_inset
+
+.
+ Historically, elk were the primary prey of the apex predator in the region,
+ the gray wolf (
+\emph on
+Canis lupus)
+\emph default
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Council:2002qc"
+
+\end_inset
+
+.
+ However, wolves were extirpated from Yellowstone by the early 1920s.
+ The loss of wolves from the system and the cessation of elk culling by
+ park staff have been repeatedly implicated in the dramatic increases in
+ the abundance of elk during the later part of the twentieth century 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Council:2002qc"
+
+\end_inset
+
+(Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+A).
+ 
+\end_layout
+
+\begin_layout Standard
+Coincident with the loss of willows, beaver abandoned the small streams
+ of the northern range 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Warren:1926uq,Jonas:1955fk"
+
+\end_inset
+
+.
+ Almost a third of mainstream reaches historically experienced beaver-related
+ aggradation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Persico:2009os"
+
+\end_inset
+
+ and the absence of their engineering transformed many areas of the riparian
+ zone (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+B,C).
+ The loss of beaver dams lowered water tables and narrowed the area of exposed
+ substrate and moist soils (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+B) required by willows for establishment and growth (Wolf et al., 2007).
+ Unimpeded by beaver dams, stream flows accelerated, causing locally significant
+ incision that effectively disconnected channels from historic flood plains
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+C).
+ Competing explanations exist for the disappearance of beaver from the northern
+ range.
+ One idea is that increasing elk populations in the early 20th century excluded
+ beaver through interspecific competition 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kay:1990kx"
+
+\end_inset
+
+.
+ Another possibility is that warmer temperatures and lower stream flows
+ in recent decades may have initiated beaver abandonment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Persico:2009os"
+
+\end_inset
+
+.
+ Irrespective of its cause, loss of beaver dams from the landscape created
+ feedbacks that increased the resilience of the alternative grassland state:
+ the absence of willow removed an important resource for beaver, and the
+ absence of engineering by beaver degraded habitat for willow 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wolf:2007kc"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+ It has been hypothesized that the prevailing grassland state along stream
+ corridors has recently reorganized to the willow state as a result of a
+ trophic cascade caused by the successful restoration of wolves to Yellowstone
+ in 1995.
+ The central idea in the trophic cascade hypothesis is that the direct effects
+ of wolves on elk numbers and their indirect effects on elk foraging behavior
+ have released willows from top-down control by herbivory and have promoted
+ a rapid recovery in willow biomass, distribution, and stature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ripple:2004il,Ripple:2006ee,Beschta:2007gf,Beyer:2007xd"
+
+\end_inset
+
+.
+ The trophic cascade hypothesis holds that the grassland state is not resilient
+ to the perturbation caused by adding an apex predator to the food web.
+\end_layout
+
+\begin_layout Standard
+The trophic cascade hypothesis has been accepted as scientific fact in the
+ popular press 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., "
+key "W_post_2004,Robbins_NYTIMES_2005,LA_times_wllows"
+
+\end_inset
+
+ and in the literature on conservation practice 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., "
+key "Donlan:2006yb,ISI:000231263900020,Soule:2005lo,Beschta:2010ul"
+
+\end_inset
+
+.
+ However, recent work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Creel:2009fe,Kauffman:2010qf"
+
+\end_inset
+
+ casts serious doubt on behaviorally mediated trophic effects of wolves
+ on deciduous woody plants 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "but also see"
+key "Beschta_comment_2011"
+
+\end_inset
+
+.
+ Although numerical effects remain possible, the release from top-down trophic
+ control due to reductions in herbivore abundance might be a necessary but
+ insufficient condition for state change 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wolf:2007kc"
+
+\end_inset
+
+.
+ It might be insufficient because the loss of engineering by beaver and
+ a warming climate may have created  bottom-up forces that prevent return
+ to the willow state.
+ The system may be locked in a resilient grassland state by changes in the
+ availability of riparian habitat suitable for willow establishment and
+ growth 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wolf:2007kc"
+
+\end_inset
+
+ (Figure 1 B,C).
+\end_layout
+
+\begin_layout Standard
+If a state-change has occurred as a result of the restoration of wolves
+ to Yellowstone, then the following outcomes should have occurred along
+ the floodplains of small streams during the last decade: 1) Ungulate herbivory
+ on willows was moderate and declining; 2) Growth of willows that were artificia
+lly protected from browsing resembled growth of willows that were ostensibly
+ protected from browsing by trophic effects of wolves; 3) Recovery of willows
+ was not limited by availability of water or other resources, and most important
+ly, 4) Willows increased dramatically in height and biomass.
+ The failure to observe these outcomes shows that the state of riparian
+ ecosystems currently remains resilient to disturbance of the food web caused
+ by the reintroduction of an apex predator.
+ 
+\end_layout
+
+\begin_layout Standard
+We have been working for ten years to test the trophic cascade hypothesis
+ and, more importantly, to understand the relative roles of herbivory and
+ hydrology in controlling the state of willow communities on the northern
+ range of Yellowstone.
+ We examined the strength of top-down controls relative to bottom-up controls
+ in an experiment manipulating water availability and browsing intensity.
+\end_layout
+
+\begin_layout Section
+Motivation for 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Motivation-for-proposed"
+
+\end_inset
+
+proposed work
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Experimental-studies-of"
+
+\end_inset
+
+Experimental studies of state change
+\end_layout
+
+\begin_layout Standard
+During spring of 2001, we initiated a decadal experiment on the northern
+ range to examine the response of willow height and biomass accumulation
+ to ungulate browsing and disturbance of the water table 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bilyeu:2008pd"
+
+\end_inset
+
+.
+ We chose four replicate sites in areas that were historically occupied
+ by beaver.
+ After a year of pre-treatment observations, we constructed simulated beaver
+ dams to raise water tables along stream corridors and built exclosures
+ to prevent herbivory by ungulates in a two by two factorial design (browsed
+ and unbrowsed crossed with dammed and undammed).
+ Each of the four replicates consisted of four 0.02 ha plots.
+ Each plot was randomly assigned to a treatment combination.
+ The undammed, unfenced plots represented the ambient condition, and we
+ will refer to these as controls.
+ In the experiment, we annually measured height gains, over-winter losses
+ to browsing, and biomass accumulation in 255 permanently marked individuals
+ of three species (
+\emph on
+Salix boothii
+\emph default
+, 
+\emph on
+S.
+ geyeriana
+\emph default
+, and 
+\emph on
+S.
+ bebbiana
+\emph default
+) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bilyeu:2007qf,Bilyeu:2008pd"
+
+\end_inset
+
+.
+ 
+\begin_inset Graphics
+	filename /Users/Tom/Documents/NSF Yellowstone LTREB 2011/proposal/Browsing and growth.pdf
+	width 6.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We chose height as a response variable because the stature of willows is
+ an important indicator of reorganization to the historic condition.
+ Tall willows are needed by beaver for dam construction 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Baker:2005ly"
+
+\end_inset
+
+.
+ Moreover, their upper branches extend above the level that can be browsed
+ by elk.
+ Because they remain mostly unbrowsed, the upper stems of tall willows reliably
+ produce catkins,
+\series medium
+ assuring a seed source for establishment of seedlings.The threshold height
+ for these effects has been estimated as about 2-2.5 meters 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Keigley_Frisina,Beschta:2007gf"
+
+\end_inset
+
+.
+ If willows reach this height, then the recovered willow state can be reasonably
+ expected to be resilient to ungulate herbivory, even in the face of episodicall
+y extreme levels of browsing during severe winters.
+ In addition to willow height, biomass is an important indicator of state
+ reorganization because beaver cannot reoccupy areas they historically colonized
+ without an adequate food supply provided by willow and other woody deciduous
+ plants.
+ Moreover, beaver must have access to stems of sufficient length and thickness
+ to build and maintain dams 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Baker:2005ly"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Our experiment revealed multiple controls on willow growth, some of which
+ were unintuitive.
+ Annual browsing intensity averaged 55 - 81% of above-ground production
+ (Figure 2A).
+ Although our measurements are not strictly comparable with measurements
+ of browsing taken before the introduction of wolves 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Snger_et_al_1994"
+
+\end_inset
+
+, it appears qualitatively that browsing intensity has not declined below
+ pre-wolf levels (Figure 2A).
+ 
+\end_layout
+
+\begin_layout Standard
+Average height of willows experiencing ambient browsing and moisture conditions
+ (i.e., controls) increased 28 cm relative to pre-treatment means, an average
+ rate of increase of only 3.4 cm /year (Figure 2B).
+ At this rate of growth, willows in control plots would require an additional
+ 34 years to reach the 250 cm resilience threshold.
+ It is important to remember that these plants were ostensibly 
+\begin_inset Quotes eld
+\end_inset
+
+released
+\begin_inset Quotes erd
+\end_inset
+
+ from browsing by trophic effects of wolves.
+ Height increases of unbrowsed willows with ambient water tables were more
+ than double the control values (mean increase relative to pre-treatment
+ = 63 cm, 90% credible interval = 47, 79).
+ Raising water tables
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Wells in each plot revealed that average water tables depths were 0.4 m higher
+ in plots with dams relative to plots without dams.
+\end_layout
+
+\end_inset
+
+ allowed browsed willows to increase by 81 cm (90% CI = 64, 97).
+ The combined effects of raised water tables and protection from browsing
+ caused the average height of willows to increase by 142 cm (90% CI = 117,
+ 169), permitting these plants (and only these) to reach the resilience
+ threshold (Figure 2B).
+ 
+\end_layout
+
+\begin_layout Standard
+Effects of treatments on accumulated biomass paralleled the effects on height
+ except that we observed no difference in biomass between the browsed and
+ unbrowsed treatments at the end of the experiment, a result discussed in
+ more detail below.
+ Despite high levels of browsing in unfenced plots, the exclosure effect
+ size was small relative to the dam effect size (Figure 2B) because willows
+ in dammed, browsed plots grew rapidly despite intense browsing.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtocounter{figure}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These patterns are explained in part by findings of 
+\emph on
+negative
+\emph default
+ feedbacks from protection from browsing to growth rate of willows on historic
+ floodplains.
+ Similar to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alstad_Welker_1999"
+
+\end_inset
+
+, we found that unbrowsed willows experienced greater moisture stress than
+ browsed willows did 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnston:2007ye"
+
+\end_inset
+
+.
+ Unbrowsed, undammed plants had lower photosynthetic rates and lower stomatal
+ conductances than browsed, undammed plants 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnston:2007ye"
+
+\end_inset
+
+.
+ We discovered that increased moisture stress resulted from effects of protectio
+n from browsing on plant architecture.
+ Unbrowsed plants had narrower stems and more age and branch junctions between
+ the soil and the leaves than browsed plants did, and these morphological
+ differences reduced water-use efficiency by unbrowsed plants relative to
+ browsed ones.
+ As a result, 
+\emph on
+removing
+\emph default
+ browsing 
+\emph on
+amplified
+\emph default
+ the water stress experienced by willows on flood plains disconnected from
+ streams.
+ These effects likely explain the similar levels of biomass accumulation
+ between browsed and unbrowsed willows (Figure 2B).
+ Although rates of biomass accumulation in unbrowsed willows with ambient
+ water tables were rapid early during years 1-4, they slowed dramatically
+ after nine years of protection from browsing, while rates of biomass accumulati
+on of dammed plants almost tripled in both
+\emph on
+ 
+\emph default
+the browsed and unbrowsed plots during the same time interval.
+ This feedback suggests that the alternative, grassland state is resilient
+ because removal of the presumed initiating stressor (intense browsing)
+ strengthens feedbacks opposing state transition (moisture stress resulting
+ from lowered water tables).
+\end_layout
+
+\begin_layout Standard
+Interpretation of the effects of our simulated beaver-dam treatments was
+ reinforced by observations of total height and growth rate of browsed plants
+ nearby our experimental plots (Figure 2C)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnston_Hobb_Cooper_2011"
+
+\end_inset
+
+.
+ Analysis of stable isotopes of oxygen revealed that heights and growth
+ rates of these plants were linearly related to their access to groundwater.
+ Heights of browsed plants that obtained 70-90% of their total water budget
+ from groundwater resembled heights of willows in browsed, dammed plots.
+ 
+\end_layout
+
+\begin_layout Standard
+Our results 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "and upublished data reported here"
+key "Bilyeu:2008pd,Johnston:2007ye,Johnston_Hobb_Cooper_2011"
+
+\end_inset
+
+ are not consistent with the hypothesis that the northern range of Yellowstone
+ National Park has experienced a state change resulting from a trophic cascade
+ following the reintroduction of wolves.
+ Despite dramatic reductions in elk numbers during the course of our studies
+ (Figure 1A), browsing on unfenced plots remained intense and did not differ
+ qualitatively from pre-wolf levels.
+ Willows experiencing ambient browsing and water tables increased nominally
+ in height.
+ After almost a decade of complete protection from browsing, growth rates
+ of willows in exclosed plots with ambient water tables were decelerating
+ and their heights remained far below the 200-250 cm resilience threshold.
+ There was strong evidence for bottom-up limitation of willow growth by
+ availability of water.
+ We revealed complex feedbacks creating resilience in system state: eliminating
+ browsing amplified moisture stress and retarded photosynthetic rate of
+ willows on historic flood plains.
+ Thus, none of the four outcomes consistent with the trophic cascade hypothesis
+ (i.e., page 3, paragraph 3) were unambiguously realized in our experiment.
+ Instead, we showed clear evidence of the simultaneous operation of top-down
+ and bottom-up controls on state change in the riparian zone of the northern
+ range.
+ Our results are reinforced by the observational studies of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tercek:2010fk"
+
+\end_inset
+
+ who also found evidence of bottom-up control; sites with tall willows had
+ greater water availability, more rapid net soil nitrogen mineralization,
+ greater snow depth, lower soil respiration rates, and cooler summer soil
+ temperatures than nearby sites with short willows.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Observational studies of state change
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtolength{
+\backslash
+belowcaptionskip}{+10 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename height histogram and pdfs.pdf
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posterior-distributions-of"
+
+\end_inset
+
+
+\size footnotesize
+Posterior distributions of mean height of willows at the end of the growing
+ season in experimental plots and normalized histogram of end-of-growing-season
+ heights of 115 permanently marked willows observed on the landscape at
+ 23 sites historically dammed by beaver.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+During 2008, we initiated studies to understand the results of our fine-scale,
+ manipulative experiment in the context of variation in willow growth at
+ large scales of time and space.
+ To enhance our understanding of controls on willow growth at larger spatial
+ scales, we established 23 plots at sites historically occupied by beaver
+ across the northern range using spatially balanced random sampling 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ISI:000247338100013"
+
+\end_inset
+
+.
+ On each plot, we permanently marked 8 to 15 stems on 4 to 6 plants (318
+ stems on 115 plants across all sites) and measured annual increments in
+ willow height and biomass, browsing intensity, and water table depth using
+ the same methods as used in our experiment (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Experimental-studies-of"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Observations of willow heights in the control plots of our experiment were
+ representative of variation at the landscape scale (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-distributions-of"
+
+\end_inset
+
+).
+ The posterior distribution of mean heights in control plots (experiencing
+ ambient browsing and water) fell in the center of the distribution of individua
+l heights of willows on the landscape (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-distributions-of"
+
+\end_inset
+
+).
+ The posterior distribution of mean height in the dammed, browsed treatment
+ spanned much of the upper tail of the landscape distribution of heights.
+ This comparison shows that the variation in willow growth caused by treatments
+ in our experiments was also seen at the landscape scale, suggesting that
+ although the average response of the system offered evidence of resilience
+ to perturbation, the average response belied variation indicating that
+ state change may be occurring in some locations 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "also see "
+key "Tercek:2010fk"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+To understand large-scale temporal variation in willow height, we used dendrochr
+onological methods to estimate age of willows differing in height across
+ the 23 sites.
+ Using samples of plants varying in age, we obtained data on willow height
+ at different points in time by sectioning stems every 10 cm and counting
+ growth rings on each section.
+ Using relationships between stem age and height, we reconstructed establishment
+ and growth of 298 willow stems, spanning establishment years from 1972
+ to 2006.
+ We used a Bayesian hierarchical model to examine controls on willow height
+ at the landscape scale, evaluating the strength of evidence for models
+ predicting height growth over time from plant age and corresponding annual
+ counts of elk, wolves, and bison, total annual precipitation, duration
+ of the growing season (as growing degree days), and random effects for
+ site, willow species, and year.
+\end_layout
+
+\begin_layout Standard
+We found overwhelming support for a model predicting willow height based
+ on stem age, elk numbers, growing degree days, and the interaction of age
+ with elk numbers and growing degree days (
+\begin_inset Formula $\Delta$
+\end_inset
+
+DIC to next best model = 80).
+ This model is consistent with the hypothesis of a numerically mediated
+ trophic cascade caused by reductions in abundance of elk due to predation
+ by wolves, but also shows that willow growth depended on the climatic context.
+ A multi-year trend toward longer growing seasons allowed greater height
+ growth during the spring and summer for older stems (>14 years), but decreased
+ growth rates of younger stems.
+  We also observed an intriguing interaction between elk numbers and stem
+ age: the effect of elk numbers on growth rate of young stems (<8 years
+ old) was 
+\emph on
+positive
+\emph default
+, suggesting that browsing may stimulate growth rates when stems are young.
+ Thus, the results of our large-scale analyses amplify the central result
+ of our experiment, that state change is likely to be controlled by the
+ interplay of top-down and bottom-up forces, that the climatic context matters,
+ and that trophic feedbacks do not operate in a simple, linear fashion.
+ However, the large-scale analysis also reinforces the possibility that
+ a numerical trophic cascade can be discerned.
+ 
+\end_layout
+
+\begin_layout Section
+Why is long-term research needed? 
+\end_layout
+
+\begin_layout Standard
+The reintroduction of wolves to Yellowstone's northern range represents
+ one of the most significant natural experiments in the history of ecology,
+ offering an exceptional opportunity to understand how disturbance of food
+ webs interacts with climate and the physical environment to determine the
+ state of an ecosystem.
+ It is important to the discipline of ecology and the practice of conservation
+ that this story be told fully and accurately.
+ 
+\end_layout
+
+\begin_layout Standard
+The response of the ecosystem to perturbation of the food web remains uncertain
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., compare "
+key "Kauffman:2010qf,Beschta_comment_2011"
+
+\end_inset
+
+.
+ It remains unclear if the northern range will return to a resilient willow
+ state, and if it does, what forces will drive or oppose that transition.
+ Our observational and experimental work suggest a complex set of controls
+ on alternative ecosystem states, a pattern largely inconsistent with the
+ linear trophic forcing that has been hypothesized 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ripple:2004il,Beschta:2007gf,Beschta:2010ul"
+
+\end_inset
+
+.
+ However, we do 
+\emph on
+not
+\emph default
+ argue that our work refutes the idea that restoration of an apex predator
+ has fundamentally modified feedbacks controlling the state of the ecosystem.
+ Rather, we contend that these feedbacks remain only partially understood,
+ and that a full understanding depends on measuring them as they unfold
+ over time and space.
+ It is imperative to recognize that the abundance of elk has only recently
+ reached levels that are below the number that were present during the period
+ when the state-change is believed to have occurred (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+A).
+ Thus, it is entirely plausible that a numerically-mediated trophic cascade
+ has not had sufficient time to be manifest, let alone observed.
+ The change in riparian state from willow to grassland required the better
+ part of a century (Wolf et al., 2007)(Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+B,C).
+ Why would we think that its reversal would be plainly revealed 15 years
+ after restructuring of the food web?
+\end_layout
+
+\begin_layout Section
+Predictions and questions
+\end_layout
+
+\begin_layout Standard
+Two, competing predictions motivated by our previous work frame a decade
+ of future experimentation and observation: 
+\end_layout
+
+\begin_layout Enumerate
+The grassland state will be replaced by the willow state.
+ The addition of a top predator to the food web has not yet caused responses
+ in height and biomass of willows because there has been insufficient time
+ for numerically-mediated effects on elk to become evident and because a
+ legacy of shallow root development of willows on historic floodplains has
+ retarded their growth.
+ During the coming decade, we will observe widespread return of the willow
+ state to the small streams of the northern range.
+\end_layout
+
+\begin_layout Enumerate
+Alternatively, the grassland state is resilient to the addition of a top
+ predator and will not be replaced by willow.
+ Resilience is created by effects of hydrologic processes and climate.
+ In addition, an increasing bison population may compensate for the top-down
+ effects of wolves on elk.
+ Slow progress toward the willow state will be episodically reversed by
+ winter weather that amplifies browsing intensity and resets the landscape
+ to the grassland condition.
+\end_layout
+
+\begin_layout Standard
+It is a relatively straightforward problem to discriminate between these
+ predictions, if not the mechanisms they represent.
+ Prediction 1 is refuted if there is no rightward shift in the height distributi
+on of individually-marked willows (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-distributions-of"
+
+\end_inset
+
+).
+ Prediction 2 is refuted if such a shift occurs.
+ An additional decade of observations of willow height and biomass of willows
+ at our experimental and observational sites will allow us to differentiate
+ among these futures, an important result in itself.
+ However, a far more important goal is to understand the mechanisms that
+ give rise to the future condition of the landscape.
+ This understanding depends on answering three questions:
+\end_layout
+
+\begin_layout Enumerate
+How do climate and hydrology modify the effects of a restructured food web
+ to explain spatial and temporal variation in willow growth?
+\end_layout
+
+\begin_layout Enumerate
+Are willows on historic floodplains locked into a slow growing state as
+ a result of changes in hydrology or are they approaching change-points
+ in above-ground growth allowed by root development?
+\end_layout
+
+\begin_layout Enumerate
+Why has browsing pressure remained largely unchanged despite the addition
+ of wolves to the food web and their top-down effects on elk numbers?
+\end_layout
+
+\begin_layout Section
+Proposed work
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Question 1: How do climate and hydrology modify the effects of a restructured
+ food web to explain spatial and temporal variation in plant growth?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtolength{
+\backslash
+belowcaptionskip}{+3 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "40page%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Conceptual model II.pdf
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Spatio-temporal model of trophic, climatic, and, physical controls on height
+ or biomass accumulation 
+\begin_inset Formula $(z_{t})$
+\end_inset
+
+ of willows on Yellowstone's northern range.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conceptual model"
+
+\end_inset
+
+ Covariates to be measured are tabulated; effects on browsing are shown
+ in italics, effects on growth in plain text.
+ For statistical implementation of this model, see Box 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Bayes_model_landscape"
+
+\end_inset
+
+
+\size default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Past work on effects of disturbance of the food web on the northern range
+ has focused on the question 
+\begin_inset Quotes eld
+\end_inset
+
+Has a trophic cascade occurred?
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ripple:2004il,Beyer:2007xd,Beschta:2007gf"
+
+\end_inset
+
+.
+ In the work proposed here, we recast this question to ask about the relative
+ strength and interdependencies of trophic, hydrologic, and climatic controls
+ on ecosystem state.
+ To address this question, we will model the dynamics of willow growth over
+ time and space using a fully Bayesian, state-space approach (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+, Box 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Bayes_model_landscape"
+
+\end_inset
+
+).
+ Our model-data framework allows us to examine controls on browsing intensity
+ during winter
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+An increasing bison population that remains on the northern range during
+ the spring and summer (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Numbers_biomass"
+
+\end_inset
+
+, Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Question-3:-Why browsing"
+
+\end_inset
+
+, below) may lead to significant browsing during the growing season.
+ Currently, only 2% of the stems we measured were browsed during summer.
+ We conclude these effects are minor.
+ If the intensity of summer browsing increases, we are prepared to include
+ summer browsing in our measurements and model.)
+\end_layout
+
+\end_inset
+
+ (ungulate population numbers, predator numbers, predation risk, snow characteri
+stics) with influences on growth during spring and summer (access to ground
+ water, duration of growing season, spring and summer precipitation, previous
+ winter's browsing intensity).
+ In so doing, it provides a way to quantify the relative strength of top-down
+ and bottom-up controls within a changing context created by climate.
+ Although it is simple, our modeling approach is able to portray change-points
+ that result from changes in the balance between growth and removals.
+ The model can represent complex feedbacks; for example, browsing can retard
+ growth during winter and accelerate growth during the subsequent growing
+ season (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Johnston:2007ye"
+
+\end_inset
+
+).
+ Missing observations resulting from differences in times spans of responses
+ and covariate data can be accommodated 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Clark:2004ve"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We are particularly interested in using our analysis to address competing
+ hypotheses explaining observed spatial variation in willow growth (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-distributions-of"
+
+\end_inset
+
+).
+ The first hypothesis is that browsing intensity varies over space in response
+ to spatial variation in predation risk and that browsing intensity, in
+ turn, explains spatial variation in willow growth 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beschta:2007gf,Ripple:2006ee"
+
+\end_inset
+
+.
+ An alternative hypothesis is that spatial variation in willow growth is
+ largely determined from the bottom-up by water availability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Tercek:2010fk,Johnston_Hobb_Cooper_2011"
+
+\end_inset
+
+.
+ To evaluate these alternatives, our model includes a spatially explicit
+ covariate for predation risk derived from an updated version of the 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kauffman_predation_model"
+
+\end_inset
+
+ risk map.
+ It will also include covariates for water table depth and groundwater use,
+ allowing us to evaluate strength of evidence in data for the two competing
+ hypotheses for the first time.
+ 
+\end_layout
+
+\begin_layout Standard
+We will use two sampling regimes, one extensive the other intensive, to
+ provide the data needed to estimate parameters and to evaluate evidence
+ for alternative models.
+ In the extensive regime, we will use 20 years of data from our experimental
+ plots (10 past, 10 future) and 13 years of data from our landscape-scale
+ plots.
+ Thus, our extensive sample will include more than 500 individually marked
+ plants, at 39 sites.
+ Responses will include a spatially replicated time series of willow height
+ and willow biomass at two time points per year (Box 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:joint distribution"
+
+\end_inset
+
+).
+ Covariates will include annual weather data (collected at the National
+ Climatic Data Center station at Mammoth, Wyoming), browsing intensity
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Browsing intensity can serve as a predictor or a response in the model.
+ See Box 1 and section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Question-3:-Why browsing"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+, water table depth, elk population size, bison population size, wolf population
+ size, modeled predation risk and modeled snow depth.
+ The experimental sites are critical to this analysis because: 1) they will
+ span 20 years, and 2) they provide reference, manipulated conditions for
+ browsing intensity and water availability.
+ 
+\end_layout
+
+\begin_layout Standard
+We will also deploy an intensive sampling regime that will more clearly
+ reveal mechanistic controls on willow growth and that will offer greater
+ spatial resolution in observations of climate.
+ This regime will include all of the measurements obtained in the extensive
+ sample, but will also include isotopically measured groundwater use, plant
+ moisture stress, and detailed, local-scale climatic measurements.
+ The intensive regime will be limited to the experimental sites and 10 additiona
+l observational sites chosen in a stratified design from the full range
+ of sites (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-distributions-of"
+
+\end_inset
+
+) to maximize variation in willow heights among sampled sites.
+ 
+\end_layout
+
+\begin_layout Standard
+Data required for responses and covariates in both sampling designs (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+, Box 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Bayes_model_landscape"
+
+\end_inset
+
+) will be obtained as follows.
+ Willow heights, biomass accumulation, browsing intensity, water table depths,
+ ground-water use and plant moisture stress will be measured following 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bilyeu:2007qf,Bilyeu:2008pd"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Johnston:2007ye,Johnston_Hobb_Cooper_2011"
+
+\end_inset
+
+.
+ To quantify local climate, we will establish a meteorological station in
+ each of the four long-term experimental sites and the ten intensive observation
+al sites.
+ These stations will be used to quantify the duration of the growing season,
+ soil temperature, soil water content, water table depth (using existing
+ wells), and precipitation.
+ Growing season duration will be quantified as the period from bud burst
+ to leaf drop using plant cams that take one photo per day of each plot.
+ Soil temperature and soil water content will be measured in a vertical
+ array at 20 and 50 cm depth using Decagon 5TM soil temperature and moisture
+ sensors.
+ Water table depth will be measured daily using a submersible pressure transduce
+r (In-Situ Rugged Troll 100) installed into ground water monitoring wells.
+ Precipitation during the growing season will be measured using a recording
+ tipping bucket rain gauge (Onset Instruments).
+ Snow depth will be measured with a permanently installed measuring pole
+ photographed daily with a field installed digital camera.
+ Snow water content will be measured periodically to estimate snow water
+ equivalents.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+floatname{algorithm}{Box}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Bayes_model_landscape"
+
+\end_inset
+
+Overview of state-space implementation of the conceptual model depicted
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+As a starting point for analysis, we will use the deterministic, process
+ models 
+\begin_inset Formula $log(z_{i,t}^{spring})=\log(z_{i,t-1}^{fall})+d_{t}^{w}\text{\ensuremath{\mathbf{X}_{i,t}}}\beta\textnormal{ and }\log(z_{i,t}^{fall})=\log(z_{t}^{spring})+d_{t}^{g}\mathbf{W}_{i,t}\gamma$
+\end_inset
+
+, where 
+\begin_inset Formula $i$
+\end_inset
+
+ indexes individual plants and 
+\begin_inset Formula $t$
+\end_inset
+
+ indexes years (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+).
+ Thus, 
+\begin_inset Formula $z_{i,t}$
+\end_inset
+
+ is the true state (height or biomass) of plant 
+\begin_inset Formula $i$
+\end_inset
+
+ at at time 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $d_{t}^{w}$
+\end_inset
+
+ is the duration of winter, 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is a vector of regression coefficients describing controls on browsing
+ intensity (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+), 
+\begin_inset Formula $d_{t}^{g}$
+\end_inset
+
+ is the duration of the growing season, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is a vector of coefficients describing controls on growth rate, and 
+\begin_inset Formula $\mathbf{X}_{i,t}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{W}_{it}$
+\end_inset
+
+ are corresponding matrices of covariates predicting browsing intensity
+ and growth (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+).
+ The quantity 
+\begin_inset Formula $\mathbf{X}_{i,t}\beta$
+\end_inset
+
+ represents the removal rate from the 
+\begin_inset Formula $i$
+\end_inset
+
+th plant on the log scale and the quantity 
+\begin_inset Formula $\mathbf{W}_{it}\gamma$
+\end_inset
+
+ represents the growth rate on the log scale.
+ We will estimate the posterior distributions of states and parameters using
+ the stochastic model:
+\begin_inset Formula 
+\begin{eqnarray}
+\begin{gathered}P(\mathbf{Z},\gamma,\beta,\sigma,\alpha,\nu,\end{gathered}
+|\mathbf{Y}\mathbf{,X,W}) & \propto\label{eq:joint distribution}\\
+ &  & \prod_{i=1}^{n}\prod_{t=1}^{T}\textnormal{N}\left(\textnormal{ \ensuremath{\mbox{\ensuremath{y_{i,t}^{spring}|z_{i,t}^{spring}}}}},\sigma_{1}\right)\textnormal{N}\left(\textnormal{ \ensuremath{\mbox{\ensuremath{y_{i,t}^{fall}|z_{i,t}^{fall}}}}},\sigma_{2}\right)\cdot\nonumber \\
+ &  & \prod_{t=2}^{T}\textnormal{N}\left[\textnormal{ \ensuremath{\mbox{\ensuremath{\mbox{log}\left(z_{i,t}^{spring}\right)|\log\left(z_{i,t-1}^{fall}\right)+d_{t}^{w}\mathbf{X}_{i,t}\beta+\alpha_{j[i,t]}}}}},\sigma_{3}\right]\cdot\nonumber \\
+ &  & \textnormal{N}\left[\mbox{\ensuremath{\textnormal{log}\left(z_{i,t}^{fall}\right)|}\log\ensuremath{\left(z_{t}^{spring}\right)}\ensuremath{+d_{t}^{g}\mathbf{W}_{it}\gamma},\ensuremath{+\nu_{j[i,t]}}},\sigma_{4}\right]\textnormal{N\left(\alpha_{j[i,t]}|0,\sigma_{5}\right)}\cdot\nonumber \\
+ &  & \textnormal{N\ensuremath{\left(\nu_{j[i,t]}|0,\sigma_{6}\right)}\cdot appropriate priors}\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+where 
+\begin_inset Formula $n$
+\end_inset
+
+ is the total number of plants, 
+\begin_inset Formula $T$
+\end_inset
+
+ is the number of years in the time series, N abbreviates the normal probability
+ density function,
+\begin_inset Formula $\mathbf{Y}$
+\end_inset
+
+ is the observation matrix of willow heights or biomasses, 
+\begin_inset Formula $\alpha_{j[i,t]}$
+\end_inset
+
+ and 
+\begin_inset Formula $\nu_{j[i,t]}$
+\end_inset
+
+ are random effects for site, and the 
+\begin_inset Formula $\sigma$
+\end_inset
+
+'s represent standard deviations for the process model, observation model,
+ and random effects.
+ Initial conditions (
+\begin_inset Formula $z_{i,0}^{fall}$
+\end_inset
+
+) will be estimated as parameters.
+ Data models will be included to represent uncertainty in estimates of responses
+ and covariates.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{.5 cm}
+\end_layout
+
+\end_inset
+
+Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:joint distribution"
+
+\end_inset
+
+ provides an initial framework for analysis.
+ We will evaluate elaborations on this initial model, including non-linear
+ functional forms, change-points, coefficients modeled hierarchically as
+ functions of site level measurements, and spatially structured random effects.
+ All models will be evaluated using posterior predictive checks to assure
+ that they reasonably represent the data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gelman:2009fu,Gelman:2004wm"
+
+\end_inset
+
+.
+ A set of candidate models (6 - 10 total) will be composed 
+\emph on
+a priori
+\emph default
+ to represent a continuum of hypotheses about the roles of top-down and
+ bottom-up control of state change.
+ We will calculate the probability of each model conditional on the data
+ and associated Bayes factors.
+ Comparison of coefficients of standardized regressors and Bayes factors
+ will be used to evaluate evidence for top-down effects mediated through
+ browsing and bottom-up effects mediated through growth (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+).
+ Our hierarchical approach also lends itself to Bayesian structural equation
+ modeling 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee_2007,Mysterud:2008xq"
+
+\end_inset
+
+.
+ For example, we can estimate the latent quantity true browsing intensity
+ using observed browsing intensity in a data model.
+ True browsing intensity can then be modeled as a function of herbivore
+ population density, which, in turn, can be portrayed as a function of wolf
+ density.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{.5 cm}
+\end_layout
+
+\end_inset
+
+PI Hoeting has extensive expertise in Bayesian spatio-temporal modeling
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "Farnsworth:2006vn,Hoeting:2009rt,Webb:2010zr"
+
+\end_inset
+
+ and model selection 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hoeting:1999ta,Hoeting:2006ys"
+
+\end_inset
+
+ .
+ She will oversee the analysis.
+ 
+\end_layout
+
+\end_inset
+
+We will use the Watson snowpack model 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Watson:2006xz,Watson:2006ya"
+
+\end_inset
+
+ and snow depth measurements at each site to assess snow characteristics
+ at multiple scales surrounding each site and to estimate snow compaction
+ and snow water equivalents.
+ The snowpack model  was specifically developed to enhance understanding
+ of controls on ungulate dynamics in Yellowstone National Park 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "Bruggeman:2006ct,Geremia:2011oa"
+
+\end_inset
+
+.
+ The model simulates snowpack accumulation and
+\series medium
+ 
+\series default
+depletion at grid-cell scales as small as 28.5 m at a daily time-step.
+ At each grid cell, the model 
+\series medium
+simulates a full water and energy balance including processes such as precipitat
+ion, sublimation, evaporation, melt, and snowpack compaction.
+ By carefully calibrating the model using site level measurement of snow
+ depth and snow water equivalents, we will be able to use its predictions
+ as covariates for the full extensive sample.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Spatial and temporal variation in predation risk will be estimated using
+ an updated version of the model of Kauffman et al.
+ (2007).
+ In brief, the model estimates predation risk to elk from wolves using logistic
+ regression with a matched case-control design (Hosmer and Lemeshow, 2000),
+ where relative probability of a kill on the landscape is estimated from
+ the differential landscape attributes of locations where elk were killed
+ by wolves compared to random locations.
+ New data on wolf pack territories and elk kill locations needed to update
+ the model will be provided by a collaborating LTREB project and by Yellowstone
+ National Park (see Section 8.1).
+ Landscape attributes used to build the model include the annual distribution
+ of wolf packs (based on cumulative kernel densities and weighted by pack
+ size), relative elk density (based on the habitat model of Mao et al., 2005),
+ and the landscape features of proximity to streams, proximity to roads,
+ habitat openness (forest vs.
+ grassland), slope, and snow depth (Kauffman et al., 2007).
+ In addition to providing a robust measure of predation risk to evaluate
+ willow growth responses, the updating to the Kauffman et al.
+ (2007) risk map with an additional decade of wolf kills will provide the
+ most extensive time series of spatial predation patterns known to the PIs.
+ This is important because spatial and temporal inconsistencies of cues
+ for risk generated by wide ranging predators such as wolves can erode the
+ behaviorally mediated signal of trophic cascades 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fortin:2005ve,Kauffman:2010qf"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Populations of bison and elk on the northern range are censused from low
+ flying aircraft each winter by Yellowstone National Park staff.
+ Data models have been developed to account for uncertainties associated
+ with failure to detect all animals during census 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Eberhardt:2007jb"
+
+\end_inset
+
+.
+ Wolves are censused by complete counts of radio-collared packs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith:2004fk"
+
+\end_inset
+
+ and augmented by frequent ground counts.
+ Yellowstone National Park will share these data (Supplemental Documents).
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Question 2: 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Question-1:-Time"
+
+\end_inset
+
+Does root development create a time lag for state transition?
+\end_layout
+
+\begin_layout Standard
+A compelling explanation for our observations of slow growth in willows
+ is a legacy effect created by shallow root development interacting with
+ herbivory.
+ Willows that established on flood plains around beaver ponds 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wolf:2007kc"
+
+\end_inset
+
+ likely experienced shallow water tables and in response, developed roots
+ near the surface of the flood plain, root systems that assured plants would
+ experience moisture stress when water tables declined following beaver
+ dam abandonment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnston:2007ye,Bilyeu:2008pd"
+
+\end_inset
+
+.
+ The concomitant stress of excessive herbivory may have prevented established
+ willows from growing deeper root systems in response to declining water
+ tables.
+ 
+\end_layout
+
+\begin_layout Standard
+However, it is possible that slow but positive above-ground growth in ambient
+ willows (Figure 2B) belies root expansion below ground.
+ This is important because our experimental studies revealed that plants
+ with access to groundwater could withstand high levels of browsing; they
+ rapidly accumulated canopy height and biomass despite removals of more
+ than half of their production each winter 
+\begin_inset CommandInset citation
+LatexCommand citep
+after " Marshall et al. unpublished."
+key "Johnston:2007ye,Bilyeu:2008pd"
+
+\end_inset
+
+.
+ If root growth increases access to groundwater in plants with ambient water
+ tables, then these plants might be approaching a threshold when they can
+ tolerate browsing, thereby creating positive feedbacks accelerating growth.
+ If plants in the ambient condition are approaching this threshold, we predict
+ the proportion of their water budget contributed by groundwater will increase
+ over time, and their water stress will decrease.
+ We predict that growth rates of plants on sites with deep water tables
+ will approach growth rates of plants on sites with shallow water tables,
+ leading to local state transition.
+ 
+\end_layout
+
+\begin_layout Standard
+Our ongoing experiment is poised to test these predictions by allowing a
+ long-term comparison between willows with ambient water tables and willows
+ with elevated water tables.
+ In each plot of the experiment, we will continue to measure willow growth
+ and browsing intensity on 270 permanently marked individuals as we have
+ done in the past 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bilyeu:2007qf,Bilyeu:2008pd"
+
+\end_inset
+
+.
+ Although we could attempt to observe root growth directly 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "ISI:000187291000008"
+
+\end_inset
+
+, we choose instead to observe its functional outcome: access to groundwater.
+ To determine the proportion of each plant's water budget contributed by
+ ground water during the growing season, we will collect samples of: 1)
+ ground-water from 6-10 existing wells at each site, 2) an integrated soil
+ sample from the upper 50 cm of soil, and 3) suberized stems from each plant
+ in each study plot.
+ Water will be extracted from soil and plants using cryogenic distillation
+ methods.
+ Water samples will be analyzed for δ18O on a mass spectrometer.
+ We will determine the proportion of ground water use following the methods
+ in Johnston et al.
+ (2011).
+ Sampling will occur annually during mid- and late summer.
+\end_layout
+
+\begin_layout Standard
+Willows with greater access to ground water, and therefore a more reliable
+ and consistently available water source, should experience less water stress
+ and higher mid-day and pre-dawn xylem pressure potentials (
+\begin_inset Formula $\psi_{xpp}$
+\end_inset
+
+), stomatal conductance (g
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+s
+\end_layout
+
+\end_inset
+
+), and photosynthesis rates.
+ We will measure pre-dawn and mid-day 
+\begin_inset Formula $\psi_{xpp}$
+\end_inset
+
+ on a randomly selected group of ten willows in each plot, twice during
+ each summer using a Scholander type pressure bomb.
+ Stomatal conductance and photosynthesis will be measured during mid-day
+ twice each summer using LiCor 6400 equipped with an external light source
+ that will allow measures regardless of ambient light conditions.
+ Details of methods can be found in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Johnston:2007ye"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We will test the hypothesis that ground-water use and other physiological
+ responses in the control plots will approach the responses in the browsed,
+ dammed plots using a Bayesian hierarchical model with coefficients for
+ intercept, treatment (dammed vs undammed), year, and the year x treatment
+ interaction.
+ Treatment will be analyzed as a fixed effect and year as a random effect
+ using plots as a grouping variable.
+ Our conclusions will be based on the posterior distribution of the interaction,
+ which, under our hypothesis, should show diminishing effects of treatment
+ with time.
+ These mechanistic, experimental studies will provide a strong compliment
+ to the long-term observational work proposed for Question 1.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Question 3: 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Question-3:-Why browsing"
+
+\end_inset
+
+Why has browsing remained intense?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addtolength{
+\backslash
+belowcaptionskip}{+2 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One of the most counter-intuitive results of our studies was the finding
+ that browsing intensity remained virtually constant during 2003-2010 and
+ resembled pre-wolf browsing intensity observed during 1987-1991 (Figure
+ 2A).
+ This result implies that browsing intensity is largely insensitive to elk
+ numbers.
+ It has been suggested that browsing on willows is better explained by behaviora
+l effects of wolves on elk than by numerical effects.
+ However, recent work showed that effects of predation risk on behavior
+ are in the opposite direction of those predicted by a behaviorally mediated
+ trophic cascade 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Creel:2009fe,Kauffman:2010qf"
+
+\end_inset
+
+, leaving changes in elk numbers as the best, mechanistic explanation for
+ trophic control 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "but also see"
+key "Beyer:2007xd,Beschta_comment_2011"
+
+\end_inset
+
+.
+ This produces a seeming paradox--although numbers of herbivores declined
+ dramatically (Figure 1A), the proportion of willow production browsed remained
+ consistently high (Figure 2A).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "2.9in"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename elk_bison_collage.pdf
+	width 2.9in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Numbers_biomass"
+
+\end_inset
+
+
+\size footnotesize
+Numbers of elk and bison (upper panel, Yellowstone National Park, unpublished)
+ and total biomass of elk + bison (lower panel) on Yellowstone's northern
+ range during 2000 - 2010.
+ Biomass is calculated from age and sex specific body masses weighted by
+ demographic composition of the populations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+There are two potential explanations for this paradox.
+ The first is that a shift in the composition of the food web has caused
+ total demand for plant biomass by large herbivores to remain largely unchanged
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Numbers_biomass"
+
+\end_inset
+
+).
+ Although the number of elk on the northern range declined steeply during
+ the past decade in response to predation by wolves, drought, and hunter
+ harvest outside the park 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vucetich:2005gb,Eberhardt:2007jb"
+
+\end_inset
+
+, the number of bison (
+\emph on
+Bison bison)
+\emph default
+ on the northern range concomitantly increased (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Numbers_biomass"
+
+\end_inset
+
+), possibly as a consequence of reduced interspecific competition with elk
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "White:2005fk"
+
+\end_inset
+
+.
+ The body mass of bison is roughly twice the mass of elk, so increases in
+ bison numbers allowed total herbivore biomass to decline only slightly
+ in the face of steeply declining elk numbers (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Numbers_biomass"
+
+\end_inset
+
+).
+ Because daily dry matter intake of ruminants is directly proportionate
+ to their body mass 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Demment_1985"
+
+\end_inset
+
+, we would expect that browsing pressure would remain approximately constant
+ if bison consume willow.
+ American bison are considered to be predominantly grazers 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "as are elk,"
+key "Christianson:2007rw"
+
+\end_inset
+
+.
+ However, willow can dominate bison diets 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Waggoner:1986vn"
+
+\end_inset
+
+.
+ Thus, a parsimonious explanation for constant browsing pressure is that
+ bison maintained removal rates as the elk population declined.
+\end_layout
+
+\begin_layout Standard
+The second explanation is that there are periods during winter when there
+ is an absolute shortage of food for large herbivores on the northern range.
+ During winter, the herbaceous layer can be episodically covered by deep
+ and compact snow.
+ There is a substantial literature showing that elk increase consumption
+ of woody plants when accumulated snow blocks access to the herb layer 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "reviewed by"
+key "Christianson:2007rw,Creel:2009fe"
+
+\end_inset
+
+.
+ During these episodes, the total supply of plant biomass available to large
+ herbivores may be less that the total intake requirements of even a small
+ herbivore population 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g., "
+key "Wallmo:1977fh,Hobbs_ebal_model"
+
+\end_inset
+
+.
+ Under these circumstances, removal rates would be uncoupled from herbivore
+ abundance.
+ 
+\end_layout
+
+\begin_layout Standard
+These two explanations are not necessarily competing, and we will evaluate
+ evidence for both.
+ To understand how restructuring of the food web may influence the strength
+ of top down control of willows, we need to know which herbivore species
+ are responsible for browsing removals.
+ We will use molecular techniques to determine the species of ungulates
+ consuming willows.
+ When browsers crop bites, small amounts of saliva containing buccal cells
+ are left on residual stems.
+ Co-PI Spong has developed techniques for extracting sufficient DNA from
+ browsed stems for analysis by diagnostic polymerase chain reaction (PCR)
+ methods.
+ Based on mitochondrial sequence data, Spong's lab has designed species
+ specific genetic markers that amplify only the target species.
+ DNA can be successfully extracted from twigs for up to four months after
+ browsing, and the extraction is successful on about 70% of samples.
+ We have tested the methods on willows browsed by bison and elk in a blind,
+ controlled experiment and were able to correctly identify the browser on
+ all successfully amplified samples.
+ All samples are extracted by a Qiagen® robot using a protocol optimized
+ together with Qiagen’s application laboratory.
+ Samples are currently run on RT-PCR machines from Applied Biosystems®.
+ We will sample four willow browsed stems from different plants from each
+ of our study sites during early January and late March of each winter (n
+ = 60 per date) and will determine the proportion of browsing that is attributab
+le to elk and bison.
+ 
+\end_layout
+
+\begin_layout Standard
+We will evaluate the variation in browsing intensity explained by snow at
+ our experimental and observational sites.
+ The effects of snow on ungulate foraging are widely assumed to be important
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hobbs_ebal_model,Turner:1993bs,Turner:1994uq,Tyler:2010kx"
+
+\end_inset
+
+, but the functional relationship between characteristics of snow and effects
+ of browsers on plants remains unknown.
+ Understanding how temporal variation in snow characteristics influences
+ browsing requires that we supplement the annual observations of browsing
+ intensity obtained for the willow growth model (see Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Question-1:-Time"
+
+\end_inset
+
+) with more frequent observations.
+ To that end, we will make bi-weekly measurements of mass removed from willows
+ at our intensive sampling sites using the procedure of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bilyeu:2007qf"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+We will evaluate models of the influence of snowpack on browsing at annual
+ and biweekly time scales.
+ The candidate set of models will include: 1) monotonic relationships where
+ increasing snowpack leads to increasing browsing, 2) change-points, where
+ threshold snow characteristics lead to qualitative shifts in browsing,
+ and 3) modal relationships, where increases in snowpack eventually lead
+ to declines in willow browsing as plants become inaccessible.
+ Independent variables will include snowpack depth and water equivalents
+ (SWE) computed as mean, peak, and time-integrated values.
+\end_layout
+
+\begin_layout Section
+Decadal research plan
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+What we know now
+\end_layout
+
+\begin_layout Standard
+A decade of work has revealed an alternative state in Yellowstone and a
+ set of feedbacks that currently stabilize that state.
+ Despite the addition of wolves to the food web and a dramatic reduction
+ in elk numbers (Figure 2A), browsing on willows remains intense (Figure
+ 1A).
+ The absence of beaver dams has compressed habitat for willows (Wolf et
+ al., 2007) and has caused water stress on willows that established on flood
+ plains along channels historically dammed by beavers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnston:2007ye"
+
+\end_inset
+
+.
+ Water stress retards willow growth, even when they are totally protected
+ from browsing (Bilyeau et al., 2008; Marshall et al., in prep.), and removing
+ browsing amplifies the growth-inhibiting effects of water stress 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnston:2007ye"
+
+\end_inset
+
+.
+ We detected effects of reduced elk numbers and an expanding growing season
+ on willow growth at the landscape scale (Marshall et al, in prep.).
+ However, these effects are not simple; both depend on plant age.
+ We have shown that there is enormous spatial variability in heights of
+ willows (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posterior-distributions-of"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+What we will know in five years
+\end_layout
+
+\begin_layout Standard
+The abundance of elk on the northern range has only recently fallen below
+ levels implicated in state transition (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A.-Elk-population-and-beavers"
+
+\end_inset
+
+A).
+ Five more years of research will almost certainly double the number of
+ observations of the effects of elk at these low levels, thereby giving
+ a numerically mediated trophic cascade an honest chance to be observed.
+ Moreover, our experiment will allow us to determine if the current, slow
+ growth of willows is due to legacy effects of shallow root development.
+ We will be able to test competing hypotheses on the role of predation risk
+ and water availability in controlling spatial variation in willow growth.
+ We will know if bison are contributing to browsing pressure on willows.
+ Finally, we will have the data to resolve important climate effects, particular
+ly the effects of snow, that now remain uncertain.
+ In five years, we will have 232 data points (12 years x 4 experimental
+ sites + 8 years x 23 observational sites) on browsing intensity paired
+ with site-specific, instrument-calibrated, model estimates of a suite of
+ snow characteristics.
+ We will also be able to exploit an unusually important opportunity created
+ by the 2010-2011 winter.
+ Some locations on the northern range had the deepest snows recorded since
+ snow-pit observations were established in 1994 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Halfpenny_2011"
+
+\end_inset
+
+.
+ Accumulated snow water equivalents were double the average of the previous
+ ten years (Watson, unpublished).
+ Preliminary analysis of browsing data obtained during May of 2011 suggests
+ two things: there was large variability over space in browsing intensity,
+ and some plants lost more than 
+\emph on
+three years
+\emph default
+ of accumulated growth to browsing.
+ It is vital to understand the impact of this extreme climatic event.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+What we will know in ten years
+\end_layout
+
+\begin_layout Standard
+Analysis of auto-regressive time series (Box 1) provides a proven approach
+ to understanding controls on dynamics of ecological systems.
+ However, these analyses require decades of data to resolve interactions
+ and main effects.
+ At the conclusion of our work, we will have 20 years of observations of
+ willow growth extensively replicated over space with known reference conditions
+ provided by a manipulative experiment, allowing us to examine rigorously
+ how climate and hydrology modify trophic effects.
+ Our collaboration with park biologists at Yellowstone (including investigators
+ Smith and Renkin) assures that we will be able to evaluate browsing and
+ climatic effects against equally long trends in abundance of wolves, elk,
+ and bison as well as annual patterns of predation risk.
+ During year eight of our future work, we will repeat the dendrochronological
+ studies of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Wolf:2007kc"
+
+\end_inset
+
+ on willow establishment and Marshall et al.
+ (in prep.) on plant height-age relationships, thereby providing a view of
+ willow demographics and growth spanning multiple decades before and after
+ the reintroduction of wolves.
+ Moreover, an additional ten years of research creates a valuable opportunity
+ to exploit unplanned events--for example, declines in the bison population
+ that might result from prey switching by wolves 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Garrott:2007fk"
+
+\end_inset
+
+ or the return of engineering by beaver.
+ Our observational sites were chosen in areas of historically occupied by
+ beaver.
+ If beaver return to these sites, we will have a before-and-after-controlled-imp
+act design 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stewart-Oaten:2001uq"
+
+\end_inset
+
+ in place to learn from the disturbances they create.
+ The value of ten more years of research does not depend on serendipity,
+ but we are poised to learn from the unexpected.
+ 
+\end_layout
+
+\begin_layout Section
+Broader impacts
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Collaboration-with-an"
+
+\end_inset
+
+
+\emph on
+Collaboration with an existing LTREB
+\end_layout
+
+\begin_layout Standard
+Our proposed work will add value to an ongoing LTREB, 
+\begin_inset Quotes eld
+\end_inset
+
+Yellowstone wolves: their ecology and community consequences
+\begin_inset Quotes erd
+\end_inset
+
+ (DEB-0613730, PIs J.
+ Vucetich, D.
+ Smith and R.
+ Peterson), which focuses on impacts of wolves on the elk and bison populations
+ of the northern range.
+ Our work will illuminate the effects of elk and bison on the state of riparian
+ zone, thereby extending understanding of community processes to the ecosystem.
+ The two projects will co-author publications, as appropriate, and will
+ share data.
+ In particular, the wolf project will provide data on wolf locations, elk
+ locations, and kill locations needed to assess predation risk (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conceptual model"
+
+\end_inset
+
+, Box 1).
+ One the PIs on the wolf project (Smith) is a senior investigator on our
+ proposed work (Supplemental Documents).
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Collaboration with Yellowstone National Park
+\end_layout
+
+\begin_layout Standard
+Yellowstone National Park hosts over three million visitors annually, providing
+ an unusual opportunity for educating citizens of all ages.
+ We will work closely with interpretive staff to prepare educational materials
+ featuring the results of our work.
+ We will continue our contribution to "Expedition: Yellowstone!" a curriculum-ba
+sed Park Service program for 4th-8th graders visiting the park.
+ We will meet with park staff to support decisions on policy and management.
+ A resource manager for the Park (Renkin) is a senior investigator (Supplemental
+ Documents) and will act as a liaison between the project and park management
+ and interpretive staff.
+ Yellowstone National Park is committed to working with us on the research
+ permitting process, providing ungulate and wolf census data, and working
+ with us to contribute to interpretive programs (Supplemental Documents).
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Education
+\end_layout
+
+\begin_layout Standard
+We will support at least two Ph.D.
+ students over a ten year research project and will offer training to a
+ dozen undergraduates.
+ In addition, the demonstrated interest of the public in the story unfolding
+ in Yellowstone creates opportunity for citizen-education through the popular
+ media.
+ Hobbs is an Aldo Leopold Fellow and is committed to working with journalists
+ to make our findings accessible to citizens.
+ As we have done with our current student, Kristin Marshall, we will assure
+ that our future students become adept at communicating science to the public
+ by attending specialized training, participating in K-12 eduction, and
+ by offering talks on our research to visitors and residents in the greater
+ Yellowstone ecosystem.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+refname{Literature Cited}  
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "master"
+options "ecology"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

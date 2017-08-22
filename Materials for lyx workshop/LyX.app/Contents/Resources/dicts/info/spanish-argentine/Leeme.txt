@@ -1,0 +1,10 @@
+﻿Diccionario en español para Argentina Beta 1
+Guillermo G. García
+
+Basado en la extensión del diccionario para México de:
+J. Eduardo Moreno
+http://www.tokonhu.com
+
+y en el Diccionario para Argentina de
+Santiago Bosio
+sbosio <en> openoffice <punto> org 

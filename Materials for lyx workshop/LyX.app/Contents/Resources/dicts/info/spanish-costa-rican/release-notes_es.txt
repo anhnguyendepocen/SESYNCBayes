@@ -1,0 +1,13 @@
+Versión 0.4:
+
+   Se construyó la extensión basados en las extensiones de diccionarios
+de Recursos lingüísticos abiertos del español (https://forja.rediris.es/projects/rla-es/),
+utilizando los paquetes disponibles para Costa Rica y España.
+
+Esta extensión está compuesta por:
+   1. Diccionario de Corrección Ortográfica
+   2. Diccionario de Sinónimos
+   3. Diccionario de Separación Silábica
+
+Reemsamblado por: Marco V. Muñoz <marco_munoz <en> mavisof <punto> com>
+Fecha (dd/mm/aaaa): 05/02/2010

@@ -1,0 +1,3 @@
+﻿Română Standard - foloseşte diacriticele cu cedilla şi ortografia curentă (în special pentru utilizatorii de versiuni Windows Xp sau anterioare).
+Detalii: http://i18n.ro/Windows_XP
+Dicţionarele folosite sunt sub licenţă multiplă LGPL/GPL/MPL şi provin din proiectul rospell.

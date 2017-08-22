@@ -1,0 +1,13 @@
+— Dictionnaire «Réforme 1990» – 3.5  
+— Synonymes – 2.2  
+— Césures – 2.0  
+
+Pour signaler une erreur, ajouter ou supprimer des mots, cliquez sur le lien.
+
+Quatre dictionnaires français existent:  
+— «Classique» : le français d’avant la réforme de l’orthographe.  
+— «Réforme 1990» : le français selon la réforme de l’orthographe.  
+— «Moderne» : le français avec les mots réformés passés dans l’usage.  
+— «Classique & Réforme 1990» : toutes les graphies sont reconnues.  
+
+http://extensions.services.openoffice.org/dictionary

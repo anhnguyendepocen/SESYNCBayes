@@ -1,0 +1,38 @@
+The esperantilo.oxt contains all c++ sources needed to build this extension in folder "src".
+
+How to Compile.
+===============
+
+Prerequisit
+===========
+
+1) Openoffice 3.1
+2) configured Openoffice SDK (see OpenOffice SDK documentation)
+3) esperantilo program source (http://www.esperantilo.org/programado)
+4) tcl installation (http://www.tcl.tk)
+5) xotcl installation (http://www.xotcl.org)
+
+Compile
+=======
+
+1) set you envirorment for OpenOffice SDK
+2) adapt Makefile set path to Tcl, XOTcl and esperantilo source
+3) run
+make dist
+
+or
+
+make wdist
+
+this will output the esperantilo.oxt
+
+Install
+=======
+
+use 
+unopck add esperantilo.oxt
+or extension manager in OpenOffice
+
+
+Tcl need to be compiled with flag
+-DTCL_NO_STACK_CHECK

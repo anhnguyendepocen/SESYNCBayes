@@ -1,0 +1,8 @@
+\begin{figure*}
+
+\center\includegraphics[width=5in]{\string"/Users/Tom/Documents/lyx/Materials for lyx workshop/LyX-templates1/NSF Proposal/biomass_numbers\string".pdf}\caption{This is an example of a figure.}
+
+
+\end{figure*}
+\efloatseparator
+ 

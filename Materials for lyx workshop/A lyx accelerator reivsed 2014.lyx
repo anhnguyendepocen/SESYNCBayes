@@ -1,0 +1,4148 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+% for adding line numbers.  Remove % comment when you want them
+%\usepackage{lineno,setspace}
+%\linenumbers
+
+%Makes headings and captions more compact
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+
+%reduces white space around figures
+%\addtolength{\textfloatsep}{-20mm}
+%\addtolength{\belowcaptionskip}{-3mm}
+%\addtolength{\abovecaptionskip}{-3mm}
+%\addtolength{\intextsep}{-3mm}
+
+%allows bold greek letters in LaTex math entered as ERT
+\usepackage{bm}
+
+% code for shortcuts for writing out distribution names
+\DeclareMathOperator{\dbinl}{binomial}
+\DeclareMathOperator{\dpois}{Poisson}
+\DeclareMathOperator{\dnorm}{normal}
+\DeclareMathOperator{\dlnorm}{lognormal}
+\DeclareMathOperator{\dgam}{gamma}
+\DeclareMathOperator{\dunif}{uniform}
+\DeclareMathOperator{\dmultinom}{multinomial}
+\DeclareMathOperator{\dbeta}{beta}
+
+\usepackage{fancyheadings}
+\pagestyle{fancy}
+\lhead{SESYNC writing tools workshop}
+\chead{}
+\rhead{January 2014}
+%allows use of urls
+\usepackage{url}
+
+%Great package for handling tables and figures in manuscripts
+%\usepackage{endfloat}
+\end_preamble
+\use_default_options false
+\begin_modules
+sweave
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chunk
+
+
+\backslash
+SweaveOpts{echo=TRUE}   %turns off (FALSE) or on (TRUE) R code in output
+\end_layout
+
+\begin_layout Chunk
+
+
+\backslash
+SweaveOpts{keep.source=TRUE}  %leaves comments in r code
+\end_layout
+
+\begin_layout Title
+A LyX Accelerator
+\end_layout
+
+\begin_layout Author
+N.
+ T.
+ Hobbs 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chunk
+
+\end_layout
+
+\begin_layout Section
+Purpose
+\end_layout
+
+\begin_layout Standard
+As in all creative endeavors, we are judged in science by what we produce.
+ Our most important products are the things we write -- journal articles,
+ proposals, chapters, monographs, and books.
+ It follows that the tools we use for writing are pretty important to our
+ happiness.
+ The purpose of this document is to enhance your pleasure with your work
+ by accelerating mastery of a lovely tool for scientific writing.
+\end_layout
+
+\begin_layout Standard
+LyX is delightful, open-source software for scientific writing---lean of
+ purpose, flexible in execution, and, after a bit of learning, a genuine
+ pleasure to use.
+ Excellent documentation accompanies the download -- actual .pdf 
+\emph on
+manuals
+\emph default
+ with tables of contents and indexes.
+ Reading through these is necessary for using the software with skill and
+ without frustration.
+ That said, there are a few tricks that I have learned as I used LyX, bits
+ of knowledge that will save you time and effort.
+ That is why I am writing this 
+\begin_inset Quotes eld
+\end_inset
+
+accelerator
+\begin_inset Quotes erd
+\end_inset
+
+, to help you gain mastery of a wonderful tool more quickly than you would
+ without my help.
+ This document compliments the LyX manuals.
+ It does not substitute for them.
+ I have also added some material about submitting papers composed in LyX
+ to journals, material that does not appear in the LyX manuals.
+ 
+\end_layout
+
+\begin_layout Standard
+As an additional help to you, I have collected LyX files for four different
+ types of documents: a manuscript formatted for the Journals of the Ecological
+ Society of America, a proposal formatted for submission the Population
+ and Community Ecology Program of the National Science Foundation, a curriculum
+ vitae, and a letter.
+ You may use these as templates for your own documents.
+ The Ecological Applications manuscript is a draft prepared somewhat before
+ the final published version 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hobbs:2012uq"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+What is LyX?
+\end_layout
+
+\begin_layout Standard
+LyX provides an easy-to-use graphical interface to LaTeX.
+ Which, of course, now begs the question, what is LaTeX? LaTeX is a document
+ preparation system and markup language widely used by academics, particularly
+ mathematicians, statisticians, physicists, chemists, computer scientists,
+ and engineers.
+ Knowing the composition of its primary user-community, you may have guessed
+ that LaTeX is particularly well-suited to preparing documents that include
+ lots of math.
+ You are right.
+ If you are going to be scientist, then you must be able to write papers
+ and proposals that describe models using properly formatted equations.
+ Commercial word processors, particularly MS Word, are truly hopeless for
+ this task, even if you gussy them up with add-ons like MathType.
+ However, there are many other reasons to use LyX to produce academic documents
+ besides its facility with mathematics.
+ 
+\end_layout
+
+\begin_layout Section
+Why bother with LyX?
+\end_layout
+
+\begin_layout Standard
+Here are some reasons to take the time to learn LyX.
+\end_layout
+
+\begin_layout Enumerate
+LyX produces stunningly attractive LaTeX documents as .pdf files, perfectly
+ formatted, clean, and crisp.
+ Comparing a .pdf produced by LyX with a Word document will make you wonder
+ why you ever bothered with Word.
+ LyX documents are noticeably sharper, with precision spacing between letters
+ and words, and with fonts that are, well, beautiful.
+\end_layout
+
+\begin_layout Enumerate
+It is free.
+ Serious scientific writing with MS Word also requires that you separately
+ purchase MathType and Endnote.
+ Keeping up with Office products and these two (not-cheap) add-ons is an
+ unnecessary expense.
+ Spend the money you save using LyX on good wine and fast computers.
+ 
+\end_layout
+
+\begin_layout Enumerate
+It is rock solid.
+ This is the overwhelming reason I eventually gave up on Word and Pages
+ etc.
+ MS Word documents that contain more that a handful of equations, and particular
+ly documents that contain MathType equations 
+\emph on
+and
+\emph default
+ an EndNote bibliography, become as unstable as jello.
+ You will be typing along in Word, humming Bach, and when you try to save
+ (or print) the document, MS Word will announce dismissively that you don't
+ have enough disk space to save the document.
+ 
+\emph on
+Not enough disk space? Grrrrr--there are >100 GB of disk space! 
+\emph default
+Doesn't matter.
+ A days work is probably trashed.
+ This happened to me with two separate manuscripts and hours of research
+ on the web failed to produce a solution.
+ I decided to learn LyX and I have never looked back
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A second irritation with MathType is that you cannot use bold font for Greek
+ letters --- 
+\series bold
+
+\begin_inset Formula $\bm{\beta}$
+\end_inset
+
+ 
+\series default
+is impossible.
+ This is a non-trivial limitation for serious work.
+ 
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+It does the kinds of things that academics and scientists need---I have
+ already mentioned math, but LyX also excels by putting referenced figures
+ and tables in the proper place in the document with captions that stay
+ with them.
+ It allows you to create perfect literature cited sections in the correct
+ journal format.
+ It can automatically write out lists of figures and tables, tables of contents
+ and indexes.
+ It allows you to write exams where you can turn the answers on and off.
+ (Ok, ok, this is just cute, but it 
+\emph on
+is 
+\emph default
+cute).
+ Here is a great example of the power of LyX for scientists.
+ Let's say you have a manuscript with eight figures A referee insists that
+ you remove two of them.
+ In LyX, all of the figures and all 
+\emph on
+references to them
+\emph default
+ in the text will automatically renumber themselves in the proper sequence
+ if any figure is removed.
+ Try that in Word.
+ Keeping track of figure numbers manually is a serious source of errors
+ in your final version.
+\end_layout
+
+\begin_layout Enumerate
+It works with Sweave an knitr.
+ Sweave is a LaTeX package that allows you to embed R code in your document,
+ so that when data are updated, figures and tables update automatically.
+ This is a fabulous tool for making unambiguous links between you manuscripts
+ and the data they present.
+ It encourages proper documentation of all results presented in manuscripts.
+ The package knitr is supposed to be even better, but I have not used it
+ yet.
+ Both are native to LyX.
+\end_layout
+
+\begin_layout Enumerate
+The first two NSF proposal that I wrote in LyX were funded on the first
+ try.
+ I estimate that a document that looks better than the competitions' documents
+ gives you a 10% edge, maybe 15%.
+ Seriously.
+\end_layout
+
+\begin_layout Enumerate
+It is perfect for writing structured documents with chapters, sections,
+ sub-sections, boxes, figures, tables, algorithms and so on.
+ You will make your living by producing these documents.
+ Make your life easier.
+ Learn LyX.
+ 
+\end_layout
+
+\begin_layout Section
+Learning LyX
+\end_layout
+
+\begin_layout Subsection
+Download
+\end_layout
+
+\begin_layout Standard
+You can download LyX for Mac OS, Linux or Windows (my sympathies), from
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.lyx.org/Download
+\end_layout
+
+\end_inset
+
+.
+ You will also need to download a flavor of LaTeX, but not to worry, that
+ task is explained as part of the download instructions for LyX.
+ At some point you will want to get a LyX compatible reference manager like
+ BibDesk for Mac or Mendeley for Mac, Linux, or Windows.
+ Both are free and open source.
+\end_layout
+
+\begin_layout Subsection
+The manuals
+\end_layout
+
+\begin_layout Standard
+I recommend that you start by reading the Introduction and Tutorial, which
+ clearly explain some philosophical differences between the LyX approach
+ to document preparation (what you see is what you mean) and the conventional
+ approach (what you see is what you get).
+ To read a manual, click on it and a LyX document opens.
+ Compile the .pdf for better reading.
+ This is done by clicking the little eyes in the upper left of the toolbar.
+ Next read through the Users Guide and the Math Manual.
+ You don't need to read these for mastery, but rather to become familiar
+ with what they contain, so that you can go to the proper sections as questions
+ arise.
+ The Embedded Objects manual is good preparation for writing proposals where
+ figures, boxes, etc.
+ need to be placed within the flow of text.
+ Later, on a slow Sunday afternoon, when you need something exciting to
+ do, take a look at Additional Features.
+\end_layout
+
+\begin_layout Subsection
+The LyX wiki
+\end_layout
+
+\begin_layout Standard
+There is a terrific LyX wiki---
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://wiki.lyx.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Learning from the Web
+\end_layout
+
+\begin_layout Standard
+LyX will do most things that you need to produce lovely documents, but to
+ really use its full potential, you need to know a bit of LaTeX, which can
+ be embedded in your LyX document using ERT boxes, described below (see
+ section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Using-Evil-Red"
+
+\end_inset
+
+).
+ There is nothing I have needed to do in LyX that I couldn't figure out
+ quickly by searching on 
+\begin_inset Quotes eld
+\end_inset
+
+LaTeX and.....
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+LyX and.....
+\begin_inset Quotes erd
+\end_inset
+
+ For example, I needed to know how to format NSF proposals compactly so
+ that they were compliant with margins and fonts and fit within 15 pages.
+ This required judicious condensing of white space, smaller fonts for section
+ headings and so on.
+ A search on 
+\begin_inset Quotes eld
+\end_inset
+
+LaTeX and NSF proposal
+\begin_inset Quotes erd
+\end_inset
+
+ provided exactly what I needed at the top of the search results.
+ 
+\end_layout
+
+\begin_layout Section
+Getting started 
+\end_layout
+
+\begin_layout Standard
+The templates that I provide will allow a very quick start, but there are
+ some things that you can do to set-up LyX that allow you to produce documents
+ of widely useful formats without using the templates.
+ So, once you have LyX up an running, go to the toolbar at the top of the
+ screen, click on 
+\family sans
+Document, Settings
+\family default
+, 
+\family sans
+Fonts
+\family default
+ and choose 11 or 12 point.
+ Then click on 
+\family sans
+Page Margins
+\family default
+ and fill in the fields to set margins at 1
+\begin_inset Quotes erd
+\end_inset
+
+ all around.
+ Next, click on 
+\family sans
+Text Layout
+\family default
+ and choose single or double space, whichever you will use most often.
+ You can always change it later.
+ Then, before you leave the 
+\family sans
+Settings 
+\family default
+menu click the button that says 
+\family sans
+Save as Document Defaults.
+ 
+\end_layout
+
+\begin_layout Section
+The document class
+\end_layout
+
+\begin_layout Standard
+The underpinning philosophy of LyX differs from most other word processors.
+ LyX is 
+\begin_inset Quotes eld
+\end_inset
+
+wysiwym
+\begin_inset Quotes erd
+\end_inset
+
+ -- what you see is what you 
+\emph on
+mean.
+ 
+\emph default
+So, if you mean to write a scientific article, then you choose a 
+\emph on
+document class
+\emph default
+ that is appropriate for scientific articles.
+ Once that choice is made, formatting is pretty strictly controlled by LyX,
+ which results in a beautiful, consistently formatted document.
+ Choosing document classes is accomplished by going to 
+\family sans
+Document, Settings
+\family default
+, 
+\family sans
+Document class.
+ 
+\family default
+To the right you will see a drop down list that lists all of the classes
+ available.
+ 
+\end_layout
+
+\begin_layout Standard
+There are many types of document classes (letters, reports, books, slide
+ presentations) and some journals have their own class with specific formatting
+ -- many of these special classes are included here.
+ The default class is 
+\begin_inset Quotes eld
+\end_inset
+
+article
+\begin_inset Quotes erd
+\end_inset
+
+ which has worked fine for me for journal submissions and proposals.
+ Princeton University Press is happy with the 
+\begin_inset Quotes eld
+\end_inset
+
+book
+\begin_inset Quotes erd
+\end_inset
+
+ class for the manuscript I will soon submit.
+ 
+\end_layout
+
+\begin_layout Standard
+As an exercise, keep the document class set on article and go back to your
+ document.
+ Look in the upper left hand corner of the screen -- there will be a drop
+ down list with 
+\family sans
+Standard
+\family default
+ at the top.
+ Open it and look at the types of structures (LyX calls them environments)
+ that are available for the article class.
+ These are what you use to structure and format your document.
+ Now change the document class to book and look at the list again.
+ Change to letter, etc.
+\end_layout
+
+\begin_layout Section
+The document preamble
+\end_layout
+
+\begin_layout Standard
+Click on 
+\family sans
+Document, Settings, LaTeX preamble
+\family default
+.
+ A window will open up where you can place LaTeX code that is executed whenever
+ you compile a .pdf.
+ This is extremely useful.
+ It allows you to include commands to customize your document and to use
+ packages that are full of cool hacks.
+ The advantage of open-source software like LyX and LaTeX (and R for that
+ matter) is that thousands of clever people contribute useful code when
+ they are bored on Sundays.
+ In the case of LaTeX, these are often produced in Packages (as in R) that
+ are part and parcel of the standard LaTeX distribution that you downloaded.
+ However, you must tell LyX (in the preamble) that you want to use them.
+ Otherwise, they simply sleep peacefully on your hard disk.
+ My preamble is shown in Algorithm 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Example-of-LaTeX"
+
+\end_inset
+
+.
+ After you enter a preamble you want, clicking 
+\family sans
+Save as Document Defaults
+\family default
+ will apply your preamble to all new documents.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+An example LaTeX 
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Example-of-LaTeX"
+
+\end_inset
+
+preamble for the Article document class.
+ The % indicates a comment that can be used to turn commands on and off.
+ There are .pdf files on the web describing packages shown here For example,
+ do a web search on 
+\begin_inset Quotes eld
+\end_inset
+
+endfloat package and LaTeX
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+fancy headings package and LaTeX.
+\begin_inset Quotes erd
+\end_inset
+
+ If you put this code (cut and paste) in the LaTeX Preamble box under 
+\family sans
+Documents, Settings
+\family default
+ and then 
+\family sans
+Save as Class Defaults 
+\family default
+it will appear whenever you start a document of class Article.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+% For adding line numbers.
+ Remove % comments below when you want them
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+usepackage{lineno,setspace}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+linenumbers
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%Makes headings and captions more compact
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+usepackage[small,compact]{titlesec}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+usepackage[small,it]{caption}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%reduces white space around figures, tables, and algorithms
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+addtolength{
+\backslash
+textfloatsep}{-20mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+addtolength{
+\backslash
+belowcaptionskip}{-3mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+addtolength{
+\backslash
+abovecaptionskip}{-3mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+addtolength{
+\backslash
+intextsep}{-3mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%allows bold greek letters in LaTex math entered as ERT
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+usepackage{bm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+% code for shortcuts for writing out distribution names.
+ Follows JAGS syntax.
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dbinl}{binomial}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dpois}{Poisson}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dnorm}{normal}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dlnorm}{lognormal}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dgam}{gamma}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dunif}{uniform}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dmultinom}{multinomial}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+DeclareMathOperator{
+\backslash
+dbeta}{beta}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%Creates spiffy headers and footers
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+usepackage{fancyheadings}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+lhead{NR 575 Systems Ecology}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+chead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+rhead{A Lyx Accelerator}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%allows use of urls
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+
+\backslash
+usepackage{url}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%Marvelous package for handling tables and figures in manuscripts.
+ Uncomment to use.
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+%
+\backslash
+usepackage{endfloat}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Math
+\end_layout
+
+\begin_layout Standard
+Math is why we are going to al this trouble, so we perhaps we should start
+ with some tips on entering equations a LyX document.
+ The details are well covered in the Math manual, but I will emphasize a
+ few points here.
+ 
+\end_layout
+
+\begin_layout Subsection
+Equation types
+\end_layout
+
+\begin_layout Standard
+There are three equation types that you will use most often.
+ Inline equations appear within the sentence, i.e., 
+\begin_inset Formula $\mu_{i}=g\left(\theta,x_{i}\right)$
+\end_inset
+
+.
+ Display equations are a single line of math with white space on either
+ side, for example,
+\begin_inset Formula 
+\begin{equation}
+\textnormal{log}\left(\lambda_{i,t}\right)=\left({B_{0}+B_{1}D_{i,t-1}+B_{2}L_{i,t}+B_{3}W_{i,t}+B_{4}G_{i}+B_{5}O_{t}}\right)\Delta t.
+\end{equation}
+
+\end_inset
+
+Multiple equations are handled by equation arrays (and other formats described
+ in the manual), which look like this: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray}
+\textnormal{log}\left(\lambda_{i,t}\right) & = & \left({B_{0}+B_{1}D_{i,t-1}+B_{2}L_{i,t}+B_{3}W_{i,t}+B_{4}G_{i}+B_{5}O_{t}}\right)\Delta t\label{eq:state_space_lambda}\\
+\eta_{i,t} & = & \lambda_{i,t}N_{i,t-1}-h_{i,t}\label{eq:state_space_mu}\\
+{\rm {\Pr}}\left({{\bf {N}},{\bf {B}},\sigma\mid{\bf {y}},{\bf {h}},{\bf {X}}}\right) & \propto & \prod\limits _{i=1}^{41}{\prod\limits _{t=1}^{13}{{\rm {Poisson}}\left({y_{i,t}\mid N_{i,t}}\right)}\times}\label{eq:stoch state space}\\
+ &  & \prod{\prod\limits _{t=2}^{13}{{\rm {lognormal}}\left[{N_{i,t}\mid\log\left({\eta_{i,t}}\right),\sigma}\right]}}\times\nonumber \\
+ &  & \textnormal{gamma\left(\mbox{\ensuremath{N_{i,1}\mid.001,.001}}\right)}\prod_{j=0}^{5}\textnormal{normal\ensuremath{\left(B_{j}\mid0,10^{-6}\right)}}\times\textnormal{gamma}\left(\sigma^{-2}|.001,.001\right).\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+There are handy keyboard shortcuts for deftly entering inline equations
+ (cmd-m for Mac OS and cntrl-m for Windows) and display equations (shift-cmd-m
+ for Mac, shift-cntrl-m for Windows).
+ For equation arrays, click on 
+\family sans
+Insert, Math, Eqnarray environment.
+\end_layout
+
+\begin_layout Subsection
+Entering equations
+\end_layout
+
+\begin_layout Standard
+When you a open a display or inline formula using shortcuts or the mouse,
+ a pinkish shaded box with a blue border 
+\begin_inset Formula $ $
+\end_inset
+
+ opens to accept math input--LyX is now in math mode.
+ LyX offers some very nice tools for mathematical composition, training
+ wheels for bare knuckles LaTeX.
+ 
+\end_layout
+
+\begin_layout Standard
+Go to 
+\family sans
+View 
+\family default
+and click on 
+\family sans
+Toolbars.
+ 
+\family default
+You want to open two of them, 
+\family sans
+Math (auto)
+\family default
+ and a couple of lines down, 
+\family sans
+Math Panels (auto).
+ 
+\family default
+LyX responds by displaying two toolbars of common mathematical symbols,
+ operations etc.
+ You should explore these by clicking on them in math mode.
+ Note that whenever you cursor over an element of a pull down math menu,
+ LyX will show the LaTeX code for it.
+ This is a great way to lean LaTeX commands, which eventually will vastly
+ accelerate your ability to write mathematical expressions--writing is much
+ faster than pointing and clicking.
+ 
+\end_layout
+
+\begin_layout Standard
+For example, open the lower case Greek letters pull down by clicking on
+ the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ on the math panels toolbar, which you just opened.
+ Now cursor over the 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+ Notice that a little tan box shows 
+\family sans
+beta [^M G B].
+ 
+\family default
+Forget the second part, the 
+\family sans
+[^M G B].
+ 
+\family default
+The first part is the LaTeX code you would use to enter a 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+ Try this.
+ Open an inline or display equation.
+ In the pink box with the blue border, enter 
+\backslash
+beta.
+ Voila.
+ This illustrates that all LaTeX expressions begin with 
+\backslash
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that there are three boxes for equation arrays.
+ The leftmost box is for the left hand side of the equation; the center
+ box is for the = (or 
+\begin_inset Formula $\propto$
+\end_inset
+
+ etc.), and the the right box is for the righthand side.
+\end_layout
+
+\begin_layout Standard
+Equations can be numbered by right clicking on them.
+ However, because I usually want all of my equations numbered by default,
+ I have assigned a keystroke sequence to insert a numbered equation.
+\end_layout
+
+\begin_layout Section
+Figures
+\end_layout
+
+\begin_layout Standard
+Figures and other graphics are critical components of scientific articles
+ and proposals.
+ LyX does a lovely job of incorporating them directly into these documents.
+ To fully understand this topic, you should read the Embedded Objects manual,
+ but I will get you started.
+ There three ways to display figures in LyX:
+\end_layout
+
+\begin_layout Enumerate
+Collected sequentially at the end of the document.
+\end_layout
+
+\begin_layout Enumerate
+Within the document without allowing text to wrap around the figure, that
+ is, with white space on each side.
+\end_layout
+
+\begin_layout Enumerate
+Within the document allowing text wrapping, that is, with text on one side
+ and the margin on the other.
+\end_layout
+
+\begin_layout Standard
+I will briefly cover the first two topics here.
+ For the third one, read the Embedded Objects manual and see the examples
+ in the NSF proposal template.
+\end_layout
+
+\begin_layout Subsection
+File formats
+\end_layout
+
+\begin_layout Standard
+LyX supports a variety of graphics files.
+ I tend to use .pdf's for figures, but .jpg and .eps work as well.
+ 
+\end_layout
+
+\begin_layout Subsection
+Creating a figure with a caption
+\end_layout
+
+\begin_layout Enumerate
+At the approximate place in the document where the figure should appear,
+ click on 
+\family sans
+Insert, Float, Figure.
+ 
+\family default
+This step applies to the first two ways to display figures, above.
+ If you want option 1, do 
+\emph on
+not
+\emph default
+ place the figure at the end of the document.
+ Put it close to the first place it will be referenced.
+ Trust me.
+\end_layout
+
+\begin_layout Enumerate
+A box will open up with a nested box for the figure caption.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Write out the figure caption.
+\end_layout
+
+\begin_layout Enumerate
+Put the cursor above the caption within the outer box and click on 
+\family sans
+Insert, Graphics.
+ 
+\family default
+A dialog box will open asking for the path to the figure file.
+ In many cases, it will probably be best to simply put in the name of the
+ file, for example 
+\family typewriter
+regression_plot.pdf
+\family default
+, rather than the full path.
+ (To understand this, see the section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Files-needed-to"
+
+\end_inset
+
+, below.) However, for now, go ahead and click on browse, then the file,
+ and the full path will be displayed in the dialog box.
+ You will probably want to adjust the size of the graphic using the check
+ boxes etc.
+ Experiment with this.
+ It is also possible to paste a graphic into the box, copied from the R
+ plot window, for example.
+ If you do so, LyX will ask you for a file name.
+ If you don't specify a full path, the file will be store in LyX's working
+ directory.
+ (More about that later).
+\end_layout
+
+\begin_layout Enumerate
+After the graphic appears in the box
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+When you use .pdf files for graphics, you will probably get an error message
+ that the graphic cannot display.
+ This only refers to display in LyX.
+ It will show up perfectly in your compiled .pdf.
+ 
+\end_layout
+
+\end_inset
+
+, click to the left of it and click on 
+\family sans
+Insert, TeX
+\family default
+ 
+\family sans
+code
+\family default
+ and enter 
+\family typewriter
+
+\backslash
+center 
+\family default
+in the red box.
+ See section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Using-Evil-Red"
+
+\end_inset
+
+ to understand this operation.
+\end_layout
+
+\begin_layout Enumerate
+If you want to put the figures at the end of the document, you may skip
+ the next step.
+\end_layout
+
+\begin_layout Enumerate
+If you want to embed the figure in the text (without wrapping), click somewhere
+ outside the figure box.
+ You will see a shaded box with 
+\family sans
+Figure:
+\family default
+ on it.
+ Right click on it and click on 
+\family sans
+Settings.
+ 
+\family default
+There are a few of these that I use frequently: 
+\family sans
+Default Placement, Top of page 
+\family default
+and 
+\family sans
+Here if possible, 
+\family default
+and 
+\family sans
+Here definitely.
+ 
+\family default
+Sometimes you need to experiment with these to see what works best.
+ They are explained in the manual on Embedded Objects.
+\end_layout
+
+\begin_layout Enumerate
+If you want the figures at the end of the document, simply uncomment the
+ line 
+\family typewriter
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline 
+\end_layout
+
+\end_inset
+
+
+\backslash
+usepackage{endfloat}
+\family default
+ in your preamble.
+ It will gather up all of the figures and tables, generate lists of them,
+ place them in the correct order at the end of your document, and insert
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Place figure __ approximately here
+\begin_inset Quotes erd
+\end_inset
+
+ in the text with proper whitespace.
+ However, it will not wash you socks.
+\end_layout
+
+\begin_layout Enumerate
+You are almost done.
+ Cursor over the caption and click on 
+\family sans
+Insert, Label
+\family default
+.
+ A box will open up containing a name for the figure.
+ You can rename it if you like.
+ 
+\end_layout
+
+\begin_layout Enumerate
+When you want to refer to the figure, something like (Figure __), click
+ on 
+\family sans
+Insert, Cross-Reference.
+ 
+\family default
+You will see the label of the figure in the drop down list.
+ Click on the figure name to insert a number in the proper spot in your
+ text.
+ Now the figure is referenced.
+ If you remove add another figure in front of this one, or remove any figures
+ in the document, the numbering for figures will update automatically.
+ 
+\end_layout
+
+\begin_layout Section
+Tables
+\end_layout
+
+\begin_layout Standard
+The steps for creating a referenced table resemble those for creating a
+ figure.
+ Again, there are three ways to include tables:
+\end_layout
+
+\begin_layout Enumerate
+Collected sequentially at the end of the document.
+\end_layout
+
+\begin_layout Enumerate
+Within the document without allowing text to wrap around the figure, that
+ is, with white space on each side.
+\end_layout
+
+\begin_layout Enumerate
+Within the document allowing text wrapping, that is, with text on one side
+ and the margin on the other.
+\end_layout
+
+\begin_layout Standard
+Here is what you do:
+\end_layout
+
+\begin_layout Enumerate
+At the approximate place in the document where the table should appear,
+ click on 
+\family sans
+Insert, Float, Table.
+ 
+\family default
+This step applies to the first two ways to display table, above.
+ If you want option 1, do 
+\emph on
+not
+\emph default
+ place the table at the end of the document.
+ Put it close to the first place it will be referenced.
+ Trust me.
+\end_layout
+
+\begin_layout Enumerate
+A box will open up with a nested box for the table legend.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Write out the table legend.
+\end_layout
+
+\begin_layout Enumerate
+Put the cursor under the caption within the outer box
+\family sans
+.
+ 
+\family default
+You now have three options.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If you created your table using R's 
+\family typewriter
+xtable
+\family default
+ package, then you should open a ERT box directly beneath the legend and
+ paste the LaTeX code output by 
+\family typewriter
+xtable 
+\family default
+into it
+\family typewriter
+.
+ 
+\family default
+If you like, you can automate this with Sweave, as described in section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Sweave"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If you created a .csv or .xls file containing the table, open it in Excel
+ or Numbers and return to your .lyx document.
+ Click on 
+\family sans
+Insert, Table 
+\family default
+and enter the proper number of rows and column.
+ Now go back to your spreadsheet and copy the table.
+ Return to LyX and put the cursor in the upper left cell of the table.
+ Now the key trick.
+ Click on 
+\family sans
+Edit, Paste Special
+\family default
+ and choose 
+\family sans
+Plain text.
+\end_layout
+
+\begin_layout Enumerate
+You can also import the table directly using 
+\family sans
+File, Import table (CSV).
+ 
+\family default
+This will create a separate document.
+ Select all and paste it into your table box below the legend.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Format the table by clicking on 
+\family sans
+View, Toolbars, Table (auto).
+ 
+\family default
+This will produce a set of intuitive graphical tools for resizing cells,
+ adding rows and columns, changing borders, etc.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If you want to put the table at the end of the document, you may skip the
+ next step.
+\end_layout
+
+\begin_layout Enumerate
+If you want to embed the table in the text (without wrapping), click somewhere
+ outside the table box.
+ You will see a shaded box with 
+\family sans
+Table:
+\family default
+ on it.
+ Right click on it and click on 
+\family sans
+Settings.
+ 
+\family default
+There are a few of these that I use frequently: 
+\family sans
+Default Placement, Top of page 
+\family default
+and 
+\family sans
+Here if possible, 
+\family default
+and 
+\family sans
+Here definitely.
+ 
+\family default
+Sometimes you need to experiment with these to see what works best.
+ They are explained in the manual on Embedded Objects.
+\end_layout
+
+\begin_layout Enumerate
+If you want the table at the end of the document, simply uncomment the line
+ 
+\family typewriter
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline 
+\end_layout
+
+\end_inset
+
+ 
+\backslash
+usepackage{endfloat}
+\family default
+ in your preamble.
+ It will gather up all of the figures and tables, generate lists of them,
+ place them in the correct order at the end of your document, and insert
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Place Table __ approximately here
+\begin_inset Quotes erd
+\end_inset
+
+ in the text with proper whitespace.
+ 
+\end_layout
+
+\begin_layout Enumerate
+You are almost done.
+ Cursor over the caption and click on 
+\family sans
+Insert, Label
+\family default
+.
+ A box will open up containing a name for the table.
+ You can rename it if you like.
+ 
+\end_layout
+
+\begin_layout Enumerate
+When you want to refer to the table in the text, something like (Table 9),
+ click on 
+\family sans
+Insert, Cross-Reference.
+ 
+\family default
+You will see the label of the table in the drop down list.
+ Click on the table label to insert a number in the proper spot in your
+ text.
+ Now the table is referenced.
+ If you remove add another table in front of this one, or remove any tables
+ in the document, the numbering for tables will update automatically.
+\end_layout
+
+\begin_layout Section
+Bibliographies
+\end_layout
+
+\begin_layout Standard
+This is a somewhat deep topic, but I will get you started.
+ 
+\end_layout
+
+\begin_layout Subsection
+The BibTeX database
+\end_layout
+
+\begin_layout Standard
+LaTeX and LyX have a standard approach to automating bibliographies, an
+ approach that substantially predates software like EndNote.
+ LaTeX bibliographies are based on a special database format know as BibTeX.
+ These are plain text files with a format for each entry (in this case,
+ the R manual) that looks like this: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+@manual{R_mannual,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Address = {Vienna, Austria},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Author = {{R Development Core Team}},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Date-Added = {2011-12-05 15:12:05 -0700},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Date-Modified = {2011-12-05 15:12:05 -0700},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Note = {{ISBN} 3-900051-07-0},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Organization = {R Foundation for Statistical Computing},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Title = {R: A Language and Environment for Statistical Computing},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Url = {http://www.R-project.org/},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Year = {2011},
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Bdsk-Url-1 = {http://www.R-project.org/}} 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Now, the heroic among you may want to build a BibTex database like this
+ by hand using 
+\family typewriter
+vi
+\family default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The UNIX, line-oriented text editor.
+ No mouse.
+ No GUI.
+ Only those of you with grey hair are likely to know what this is, but Mevin
+ Hooten writes 
+\emph on
+all
+\emph default
+ of his papers using LaTeX in vi.
+ Heroic.
+ Wicked fast.
+\end_layout
+
+\end_inset
+
+, but for the rest of us, there is are easier ways.
+\end_layout
+
+\begin_layout Subsubsection
+Software for managing BibTeX databases
+\end_layout
+
+\begin_layout Standard
+There are excellent, open source programs for managing BibTeX databases.
+ I use a Mac and am very happy with a program called BibDesk (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://bibdesk.sourceforge.net/
+\end_layout
+
+\end_inset
+
+), but it doesn't run on Windows.
+ Windows and Mac can use a cool looking program called JabRef (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://jabref.sourceforge.net/
+\end_layout
+
+\end_inset
+
+), and I understand that the latest cool thing is Mendely 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.mendeley.com/
+\end_layout
+
+\end_inset
+
+ and I may eventually investigate these later ones to facilitate teaching
+ the poor souls who insist on using Windows machines.
+ In any case, I urge you to download one of these.
+ In the case of JabRef and Mendeley, you are a bit on your own because I
+ haven't used them.
+ Mac users, I recommend that you use BibDesk.
+\end_layout
+
+\begin_layout Subsubsection
+Creating a BibTeX database
+\end_layout
+
+\begin_layout Standard
+There are two easy ways to create your database of references.
+\end_layout
+
+\begin_layout Enumerate
+If you are staring from scratch, that is, you don't have an existing database
+ of articles etc., then the easiest way is to build your database is by exporting
+ references in BibTeX format from Web of Science or other online databases
+ .
+ You may need to snoop around on the export part of the site, but all of
+ these will have the option to export a BibTeX file.
+ Import the file into your BibTex database.
+ How you do that depends on the software you use.
+ For BibDesk, it is as simple as pasting into the list of records
+\begin_inset Foot
+status open
+
+\begin_layout Enumerate
+If you are asked if you want unique keys generated you can say yes or no.
+ If you say yes, the software is likely to generate something that is not
+ very informative.
+ If you say yes, then you must fill in the key fields of each record.
+ The advantage is that you can give keys that are recognizable--something
+ like Wolf_2004_willows rather than isi0099r5.
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If you have built up a EndNote, Ref Manager, or other commercial database
+ with thousands of entries (like mine), do not despair, they will also export
+ references in BibTex format.
+ Here is what you do for EndNote.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Select the records you want to bring over to BibTex.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Select the bibliography style BibTeX export
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+I have modified mine to eliminate the Notes field, but it will work unmodified.
+ However, the notes field can cause some formatting problems in you references
+ that need to be edited by hand if it is not removed.
+ The EndNote help describes how to modify style files.
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Right click on a selected entry and choose 
+\family sans
+Copy Formatted
+\family default
+.
+ Paste into your BibTex bibliography manager.
+ Voila.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Actually, I use a blend of these approaches.
+ Some of my references come from the web, others from my aging EndNote database.
+ I have never needed to bring all of my EndNote reference across.
+ I just build the BibTeX database as I need new references.
+ I have a master database for all references.
+ I also build separate databases for individual papers, proposals, book
+ projects, etc.
+ This is easy enough to do and facilitates portability of documents as described
+ in the section on organizing files.
+\end_layout
+
+\begin_layout Subsection
+Creating a literature cited section in a LyX document
+\end_layout
+
+\begin_layout Standard
+Once your database is set up, creating a literature cited section is a snap.
+ Here is what you need to do.
+\end_layout
+
+\begin_layout Subsubsection
+Telling LyX where to find files
+\end_layout
+
+\begin_layout Enumerate
+Go to the end of your document.
+ Click on 
+\family sans
+Insert, List / TOC, BibTeX Bibliography.
+ 
+\family default
+A dialog box will open.
+ You will need to tell LyX where to find your BibTeX database and the proper
+ style file.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Click 
+\family sans
+Add.
+ 
+\family default
+A new dialog box will open.
+ Click on browse, find you database, and click on the file name.
+ You may want to set only the file name, not the complete path for reasons
+ that are described below (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Files-needed-to"
+
+\end_inset
+
+).
+ However, for now, use the full path.
+\end_layout
+
+\begin_layout Enumerate
+You now need to fill in the lower 
+\family sans
+Style
+\family default
+ field.
+ This requires some explanation.
+ Virtually all top-tier scientific journals support LaTeX and provide a
+ style file for formatting references in the Journal's format.
+ These files will have the extensions 
+\family typewriter
+.bst
+\family default
+ or 
+\family typewriter
+.sty
+\family default
+.
+ You can search for style files for your target journal using a utility
+ found at 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://bst.maururu.net/index.php
+\end_layout
+
+\end_inset
+
+ I included style files for ESA journals and for Science in the LyX material
+ on the class web site.
+ Enter the path (or the file name) in the 
+\family sans
+Style
+\family default
+ field.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If you are going to use ESA style, you must go to 
+\family sans
+Document, Settings, Bibliography
+\family default
+ and check the Nat Bib button and the Author-Year option for Nat Bib Style
+\end_layout
+
+\begin_layout Enumerate
+When you are done, you will see a shaded box that says BibTex generated
+ bibliography.
+ The citations will not appear until you compile the document.
+\end_layout
+
+\begin_layout Enumerate
+I have started making small database for each paper I write by cutting and
+ pasting references from the master database to a database specifically
+ for the paper, which lives in a subfolder of the folder holding the manuscript.
+ This is much easier than it sounds.
+ It is a good thing to do because it keeps all of your stuff for a manuscript
+ in one place.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Editing records to preserve proper names, italics etc.
+\end_layout
+
+\begin_layout Standard
+There are a couple of things you need to do to edit records so that they
+ appear properly in you literature cited.
+ The first in proper nouns.
+ The style files for journals often specify that all words in the title
+ except the first one begin with lower case letters.
+ This will produce something like:
+\family sans
+ Are wolves saving yellowstone's aspen? A landscape-level test of a behaviorally
+ mediated trophic cascade.
+
+\family default
+ Undesirable.
+ To fix this, you need to edit the title field of you BibTex database and
+ put { } around anything you want to remain capitalized.
+ So, in your database the title should be 
+\family sans
+Are wolves saving {Yellowstone's} aspen? A landscape-level test of a behaviorall
+y mediated trophic cascade.
+
+\family default
+ This will preserve the capital Y in Yellowstone.
+ 
+\end_layout
+
+\begin_layout Standard
+Sometimes scientific names appear in titles, requiring italics.
+ Italics can be put into titles in your database using something like
+\family sans
+ Distance rules for minimum counts of {Eurasian} lynx 
+\backslash
+emph{Lynx lynx} family groups under different ecological conditions
+\family default
+.
+ This preserves the capitalization of Eurasian and makes 
+\emph on
+Lynx lynx
+\emph default
+ italic.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Entering citations
+\end_layout
+
+\begin_layout Standard
+There are two ways to place citations in your document.
+\end_layout
+
+\begin_layout Enumerate
+Click on 
+\family sans
+Insert, Citation.
+
+\family default
+ LyX will open a simple dialog box that shows the entries in your database.
+ Select the references you want to cite and click add.
+ These must be in the proper order, i.e.
+ oldest first.
+ There are up and down buttons to allow you to adjust their order.
+ There is a citation style pull down that allows you to choose among the
+ styles, for example Hobbs (2012), (Hobbs 2012), (2012) etc.
+ This works without any fuss and bother.
+\end_layout
+
+\begin_layout Enumerate
+Open your BibTeX database manager (e.g., BibDesk or JabRef) and select the
+ references you want to cite.
+ In LyX, place the cursor at the spot in the text where you want the citation
+ to appear.
+ In BibDesk, you right click on a selected reference, then click on 
+\family sans
+Send to LyX
+\family default
+.
+ In JabRef you go to 
+\family sans
+Tools, Push entries to external application (LyX, Kile) (shortcut cmd-L
+ or cntrl-L).
+
+\family default
+ Getting this to work for JabRef requires changing the paths to some 
+\begin_inset Quotes eld
+\end_inset
+
+pipes.
+\begin_inset Quotes erd
+\end_inset
+
+ (Not as interesting as it might sound).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For Macs this is easy.
+ Go to LyX Preferences, Paths, and copy the path to the lyxpipe.
+ Then, paste the path into the JabRef preferences for external programs.
+ For Windows, this is covered on the LyX wiki (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://wiki.lyx.org/LyX/LyXServer
+\end_layout
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The key on Windows is to copy the following into the lyxServer path box
+ under LyX preferences: lyx: 
+\backslash
+
+\backslash
+.
+\backslash
+pipe
+\backslash
+lyxpipe .
+ In JabRef, copy this into the path to lyxpipe box: 
+\backslash
+
+\backslash
+.
+\backslash
+pipe
+\backslash
+lyxpipe.in.
+ The .bib file you're working with has to be in the same directory as your
+ .lyx file for this to work and you have to close both programs and restart
+ them in order for the changes to take effect.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Making the proper heading (Literature Cited)
+\end_layout
+
+\begin_layout Standard
+The default heading for the literature cited section of your document is
+ Bibliography.
+ Most journals want Literature Cited instead.
+ This is easily done, offering a nice illustration of the use of LaTeX commands
+ within LyX (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Using-Evil-Red"
+
+\end_inset
+
+).
+ Go to the line immediately above the bibliography, a shaded box reading
+ 
+\family sans
+BibTex generated bibliography
+\family default
+.
+ Click on 
+\family sans
+Insert, Tex Code 
+\family default
+or use the keyboard shortcut (
+\family sans
+cmd-L
+\family default
+ on the Mac, 
+\family sans
+cntrl-L
+\family default
+ on Windows, the L is lower case).
+ Enter the text
+\family sans
+ 
+\backslash
+renewcommand
+\backslash
+refname{Literature Cited}
+\family default
+ into the red box.
+\end_layout
+
+\begin_layout Section
+Using Evil Re
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Using-Evil-Red"
+
+\end_inset
+
+d Text (ERT's)
+\end_layout
+
+\begin_layout Standard
+Recall that LyX is simply a front-end for LaTeX, obviating the need to enter
+ LaTeX commands directly.
+ However, there are many times when the ability to embed LaTeX code in your
+ document will be necessary to get your document to appear as you want it.
+ In the templates I provided, you will see many of these ERT's, as they
+ are called, that show up as red text in a box.
+ You can enter this text by a keyboard shortcut, 
+\family sans
+cmd-l 
+\family default
+(the 
+\family sans
+l
+\family default
+ is a lower case 
+\family sans
+L
+\family default
+) on the Mac or 
+\family sans
+cntl-l 
+\family default
+on Windows, or by using the toolbar, 
+\family sans
+Insert, TeX code.
+ 
+\family default
+So, for example, to insert a page break, you put 
+\family typewriter
+
+\backslash
+newline 
+\family default
+in an ERT box.
+ ERT's are 
+\emph on
+really useful, 
+\emph default
+so you should be sure you understand them.
+ One warning, if you fail to put a space between the end of the ERT box
+ and the text, you will get an error 
+\family sans
+Undefined control sequence 
+\family default
+when you try to compile the document into a .pdf.
+ What all this really means is that you need to know a bit about LaTeX to
+ use LyX effectively.
+ A very nice Crash Course can be found at 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.haptonstahl.org/latex/index.php
+\end_layout
+
+\end_inset
+
+ and I included a LaTeX cheat sheet summarizing many command in the LyX
+ files on the class web site.
+\end_layout
+
+\begin_layout Section
+Collaborating 
+\end_layout
+
+\begin_layout Subsection
+With LyX and LaTeX users
+\end_layout
+
+\begin_layout Subsubsection
+F
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Files-needed-to"
+
+\end_inset
+
+iles needed to compile a LyX document to .pdf
+\end_layout
+
+\begin_layout Standard
+Unlike MS Word, LyX keeps files for graphics and your bibliography distinct
+ from the main 
+\family typewriter
+.lyx
+\family default
+ document file--this is one of the reasons LyX is so stable.
+ If you are working with modern colleagues who use LyX or LaTeX, they can
+ edit the 
+\family typewriter
+.lyx
+\family default
+ or 
+\family typewriter
+.tex
+\family default
+ file without the other ones.
+ But if they want to compile a 
+\family typewriter
+.pdf,
+\family default
+ then they need the whole set including:
+\end_layout
+
+\begin_layout Enumerate
+BibTex bibliography (
+\family typewriter
+.bib
+\family default
+ file)
+\end_layout
+
+\begin_layout Enumerate
+Style file for bibliography (
+\family typewriter
+.bst
+\family default
+ or .
+\family typewriter
+sty
+\family default
+ file)
+\end_layout
+
+\begin_layout Enumerate
+Files for all graphics (
+\family typewriter
+.pdf, .jpg, .ps
+\family default
+, etc)
+\end_layout
+
+\begin_layout Standard
+This is easily accomplished by bundling the files into a folder or zip file
+ and sending the whole lot to your collaborators.
+ However, there is a trick that makes this easy to deal with at the other
+ end described in the section on organizing your work (section , below)
+\end_layout
+
+\begin_layout Subsubsection
+Exporting .tex files
+\end_layout
+
+\begin_layout Standard
+When you work with mathematicians or statisticians, they will want a 
+\family typewriter
+.tex 
+\family default
+file to edit.
+ These are easily exported from LyX.
+ Use 
+\family sans
+File, Export, LaTeX (plain) 
+\family default
+or
+\family sans
+ LaTex (pdflatex).
+ 
+\family default
+Reverse the process using 
+\family sans
+File, Import
+\family default
+ to bring a 
+\family typewriter
+.tex
+\family default
+ file produced by LaTeX in to LyX.
+\end_layout
+
+\begin_layout Subsection
+With Word users
+\end_layout
+
+\begin_layout Standard
+You are bound to have colleagues who soldier on with a word processor that
+ tries to do everything for everyone and ends up doing nothing well.
+ (I won't mention brands this time.) One of those colleague just might be
+ your major professor or your lab leader.
+ What now? How do you give her / him a document that can be edited and marked
+ up? There are three solutions to this problem.
+\end_layout
+
+\begin_layout Enumerate
+Adobe Acrobat has great editing tools.
+ Comments on your stunning dissertation chapter can be made directly on
+ the .pdf using Adobe.
+ This is the simplest route.
+\end_layout
+
+\begin_layout Enumerate
+It is possible to export 
+\family typewriter
+.rtf
+\family default
+ files from LyX that can be brought into Word
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+If you 
+\size normal
+\emph on
+must 
+\emph default
+go this route, you may need to download a utility called latex2rtf from
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://latex2rtf.sourceforge.net/
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+.
+ This is not a terribly happy solution, however, because try as it might,
+ the export utility rarely formats the equations properly.
+ This might not matter much, but the point of using LyX in the first place
+ is to produce a beautiful document and .rtf's exported from LyX are ugly.
+\end_layout
+
+\begin_layout Enumerate
+The 
+\emph on
+best
+\emph default
+ route is to convince your colleagues (read major professor, lab leader,
+ etc.) to download LyX.
+ There is no learning curve, none, zero, for 
+\emph on
+editing
+\emph default
+ a LyX document.
+ Track changes and notes work just as they do in any other word processor.
+ This saves time for everyone--your colleague can easily modify and annotate
+ the document and you won't need to transcribe the changes that he or she
+ makes.
+ My group has used this route very successfully.
+ 
+\end_layout
+
+\begin_layout Section
+Organizing your work
+\end_layout
+
+\begin_layout Standard
+I have a standard organization for files needed to produce a complete proposal,
+ paper, or book.
+ The current drat of the manuscript lives in a folder with a subfolder.
+ The main folder contains the LyX file (.lyx, the bibliography file (.tex)
+ and style file (.sty) Files for figures, pdf's, jpegs, etc.
+ are found in 
+\family typewriter
+./figures
+\family default
+, that is a subfolder of the folder containing the document.
+ 
+\end_layout
+
+\begin_layout Standard
+When you organize your work this way it is important you be sure that your
+ working directory is the one where the document is stored.
+ If you start your session by opening the document from its directory, this
+ will occur automatically.
+ This is important because you need a simple pathname to the needed files
+ to make sure your document can be easily transported to a different computer.
+ If you follow these steps, the paths to your files for figures, your bibliograp
+hy, and style files, will not have a long path that is specific to your
+ computer.
+ This will allow you to send collaborators the document folder so that he
+ or she has all the needed files and will not need to tediously edit path
+ names.
+\end_layout
+
+\begin_layout Section
+
+\family typewriter
+Sweave
+\family default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sweave"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+Sweave
+\family default
+ is a dramatically useful way to link your data to your papers.
+ It allows you to embed R code in your documents so that your manuscript
+ 
+\emph on
+automatically updates
+\emph default
+ whenever you change results in R.
+ So, for example, imagine that you have a table built from some analysis
+ in R.
+ Moreover there are parenthetical expressions in the text that reference
+ cells of the table (means, medians, credible intervals, etc).
+ You decide to make a change in your analysis.
+ In the old way of doing things, you need to output the table, probably
+ to a 
+\family typewriter
+.csv
+\family default
+ file, hunt through the text to find all of the references to the table
+ in the text and change them by hand.
+ This is error prone and tedious.
+ With 
+\family typewriter
+Sweave
+\family default
+, you simply update your analysis and recompile your paper.
+ Voila.
+ Everything is revised.
+ This is non-trivial--it assures that the results you report are exactly
+ as they are produced in you analysis.
+ It avoids the sinking feeling that you might have two years after publishing
+ a paper and you are called on to reproduce the analysis.
+ If the document is attached to the code, it is a snap.
+ If it is not, well, you might have some anxious problems if you did not
+ thoroughly document your work flow, file locations and R programs.
+\end_layout
+
+\begin_layout Standard
+A brief caveat is needed here.
+ There is a new, improved version of 
+\family typewriter
+Sweave
+\family default
+ called 
+\family typewriter
+knitr
+\family default
+.
+ There is a lot of material on the web about how to use (see, for example,
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://yihui.name/knitr/demo/lyx/
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://yihui.name/knitr/
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://bitbucket.org/stat/knitr/downloads/knitr-manual.pdf
+\end_layout
+
+\end_inset
+
+).
+ I plan to spend an afternoon figuring out how to use 
+\family typewriter
+knitr
+\family default
+, but I haven't done it yet.
+ You have two options.
+ Skip over all of the subsections below that are 
+\family typewriter
+Sweave
+\family default
+ specific and learn that stuff from the 
+\family typewriter
+knitr
+\family default
+ documentation.
+ That way you won't need to relearn syntax which is similar, but not identical.
+ The other option is to learn what I know about 
+\family typewriter
+Sweave
+\family default
+ at this point, which works well, and then build on that knowledge to move
+ to 
+\family typewriter
+knitr
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+First steps with 
+\family typewriter
+Sweave
+\end_layout
+
+\begin_layout Standard
+There is great documentation on using 
+\family typewriter
+Sweave
+\family default
+ in the LyX help.
+ Go to 
+\family typewriter
+Help
+\family default
+ on the LyX menu bar and look under 
+\family typewriter
+Specific Manuals
+\family default
+.
+ You should read this.
+ Also see 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://wiki.lyx.org/LyX/LyxWithRThroughSweave
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Start by installing the 
+\family typewriter
+Sweave
+\family default
+ package in R.
+ Open a new document in LyX.
+ Next go to the 
+\family sans
+Document
+\family default
+ tab on the LyX menubar and click on 
+\family sans
+Settings.
+ 
+\family default
+Scroll down to modules and choose 
+\family sans
+Sweave.
+ 
+\family default
+Click 
+\family sans
+OK.
+ 
+\family default
+You are now ready to write your first 
+\family typewriter
+Sweave
+\family default
+ document.
+\end_layout
+
+\begin_layout Subsection
+Chunks
+\end_layout
+
+\begin_layout Standard
+The best way to understand this is material is to open the LyX document,
+ 
+\family typewriter
+Hobbs first Sweave docII.LyX 
+\family default
+and have it open on the screen as you read this.
+ Open another blank document to try things out.
+\end_layout
+
+\begin_layout Standard
+LyX communicates with 
+\family typewriter
+Sweave
+\family default
+ using 
+\family typewriter
+Chunk 
+\family default
+environments.
+ This is not a complicated as it sounds.
+ To illustrate, we will set up some options for Sweave.
+ Go to the environment drop down list (the one with 
+\family sans
+Standard
+\family default
+ at the top in the upper left of the LyX menu bar).
+ At the very bottom of the list, click on 
+\family sans
+Chunk
+\family default
+.
+ You are now ready to write your first bit of 
+\family typewriter
+Sweave 
+\family default
+code.
+ Enter the following at the top of your document:
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+
+\backslash
+SweaveOpts{echo=TRUE}   %turns off (FALSE) or on (TRUE) R code in output
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+
+\backslash
+SweaveOpts{keep.source=TRUE}  %leaves comments in r code
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ This block of code sets up some options.
+ In particular, it allows the R code to be included printed in your document,
+ which is not what you will usually want to do in a manuscript (you would
+ choose 
+\family typewriter
+FALSE
+\family default
+), but for teaching I want you to see what is going on in this document.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+If you get an error about Babel not being loaded, go to 
+\family sans
+Documents, Settings, Language, 
+\family default
+and choose 
+\family sans
+Language Package, Always Babel.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Start your document with lots of impressive scholarship and hand waving
+ about the transformative nature of your research until you finally need
+ to show some actual data.
+ Set the environment to 
+\family sans
+chunk
+\family default
+ (in the drop down box at the far left end of the tool bar) and enter
+\end_layout
+
+\begin_layout Chunk
+
+<<a>>=
+\end_layout
+
+\begin_layout Chunk
+
+library(xtable)
+\end_layout
+
+\begin_layout Chunk
+
+#load("path to data/filename.Rdata")  # do this if you need to get data etc.
+ needed by later commands.
+  
+\end_layout
+
+\begin_layout Chunk
+
+data ( airquality )
+\end_layout
+
+\begin_layout Chunk
+
+names(airquality)[4]="Temp"
+\end_layout
+
+\begin_layout Chunk
+
+k=kruskal.test ( Ozone ~ Month , data = airquality )
+\end_layout
+
+\begin_layout Chunk
+
+@
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Understand that 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+path to data
+\family default
+/
+\begin_inset Quotes erd
+\end_inset
+
+ is a stand-in for the path on your computer.
+  You probably want to keep the data it a sub folder of the document folder
+ to make the document portable, but there are many logical ways to do this.
+\end_layout
+
+\begin_layout Standard
+Now switch back to the standard environment and continue your text.) And
+ you are typing along in your Nature paper and want to add a P value produced
+ by the Kruskal Wallace test, P = 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Sexpr{signif(k[[3]],3)}
+\end_layout
+
+\end_inset
+
+.
+ To produce this, you entered P = ERT 
+\backslash
+Sexpr{signif(k[[3]],3)} in an ERT box after P =.
+ Remember what an ERT box is, a place to enter a LaTeX command written in
+ a little red box invoked by 
+\family sans
+Insert, Tex Code
+\family default
+ or by 
+\family sans
+cmd-L.
+\end_layout
+
+\begin_layout Standard
+Notice that you entered plane-Jane R code between the 
+\family typewriter
+<<a>>=
+\family default
+ and the 
+\family typewriter
+@
+\family default
+.
+ This is a code block named 
+\family typewriter
+a
+\family default
+.
+ It must be a 
+\family typewriter
+Chunk
+\family default
+\emph on
+.
+ 
+\emph default
+It would be instructive to copy and paste the 
+\family typewriter
+Chunk 
+\family default
+between the 
+\family typewriter
+<<a>>=
+\family default
+ and the 
+\family typewriter
+@
+\family default
+ into R and run it.
+ Notice that the P value appeared seamlessly in the text.
+\end_layout
+
+\begin_layout Standard
+Now we are ready to do some more R stuff.
+ Enter a figure float (remember figure floats?) and add the 
+\family typewriter
+Chunk
+\family default
+:
+\end_layout
+
+\begin_layout LyX-Code
+<<fig =TRUE , echo = TRUE >>=
+\end_layout
+
+\begin_layout LyX-Code
+boxplot ( Ozone ~ Month , data = airquality )
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Chunk
+
+\end_layout
+
+\begin_layout Chunk
+
+@
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chunk
+
+<<fig =TRUE , echo = TRUE >>=
+\end_layout
+
+\begin_layout Chunk
+
+boxplot ( Ozone ~ Month , data = airquality )
+\end_layout
+
+\begin_layout Chunk
+
+\end_layout
+
+\begin_layout Chunk
+
+@
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Example plot produced by Sweave
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Truth be told, I never use Sweave for figures.
+ Instead, I write the figures as .eps or .pdf files directly from my R script.
+ Any time these files are updated by the script, they automatically update
+ in the document.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+The best part of Sweave is the ability to link complicated tables to your
+ document using the 
+\family sans
+xtable
+\family default
+ package in R.
+ Take a look at this:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Chunk
+
+\end_layout
+
+\begin_layout Chunk
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Example table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chunk
+
+<<a>>=
+\end_layout
+
+\begin_layout Chunk
+
+library(xtable) #the xtable package must be installed in R.
+\end_layout
+
+\begin_layout Chunk
+
+data ( airquality )
+\end_layout
+
+\begin_layout Chunk
+
+names(airquality)[4]="Temp"
+\end_layout
+
+\begin_layout Chunk
+
+k=kruskal.test ( Ozone ~ Month , data = airquality )
+\end_layout
+
+\begin_layout Chunk
+
+@
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chunk
+
+<<results=tex>>=
+\end_layout
+
+\begin_layout Chunk
+
+\end_layout
+
+\begin_layout Chunk
+
+print(xtable(airquality[1:8,],  digits=c(0,0,1,5,2,1,2)),   display=c("s","s","f
+","f","f","f","f"),
+\end_layout
+
+\begin_layout Chunk
+
+NA.string="NA",
+\end_layout
+
+\begin_layout Chunk
+
+include.rownames=FALSE, floating=FALSE)
+\end_layout
+
+\begin_layout Chunk
+
+#remember that column 1 is rownumber
+\end_layout
+
+\begin_layout Chunk
+
+#floating = FALSE is mandatory
+\end_layout
+
+\begin_layout Chunk
+
+@
+\end_layout
+
+\begin_layout Chunk
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Using 
+\family typewriter
+xtable
+\end_layout
+
+\begin_layout Subsubsection
+Components of an 
+\family typewriter
+xtable
+\family default
+ statement
+\end_layout
+
+\begin_layout Standard
+The most challenging part of using Sweave is using 
+\family typewriter
+xtable
+\family default
+, a R package that produces LaTeX code for publication quality tables.
+ It is a reasonably deep topic, that deserves its own study, but I will
+ cover some highlights here.
+ 
+\end_layout
+
+\begin_layout Standard
+Of course, you need to install the 
+\family typewriter
+xtable
+\family default
+ package.
+ Most of the actual work is done with the 
+\family typewriter
+xtable()
+\family default
+ function.
+ Consider the following R code that is used to generate a table through
+ Sweave.
+ The first part (
+\family sans
+print xtable....
+\family default
+) specifies a matrix, dataframe, or table that you want included in your
+ paper.
+ The next part (
+\family sans
+digits = ...
+\family default
+) gives the number of significant digits that you want for each column.
+ Note that there are 
+\emph on
+seven
+\emph default
+ columns even though you only want six quantities tabulated.
+ The extra column is need to accommodate the row names even if you have
+ told R that you don't want them (
+\family typewriter
+include.rownames = FALSE)
+\family default
+.
+ The 
+\family typewriter
+dispaly = c(...
+
+\family default
+ bit shows the type of quantity you want in each column, 
+\begin_inset Quotes eld
+\end_inset
+
+s
+\begin_inset Quotes erd
+\end_inset
+
+ for string and 
+\begin_inset Quotes eld
+\end_inset
+
+f
+\begin_inset Quotes erd
+\end_inset
+
+ for floating point.
+ Again, you need an entry for row names even if you don't want them.
+ Don't whine.
+ Get used to it.
+ This is the guts of 
+\family typewriter
+xtable, 
+\family default
+but be warned, it is a deep topic.
+\end_layout
+
+\begin_layout Subsubsection
+An error to avoid
+\end_layout
+
+\begin_layout Standard
+It is really easy to get the parentheses wrong in printing xtables.
+ When you run a print(xtable(....)....) in R you must have output that looks like:
+\end_layout
+
+\begin_layout LyX-Code
+% latex table generated in R 2.13.1 by xtable 1.6-0 package
+\end_layout
+
+\begin_layout LyX-Code
+% Tue May 15 10:11:37 2012
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+begin{tabular}{lrrr}  #diagnostic of correct!
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+hline
+\end_layout
+
+\begin_layout LyX-Code
+& 2.5
+\backslash
+% & 50
+\backslash
+% & 97.5
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+hline
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$b
+\backslash
+_
+\backslash
+{1
+\backslash
+}
+\backslash
+$ & 0.691 & 0.781 & 0.858 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$b
+\backslash
+_
+\backslash
+{2
+\backslash
+}
+\backslash
+$ & 0.473 & 0.599 & 0.721 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$b
+\backslash
+_
+\backslash
+{3
+\backslash
+}
+\backslash
+$ & 0.0572 & 0.21 & 0.452 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$$
+\backslash
+backslash$beta
+\backslash
+_1
+\backslash
+$ & 0.00161 & 0.00286 & 0.00439 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$$
+\backslash
+backslash$beta
+\backslash
+_2
+\backslash
+$ & 0.000843 & 0.00111 & 0.00141 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+m & 0.43 & 0.514 & 0.597 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$s
+\backslash
+_1
+\backslash
+$ & 0.554 & 0.839 & 0.946 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$s
+\backslash
+_2
+\backslash
+$ & 0.877 & 0.925 & 0.979 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+$$
+\backslash
+backslash$psi
+\backslash
+$ & 0.0274 & 0.0721 & 0.146 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+deviance & 722 & 753 & 788 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+hline
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Standard
+If instead you get:
+\end_layout
+
+\begin_layout LyX-Code
+% latex table generated in R 2.13.1 by xtable 1.6-0 package
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+begin{table}[ht]  #diagnostic of an error!
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+begin{tabular}{rrrr}
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+hline
+\end_layout
+
+\begin_layout LyX-Code
+& 2.5
+\backslash
+% & 50
+\backslash
+% & 97.5
+\backslash
+% 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+hline
+\end_layout
+
+\begin_layout LyX-Code
+$b_{1}$ & 0.69 & 0.78 & 0.86 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$b_{2}$ & 0.47 & 0.60 & 0.72 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$b_{3}$ & 0.06 & 0.21 & 0.45 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$
+\backslash
+beta_1$ & 0.00 & 0.00 & 0.00 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$
+\backslash
+beta_2$ & 0.00 & 0.00 & 0.00 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+m & 0.43 & 0.51 & 0.60 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$s_1$ & 0.55 & 0.84 & 0.95 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$s_2$ & 0.88 & 0.93 & 0.98 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+$
+\backslash
+psi$ & 0.03 & 0.07 & 0.15 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+deviance & 722.08 & 752.96 & 788.31 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+hline
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+end{table}
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ 
+\family roman
+Then you have mismatched parentheses.
+ The first bit (the correct way) was done using 
+\end_layout
+
+\begin_layout LyX-Code
+print(xtable(table,digits=0,align=c("l",rep("r",7)),display=c("s","fg",rep("fg",
+6))),NA.string="NA", floating=FALSE,sanitize.rownames.function = function(x)
+ {x})
+\end_layout
+
+\begin_layout Standard
+Note that there is only one parenthesis at the end of the statement because
+ there are three before 
+\family typewriter
+NA.string
+\family default
+ = "
+\family typewriter
+NA
+\family default
+".
+
+\family typewriter
+ 
+\family default
+Also note where 
+\family typewriter
+display( )
+\family default
+ is.
+ It is within parens that match the ( to the right of 
+\family typewriter
+xtable
+\family default
+( .
+ The incorrect output was produced using:
+\end_layout
+
+\begin_layout LyX-Code
+print(xtable(table,digits=0,align=c("l",rep("r",7)),display=c("s","fg",rep("fg",
+6)),NA.string="NA", floating=FALSE,sanitize.rownames.function = function(x)
+ {x}))
+\end_layout
+
+\begin_layout Section
+Debugging Sweave errors
+\end_layout
+
+\begin_layout Standard
+I usually write a separate R script that includes all of the Sweave code
+ to allow me to test each chunk before I include it in the document.
+ This code may be much more compact that the code I wrote to produce the
+ analysis.
+ The code for the document simply accesses the data objects produced by
+ the full analysis script(s).
+ So, I make sure the compact version of the code runs properly 
+\emph on
+before 
+\emph default
+I include it in the document.
+ I also add chunks one at a time, compiling after each addition to be sure
+ I know where errors occur if they occur.
+\end_layout
+
+\begin_layout Standard
+Errors show up like this.
+ You get the message, 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+An error occurred running R-scrip, no verbose, no restore, etc...
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\family default
+meaning there is a problem with a chunk of R code 
+\emph on
+somewhere in your document.
+ 
+\emph default
+I have a monograph that I am about to submit that is 80 pages long with
+ > 30 chunks.
+ This message raises the hair on my neck.
+ 
+\end_layout
+
+\begin_layout Standard
+However, if you get this message and have no idea what produced it Go to
+ 
+\family sans
+View
+\family default
+ and choose 
+\family sans
+View Messages
+\family default
+.
+ Then push 
+\family sans
+Set...
+
+\family default
+ on far rhs.
+ Check 
+\family sans
+Statusbar messages
+\family default
+ as none.
+ Then check 
+\family sans
+Selected
+\family default
+ and check the 
+\family sans
+No
+\family default
+ to the right of 
+\family sans
+User commands
+\family default
+ (you will need to scroll down) to change it to 
+\family sans
+Yes
+\family default
+.
+ Sweave error messages will appear here and will describe what the problem
+ was and give you hints where it occurred.
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Section
+Preparing LyX files for journals 
+\end_layout
+
+\begin_layout Standard
+Most journals will accept .pdf files for review, but you will probably need
+ to submit the LaTeX code for the final manuscript.
+ There are three ways to create these files.
+\end_layout
+
+\begin_layout Subsection
+Creating simple .pdf and .tex file 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Creating-simple-.pdf"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The easiest way is to simply compile your .pdf as usual and export a .tex
+ file.
+ Exporting is done using 
+\family sans
+File, Export, LaTeX (pdflatex) 
+\family default
+as describe below
+\family sans
+.
+ 
+\family default
+When you submit your paper, remember that the LaTex version is really a
+ folder that contains your manuscript as well as subfolders for your BibTeX
+ file and your figures.
+ So here is what you do:
+\end_layout
+
+\begin_layout Enumerate
+Prepare a folder that contains your LyX document and 
+\emph on
+in the same folder
+\emph default
+ the BibTex database and style file for literature cited.
+ Figures can be in the same folder or in a sub folder.
+ Be sure the path to the data base and style file have no more than the
+ file name.
+ If you have the 
+\family typewriter
+Sweave
+\family default
+ module selected under 
+\family sans
+Document, Settings, Module 
+\family default
+and your document does not use 
+\family typewriter
+Sweave
+\family default
+ then unselect it.
+ If it does use 
+\family typewriter
+Sweave
+\family default
+ see the steps below.
+\end_layout
+
+\begin_layout Enumerate
+Export the document using 
+\family sans
+File, Export, LaTeX (pdflatex).
+ 
+\family default
+This will produce a document of the same name as you LyX file with a 
+\family typewriter
+.tex
+\family default
+ extension.
+ So, if your document name is 
+\family typewriter
+foo.lyx
+\family default
+ then the exported file will be named 
+\family typewriter
+foo.tex.
+\end_layout
+
+\begin_layout Enumerate
+Open the 
+\family typewriter
+.tex 
+\family default
+file in TeXworks or other LaTeX compiler.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Set the compiler to 
+\family sans
+pdfLaTeX
+\family default
+ and compile.
+\end_layout
+
+\begin_layout Enumerate
+Set compiler to 
+\family sans
+BibTex
+\family default
+ and compile.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Set the compiler to 
+\family sans
+pdfLaTeX 
+\family default
+and recompile.Voila -- a .pdf file will appear in the viewer window of Texworks
+ and a file will be produced.
+ You now have all of the files you need to submit your document in LaTeX
+ to a journal.
+\end_layout
+
+\begin_layout Standard
+Truth be told, this often takes a bit of tinkering to get right.
+ Persevere.
+\end_layout
+
+\begin_layout Subsection
+Creating edited LaTeX file 
+\end_layout
+
+\begin_layout Standard
+Occasionally there are some minor edits needed to meet journal formatting
+ requirements that must be done on the .tex file (i.e., the LaTeX version of
+ your document.
+ For example, Ecological Society of America journals will allow captions
+ beneath the figures for review, but insist on a list of figures with caption-le
+ss figures for final submission.
+ I couldn't figure out how to do this in LyX, but it was a snap in LaTeX.
+ You simply add 
+\family typewriter
+{
+\backslash
+label{fig:_____}}
+\family default
+ to each figure caption.
+ For example, I changed
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+caption{
+\backslash
+label{fig:Posteriors_regression}Posterior distributions of parameters in
+ the harvest regression model using indices of predator abundance as independent
+ variables.
+ }
+\end_layout
+
+\begin_layout Standard
+to
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
+caption[Posterior (solid line) and prior (dashed line) distributions of
+ parameters in the population model using estimates of indices of predator
+ abundance as independent variables.]{
+\backslash
+label{fig:Posteriors_state_space}}.
+\end_layout
+
+\begin_layout Standard
+for each of the captions.
+ Because the caption text is contained within the { } it shows up empty,
+ but the text with the [ ] shows up in the list of figures required by the
+ journal.
+\end_layout
+
+\begin_layout Standard
+Once you have made the edits in you .tex file, you need to compile the .pdf
+ using 
+\end_layout
+
+\begin_layout Standard
+using 
+\family sans
+Texworks
+\family default
+ or other LaTeX compiler as described above (section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Creating-simple-.pdf"
+
+\end_inset
+
+).
+ Set the compiler to 
+\family sans
+pdfLaTeX
+\family default
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tex works.pdf
+	width 4in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Illustration of setting compiler in 
+\family sans
+Texworks
+\family default
+.
+ Note that the box in the upper right is set to 
+\family sans
+pdflaTex.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ 
+\end_layout
+
+\begin_layout Subsection
+Creating LaTeX and .pdf with Sweave
+\end_layout
+
+\begin_layout Standard
+Going from LyX with Sweave to .pdf via LaTeX:
+\end_layout
+
+\begin_layout Enumerate
+Make a copy of the Sweave.sty file in the working directory of your document.
+ To find the Sweave.sty file, enter 
+\family typewriter
+file.path(R.home(), "share", "textmf", "Sweave.sty") 
+\family default
+in R.
+\end_layout
+
+\begin_layout Enumerate
+Export the LyX file as a Sweave document (
+\family sans
+File, Export, Sweave
+\family default
+).
+ This will appear in your working directory as 
+\family typewriter
+documentname.Rnw.
+\end_layout
+
+\begin_layout Enumerate
+In R, execute something like:
+\end_layout
+
+\begin_layout LyX-Code
+setwd("/Users/Tom/Documents/lyx/Sweave example docs/") #set working directory
+ to directory containing LyX document
+\end_layout
+
+\begin_layout LyX-Code
+Sweave(file="Hobbs first Sweave doc.Rnw",syntax="SweaveSyntaxNoweb")
+\end_layout
+
+\begin_layout Standard
+R will write a 
+\family typewriter
+.tex
+\family default
+ file which is what you will need to submit your manuscript.
+ This file can be then be compiled to pdf file using Tex Works or other
+ LaTeX compiler .
+ You must set the compiler to pdfLaTeX, e.g.: 
+\end_layout
+
+\begin_layout Standard
+After compiling as pdfLaTex, then compile as BibTex.
+ Compile again as pdfLaTeX as described above (section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Edited-LaTeX-file"
+
+\end_inset
+
+).
+ Voila.
+ You are done.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+refname{Literature Cited}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/Tom/Documents/Literature_File/master"
+options "/Users/Tom/Documents/Literature_File/ecology"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

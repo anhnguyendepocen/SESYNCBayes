@@ -1,0 +1,7 @@
+-- Corrección Ortográfica - 0.4 - Licencias LPGL 3, GPL 3 ó MPL 1.1
+-- Diccionario de Sinónimos - 0.4 - Licencias LPGL 3, GPL 3 ó MPL 1.1
+-- Diccionario de Separación Silábica - 0.4 - Licencias LPGL 3, GPL 3 ó MPL 1.1
+
+Español (Costa Rica)
+
+Para indicar un error, agregar ó suprimir términos, acceda al enlace indicado.

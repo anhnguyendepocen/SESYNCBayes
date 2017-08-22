@@ -1,0 +1,31 @@
+﻿name      :  Diccionario en español para Argentina
+dd/mm/yyyy:  05/11/2008
+License   :  LGPL
+contact   :  Guillermo Garcia
+URL       :  
+
+This dictionary is basad on the dictionary in spanish for Mexico for OpenOffice.org, by J. Eduardo Moreno.
+
+Contents:
+- Citys abs -towns with Lada code
+- Names ans Last names
+- Animals of region
+- Tipic food
+
+Nombre    :  Diccionario en español para México
+dd/mm/yyyy:  05/11/2008
+Licencia  :  LGPL
+Contacto  :  Guillermo Garcia
+URL       :  
+
+Este diccionario esta basado en el diccionario en español para México para OpenOffice.org, hecho por J. Eduardo Moreno.
+
+Contiene:
+- Nombres de las poblaciones con clave Lada
+- Nombres propios
+- Animales de la región
+- Comida típica
+- Flores y frutos
+- Costumbrismos
+
+El tipo de licencia es heredada.

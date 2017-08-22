@@ -1,0 +1,48 @@
+Diccionarios de corrección ortográfica, sinónimos y separación silábica en español de OpenOffice.org
+
+Versión localizada para Costa Rica
+
+Versión 0.4
+
+Contenidos
+
+1. Autor
+2. Licencia
+
+1. Autor
+
+   Este diccionario ha sido desarrollado inicialmente por Santiago Bosio;
+quien actualmente coordina el desarrollo de todos los diccionarios localizados.
+
+   Si desea contactar al autor, por favor envíe sus mensajes mediante correo
+electrónico a:
+
+	sbosio <en> openoffice <punto> org
+        (reemplace <en> por @ y <punto> por . al enviar su mensaje)
+
+   El diccionario es un desarrollo completamente nuevo, y NO ESTÁ BASADO en el
+trabajo de Jesús Carretero y Santiago Rodríguez, ni en la versión adaptada al
+formato de MySpell por Richard Holt.
+
+   En Mavisof S.A. se ha utilizado el paquete del diccionario para Costa Rica,
+disponible en Recursos lingüísticos abiertos del español
+(https://forja.rediris.es/projects/rla-es/), que solo incluye los elementos del
+corrector ortográfico, y se ha expandido con los archivos de las definiciones de
+sinónimos y de separación silábica disponibles para España.
+
+   Si desea contactar al autor de esta extensión, por favor envíe sus mensajes
+mediante correo electrónico a:
+
+	marco_munoz <en> mavisof <punto> com
+        (reemplace <en> por @ y <punto> por . al enviar su mensaje)
+
+
+
+2. Licencia
+
+   Este diccionario para corrección ortográfica, integrado por el fichero de afijos
+y la lista de palabras (es_CR[.aff|.dic]), el de sinónimos (th_es_CR[.dat|.idx]), y
+la separación silábica (hyph_es_CR.dic) se distribuye bajo un triple esquema de
+licencias disjuntas: GNU GPL versión 3 o posterior, GNU LGPL versión 3 o posterior,
+ó MPL versión 1.1 o posterior. Puede seleccionar libremente bajo cuál de estas licencias
+utilizará este diccionario. Encontrará copias de las licencias adjuntas en este mismo paquete.

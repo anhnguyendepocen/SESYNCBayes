@@ -1,0 +1,71 @@
+\batchmode
+\makeatletter
+\def\input@path{{\string"/Users/Tom/Documents/lyx/Materials for lyx workshop/presentation/\string"/}}
+\makeatother
+\documentclass[11pt,american]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in,footskip=1cm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\doublespacing
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\makeatother
+\usepackage{graphicx}
+\usepackage{lineno,setspace}
+%\linenumbers
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+%\addtolength{\textfloatsep}{-20mm}
+%\doublespace
+\addtolength{\belowcaptionskip}{-3mm}
+\addtolength{\abovecaptionskip}{-3mm}
+\usepackage{enumitem} % load the package
+\usepackage{bm}
+\usepackage{calc}
+\usepackage{rotating}
+
+\DeclareMathOperator{\dbin}{binomial}
+\DeclareMathOperator{\dpois}{Poisson}
+\DeclareMathOperator{\dnorm}{normal}
+\DeclareMathOperator{\dlnorm}{lognormal}
+\DeclareMathOperator{\dgamma}{gamma}
+\DeclareMathOperator{\dunif}{uniform}
+\DeclareMathOperator{\dmultinom}{multinomial}
+\DeclareMathOperator{\dbeta}{beta}
+\DeclareMathOperator{\ddirch}{Dirichlet}
+\DeclareMathOperator{\dbern}{Bernoulli}
+
+
+
+\addtolength{\intextsep}{-3mm}
+
+\usepackage{fancyheadings}
+\usepackage{url}
+\usepackage[tablesfirst,notablist]{endfloat}
+
+\makeatother
+
+\usepackage{babel}
+\usepackage{Sweave}
+\begin{document}
+\begin{enumerate}
+\item Abstract
+\item Title
+\item Author
+\item Introduction
+\item Insert two figures
+\item Insert a table
+\item Methods and sub headings
+\item Reference to Figure, then delete one
+\item Reference to Method subheading
+\item Create a bibliography
+\item Export a LaTex file\end{enumerate}
+
+\end{document}
